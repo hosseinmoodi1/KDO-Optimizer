@@ -48,7 +48,7 @@ else
     paths.ngspice_exe = 'ngspice';
 end
 
-4. Run the benchmark
+###4. Run the benchmark
 Open MATLAB, navigate to this folder, and run:
 
 MAIN_Electronics_Hard
@@ -74,7 +74,8 @@ WOA	Whale	Mirjalili & Lewis (2016)
 HHO	Harris Hawks	Heidari et al. (2019)
 AVOA	African Vultures	Abdollahzadeh et al. (2021)
 COA	Coyote	Pierezan & Coelho (2021)
-📈 Outputs
+
+###📈 Outputs
 After execution, the following results are generated in Results_Electronics_Hard/timestamp/:
 
 Folder	Contents
@@ -85,28 +86,30 @@ Performance_Profiles/	Dolan–Moré performance profiles
 Excel_Results/	Full results in Excel (.xlsx)
 Latex_Tables/	LaTeX tables for publications
 Raw_Data/	MAT files and physical parameters
-⚙️ Configuration
+
+
+###⚙️ Configuration
 In MAIN_Electronics_Hard.m, you can adjust:
 num_runs = 5;            % Number of independent runs (fast testing)
 MaxFEs_per_dim = 100;    % Max function evaluations per dimension
 population_size = 10;    % Population size per algorithm
 For publication-quality results, set num_runs = 51 (analytical) or num_runs = 5 (ngspice) as per the paper.
 
-🔬 SPICE Evaluation Details
+###🔬 SPICE Evaluation Details
 Physics-driven: Each candidate solution is compiled into a SPICE netlist and simulated in batch mode.
 
 Direct vs. derived metrics: Some metrics (e.g., gain, power) are parsed directly from SPICE logs; others (e.g., slew rate, SNM) are derived analytically.
 
 Failure handling: Simulation failures are trapped and penalized with distance-dependent penalties.
 
-📖 Citation
+###📖 Citation
 If you use this code, please cite our paper:
 
 
-📬 Contact
+###📬 Contact
 Dr. Seyyed Mohammad Razavi
 Email: smrazavi@birjand.ac.ir
 Department of Electronics, University of Birjand, Iran
 
-📝 License
+###📝 License
 This code is provided for research purposes. Please cite the paper when using it in your work.
