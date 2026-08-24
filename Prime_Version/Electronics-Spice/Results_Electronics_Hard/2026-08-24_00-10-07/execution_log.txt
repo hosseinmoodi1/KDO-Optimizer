@@ -1,0 +1,1736 @@
+Execution started at: 24-Aug-2026 00:10:07
+Results folder: Results_Electronics_Hard\2026-08-24_00-10-07
+Output format for journal: PDF
+VERSION: 7.1 - FAST TRACK WITH PHYSICAL SPACE FIX
+
+
+========================================
+CMOS ELECTRONICS OPTIMIZATION BENCHMARK SUITE - HARD VERSION (FAST)
+========================================
+
+Configuration:
+  Benchmark type: Electronics (HARD VERSION)
+  Number of runs: 5 (Reduced for fast testing)
+  Population size: 4
+  Max FEs per dimension: 25 (Reduced from 500)
+  Statistical significance level: alpha = 0.05
+  Output format: PDF (PNG + PDF)
+
+Electronics Problems (HARD VERSIONS):
+  E1: Two-Stage Miller Op-Amp (18D) - HARD
+    Sizing of two-stage op-amp (18 design variables)
+  E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise
+    2.4 GHz cascode LNA optimization with process variation, yield requirement 99%
+  E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD
+    LC-VCO phase-noise minimization with full PVT variation, tighter PN constraint
+  E4: Robust 6T FinFET SRAM Cell (9D) - HARD
+    FinFET SRAM cell robust optimization with Nmc=200, yield requirement 99%
+
+Algorithms (8 total):
+   1. CMA_ES     - Covariance Matrix Adaptation ES
+   2. AVOA       - African Vultures Optimization Algorithm
+   3. RUN        - Runge-Kutta Optimizer
+   4. L_SHADE    - Success-History DE
+   5. KDO        - Karma Dharma Optimizer (Proposed)
+   6. DE         - Differential Evolution (F=0.8, CR=0.9)
+   7. WOA        - Whale Optimization Algorithm
+   8. HHO        - Harris Hawks Optimization
+
+Initializing results storage...
+
+========================================
+STARTING OPTIMIZATION PROCESS (HARD PROBLEMS - FAST)
+========================================
+
+
+--- Algorithm: CMA_ES ---
+  Problem: E1: Two-Stage Miller Op-Amp (18D) - HARD (dim=18, MaxFEs=450, MaxIter=113)
+    Run: [PATHS] Using existing results folder: G:\PHD\Thesis\Proposal_software\2026\June_2026\Prime_Version\Electronics_HSPICE\Results_Electronics_Hard\2026-08-24_00-10-07
+CMA_ES Iter    1 | Best = 1.3421e+06 | FEs = 4
+CMA_ES Iter   12 | Best = 1.1196e+06 | FEs = 48
+CMA_ES Iter   24 | Best = 1.1196e+06 | FEs = 96
+CMA_ES Iter   36 | Best = 1.1196e+06 | FEs = 144
+CMA_ES Iter   48 | Best = 1.1196e+06 | FEs = 192
+CMA_ES Iter   60 | Best = 1.1195e+06 | FEs = 240
+CMA_ES Iter   72 | Best = 1.1195e+06 | FEs = 288
+CMA_ES Iter   84 | Best = 1.1195e+06 | FEs = 336
+CMA_ES Iter   96 | Best = 1.1194e+06 | FEs = 384
+CMA_ES Iter  108 | Best = 1.1194e+06 | FEs = 432
+CMA_ES Iter    1 | Best = 1.3466e+06 | FEs = 4
+CMA_ES Iter   12 | Best = 1.0733e+06 | FEs = 48
+CMA_ES Iter   24 | Best = 1.0733e+06 | FEs = 96
+CMA_ES Iter   36 | Best = 1.0733e+06 | FEs = 144
+CMA_ES Iter   48 | Best = 1.0733e+06 | FEs = 192
+CMA_ES Iter   60 | Best = 1.0733e+06 | FEs = 240
+CMA_ES Iter   72 | Best = 1.0733e+06 | FEs = 288
+CMA_ES Iter   84 | Best = 1.0733e+06 | FEs = 336
+CMA_ES Iter   96 | Best = 1.0733e+06 | FEs = 384
+CMA_ES Iter  108 | Best = 1.0733e+06 | FEs = 432
+CMA_ES Iter    1 | Best = 1.3355e+06 | FEs = 4
+CMA_ES Iter   12 | Best = 1.3068e+06 | FEs = 48
+CMA_ES Iter   24 | Best = 1.3068e+06 | FEs = 96
+CMA_ES Iter   36 | Best = 1.3068e+06 | FEs = 144
+CMA_ES Iter   48 | Best = 1.3068e+06 | FEs = 192
+CMA_ES Iter   60 | Best = 1.3068e+06 | FEs = 240
+CMA_ES Iter   72 | Best = 1.3068e+06 | FEs = 288
+CMA_ES Iter   84 | Best = 1.3068e+06 | FEs = 336
+CMA_ES Iter   96 | Best = 1.3068e+06 | FEs = 384
+CMA_ES Iter  108 | Best = 1.3068e+06 | FEs = 432
+CMA_ES Iter    1 | Best = 1.3368e+06 | FEs = 4
+CMA_ES Iter   12 | Best = 1.3368e+06 | FEs = 48
+CMA_ES Iter   24 | Best = 1.3368e+06 | FEs = 96
+CMA_ES Iter   36 | Best = 1.3368e+06 | FEs = 144
+CMA_ES Iter   48 | Best = 1.3368e+06 | FEs = 192
+CMA_ES Iter   60 | Best = 1.3368e+06 | FEs = 240
+CMA_ES Iter   72 | Best = 1.3368e+06 | FEs = 288
+CMA_ES Iter   84 | Best = 1.3368e+06 | FEs = 336
+CMA_ES Iter   96 | Best = 1.3368e+06 | FEs = 384
+CMA_ES Iter  108 | Best = 1.3368e+06 | FEs = 432
+5 CMA_ES Iter    1 | Best = 1.3327e+06 | FEs = 4
+CMA_ES Iter   12 | Best = 1.3008e+06 | FEs = 48
+CMA_ES Iter   24 | Best = 1.3008e+06 | FEs = 96
+CMA_ES Iter   36 | Best = 1.3008e+06 | FEs = 144
+CMA_ES Iter   48 | Best = 1.3008e+06 | FEs = 192
+CMA_ES Iter   60 | Best = 1.3008e+06 | FEs = 240
+CMA_ES Iter   72 | Best = 1.3007e+06 | FEs = 288
+CMA_ES Iter   84 | Best = 1.3007e+06 | FEs = 336
+CMA_ES Iter   96 | Best = 1.3007e+06 | FEs = 384
+CMA_ES Iter  108 | Best = 1.3007e+06 | FEs = 432
+
+    Results: Min=1.0733e+06, Median=1.3007e+06, Mean=1.2274e+06, Std=1.2151e+05
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=300, MaxIter=75)
+    Run: CMA_ES Iter    1 | Best = 2.4999e+04 | FEs = 4
+CMA_ES Iter    8 | Best = 2.3924e+04 | FEs = 32
+CMA_ES Iter   16 | Best = 2.3924e+04 | FEs = 64
+CMA_ES Iter   24 | Best = 2.3924e+04 | FEs = 96
+CMA_ES Iter   32 | Best = 2.3924e+04 | FEs = 128
+CMA_ES Iter   40 | Best = 2.3924e+04 | FEs = 160
+CMA_ES Iter   48 | Best = 2.3924e+04 | FEs = 192
+CMA_ES Iter   56 | Best = 2.3924e+04 | FEs = 224
+CMA_ES Iter   64 | Best = 2.3924e+04 | FEs = 256
+CMA_ES Iter   72 | Best = 2.3924e+04 | FEs = 288
+CMA_ES Iter    1 | Best = 2.5121e+04 | FEs = 4
+CMA_ES Iter    8 | Best = 1.4758e+04 | FEs = 32
+CMA_ES Iter   16 | Best = 1.4758e+04 | FEs = 64
+CMA_ES Iter   24 | Best = 1.4710e+04 | FEs = 96
+CMA_ES Iter   32 | Best = 1.4710e+04 | FEs = 128
+CMA_ES Iter   40 | Best = 1.4710e+04 | FEs = 160
+CMA_ES Iter   48 | Best = 1.4710e+04 | FEs = 192
+CMA_ES Iter   56 | Best = 1.4710e+04 | FEs = 224
+CMA_ES Iter   64 | Best = 1.4710e+04 | FEs = 256
+CMA_ES Iter   72 | Best = 1.4710e+04 | FEs = 288
+CMA_ES Iter    1 | Best = 1.4651e+04 | FEs = 4
+CMA_ES Iter    8 | Best = 1.4522e+04 | FEs = 32
+CMA_ES Iter   16 | Best = 1.4522e+04 | FEs = 64
+CMA_ES Iter   24 | Best = 1.4522e+04 | FEs = 96
+CMA_ES Iter   32 | Best = 1.4515e+04 | FEs = 128
+CMA_ES Iter   40 | Best = 1.4515e+04 | FEs = 160
+CMA_ES Iter   48 | Best = 1.4514e+04 | FEs = 192
+CMA_ES Iter   56 | Best = 1.4514e+04 | FEs = 224
+CMA_ES Iter   64 | Best = 1.4514e+04 | FEs = 256
+CMA_ES Iter   72 | Best = 1.4514e+04 | FEs = 288
+CMA_ES Iter    1 | Best = 1.4450e+04 | FEs = 4
+CMA_ES Iter    8 | Best = 1.4450e+04 | FEs = 32
+CMA_ES Iter   16 | Best = 1.4450e+04 | FEs = 64
+CMA_ES Iter   24 | Best = 1.4450e+04 | FEs = 96
+CMA_ES Iter   32 | Best = 1.4450e+04 | FEs = 128
+CMA_ES Iter   40 | Best = 1.4450e+04 | FEs = 160
+CMA_ES Iter   48 | Best = 1.4450e+04 | FEs = 192
+CMA_ES Iter   56 | Best = 1.4450e+04 | FEs = 224
+CMA_ES Iter   64 | Best = 1.4450e+04 | FEs = 256
+CMA_ES Iter   72 | Best = 1.4450e+04 | FEs = 288
+5 CMA_ES Iter    1 | Best = 3.5222e+04 | FEs = 4
+CMA_ES Iter    8 | Best = 1.4640e+04 | FEs = 32
+CMA_ES Iter   16 | Best = 1.4640e+04 | FEs = 64
+CMA_ES Iter   24 | Best = 1.4640e+04 | FEs = 96
+CMA_ES Iter   32 | Best = 1.4640e+04 | FEs = 128
+CMA_ES Iter   40 | Best = 1.4636e+04 | FEs = 160
+CMA_ES Iter   48 | Best = 1.4636e+04 | FEs = 192
+CMA_ES Iter   56 | Best = 1.4636e+04 | FEs = 224
+CMA_ES Iter   64 | Best = 1.4636e+04 | FEs = 256
+CMA_ES Iter   72 | Best = 1.4636e+04 | FEs = 288
+
+    Results: Min=1.4450e+04, Median=1.4636e+04, Mean=1.6447e+04, Std=4.1812e+03
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=275, MaxIter=69)
+    Run: CMA_ES Iter    1 | Best = 1.0000e+12 | FEs = 4
+CMA_ES Iter    7 | Best = 1.0000e+12 | FEs = 28
+CMA_ES Iter   14 | Best = 1.0000e+12 | FEs = 56
+CMA_ES Iter   21 | Best = 1.0000e+12 | FEs = 84
+CMA_ES Iter   28 | Best = 1.0000e+12 | FEs = 112
+CMA_ES Iter   35 | Best = 1.0000e+12 | FEs = 140
+CMA_ES Iter   42 | Best = 1.0000e+12 | FEs = 168
+CMA_ES Iter   49 | Best = 1.0000e+12 | FEs = 196
+CMA_ES Iter   56 | Best = 1.0000e+12 | FEs = 224
+CMA_ES Iter   63 | Best = 1.0000e+12 | FEs = 252
+CMA_ES Iter    1 | Best = 1.0000e+12 | FEs = 4
+CMA_ES Iter    7 | Best = 1.0000e+12 | FEs = 28
+CMA_ES Iter   14 | Best = 1.0000e+12 | FEs = 56
+CMA_ES Iter   21 | Best = 1.0000e+12 | FEs = 84
+CMA_ES Iter   28 | Best = 1.0000e+12 | FEs = 112
+CMA_ES Iter   35 | Best = 1.0000e+12 | FEs = 140
+CMA_ES Iter   42 | Best = 1.0000e+12 | FEs = 168
+CMA_ES Iter   49 | Best = 1.0000e+12 | FEs = 196
+CMA_ES Iter   56 | Best = 1.0000e+12 | FEs = 224
+CMA_ES Iter   63 | Best = 1.0000e+12 | FEs = 252
+CMA_ES Iter    1 | Best = 1.4797e+00 | FEs = 4
+CMA_ES Iter    7 | Best = 1.3857e+00 | FEs = 28
+CMA_ES Iter   14 | Best = 1.3857e+00 | FEs = 56
+CMA_ES Iter   21 | Best = 1.3857e+00 | FEs = 84
+CMA_ES Iter   28 | Best = 1.3857e+00 | FEs = 112
+CMA_ES Iter   35 | Best = 1.3857e+00 | FEs = 140
+CMA_ES Iter   42 | Best = 1.3857e+00 | FEs = 168
+CMA_ES Iter   49 | Best = 1.3857e+00 | FEs = 196
+CMA_ES Iter   56 | Best = 1.3857e+00 | FEs = 224
+CMA_ES Iter   63 | Best = 1.3857e+00 | FEs = 252
+CMA_ES Iter    1 | Best = 1.0000e+12 | FEs = 4
+CMA_ES Iter    7 | Best = 1.0000e+12 | FEs = 28
+CMA_ES Iter   14 | Best = 1.0000e+12 | FEs = 56
+CMA_ES Iter   21 | Best = 1.0000e+12 | FEs = 84
+CMA_ES Iter   28 | Best = 1.0000e+12 | FEs = 112
+CMA_ES Iter   35 | Best = 1.0000e+12 | FEs = 140
+CMA_ES Iter   42 | Best = 1.0000e+12 | FEs = 168
+CMA_ES Iter   49 | Best = 1.0000e+12 | FEs = 196
+CMA_ES Iter   56 | Best = 1.0000e+12 | FEs = 224
+CMA_ES Iter   63 | Best = 1.0000e+12 | FEs = 252
+5 CMA_ES Iter    1 | Best = 2.0972e+00 | FEs = 4
+CMA_ES Iter    7 | Best = 1.5354e+00 | FEs = 28
+CMA_ES Iter   14 | Best = 1.3493e+00 | FEs = 56
+CMA_ES Iter   21 | Best = 9.7871e-01 | FEs = 84
+CMA_ES Iter   28 | Best = 9.7871e-01 | FEs = 112
+CMA_ES Iter   35 | Best = 9.7871e-01 | FEs = 140
+CMA_ES Iter   42 | Best = 9.7871e-01 | FEs = 168
+CMA_ES Iter   49 | Best = 9.7364e-01 | FEs = 196
+CMA_ES Iter   56 | Best = 9.7364e-01 | FEs = 224
+CMA_ES Iter   63 | Best = 9.7364e-01 | FEs = 252
+
+    Results: Min=9.2996e-01, Median=1.0000e+12, Mean=6.0000e+11, Std=5.4772e+11
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=225, MaxIter=57)
+    Run: CMA_ES Iter    1 | Best = 5.8889e+06 | FEs = 4
+CMA_ES Iter    6 | Best = 5.8889e+06 | FEs = 24
+CMA_ES Iter   12 | Best = 5.8889e+06 | FEs = 48
+CMA_ES Iter   18 | Best = 5.8889e+06 | FEs = 72
+CMA_ES Iter   24 | Best = 5.8889e+06 | FEs = 96
+CMA_ES Iter   30 | Best = 5.8889e+06 | FEs = 120
+CMA_ES Iter   36 | Best = 5.8889e+06 | FEs = 144
+CMA_ES Iter   42 | Best = 5.8889e+06 | FEs = 168
+CMA_ES Iter   48 | Best = 5.8889e+06 | FEs = 192
+CMA_ES Iter   54 | Best = 5.8889e+06 | FEs = 216
+CMA_ES Iter    1 | Best = 2.4228e+02 | FEs = 4
+CMA_ES Iter    6 | Best = 1.4790e+02 | FEs = 24
+CMA_ES Iter   12 | Best = 1.2093e+02 | FEs = 48
+CMA_ES Iter   18 | Best = 1.0165e+02 | FEs = 72
+CMA_ES Iter   24 | Best = 5.0954e+01 | FEs = 96
+CMA_ES Iter   30 | Best = 3.0538e+01 | FEs = 120
+CMA_ES Iter   36 | Best = 1.0088e+01 | FEs = 144
+CMA_ES Iter   42 | Best = 7.7749e+00 | FEs = 168
+CMA_ES Iter   48 | Best = 5.2984e+00 | FEs = 192
+CMA_ES Iter   54 | Best = 3.5079e+00 | FEs = 216
+CMA_ES Iter    1 | Best = 4.0355e+02 | FEs = 4
+CMA_ES Iter    6 | Best = 2.8398e+02 | FEs = 24
+CMA_ES Iter   12 | Best = 2.6286e+02 | FEs = 48
+CMA_ES Iter   18 | Best = 2.3602e+02 | FEs = 72
+CMA_ES Iter   24 | Best = 1.9627e+02 | FEs = 96
+CMA_ES Iter   30 | Best = 1.4559e+02 | FEs = 120
+CMA_ES Iter   36 | Best = 1.3128e+02 | FEs = 144
+CMA_ES Iter   42 | Best = 1.3092e+02 | FEs = 168
+CMA_ES Iter   48 | Best = 1.3078e+02 | FEs = 192
+CMA_ES Iter   54 | Best = 1.3066e+02 | FEs = 216
+CMA_ES Iter    1 | Best = 9.2316e+06 | FEs = 4
+CMA_ES Iter    6 | Best = 9.2316e+06 | FEs = 24
+CMA_ES Iter   12 | Best = 9.2316e+06 | FEs = 48
+CMA_ES Iter   18 | Best = 9.2316e+06 | FEs = 72
+CMA_ES Iter   24 | Best = 9.2316e+06 | FEs = 96
+CMA_ES Iter   30 | Best = 9.2316e+06 | FEs = 120
+CMA_ES Iter   36 | Best = 9.2316e+06 | FEs = 144
+CMA_ES Iter   42 | Best = 9.2316e+06 | FEs = 168
+CMA_ES Iter   48 | Best = 9.2316e+06 | FEs = 192
+CMA_ES Iter   54 | Best = 9.2316e+06 | FEs = 216
+5 CMA_ES Iter    1 | Best = 3.9254e+02 | FEs = 4
+CMA_ES Iter    6 | Best = 3.6101e+02 | FEs = 24
+CMA_ES Iter   12 | Best = 3.1879e+02 | FEs = 48
+CMA_ES Iter   18 | Best = 2.9905e+02 | FEs = 72
+CMA_ES Iter   24 | Best = 2.5334e+02 | FEs = 96
+CMA_ES Iter   30 | Best = 2.1619e+02 | FEs = 120
+CMA_ES Iter   36 | Best = 1.6322e+02 | FEs = 144
+CMA_ES Iter   42 | Best = 1.3019e+02 | FEs = 168
+CMA_ES Iter   48 | Best = 1.3019e+02 | FEs = 192
+CMA_ES Iter   54 | Best = 1.3019e+02 | FEs = 216
+
+    Results: Min=3.0351e+00, Median=1.3066e+02, Mean=3.0242e+06, Std=4.3062e+06
+
+--- Algorithm: AVOA ---
+  Problem: E1: Two-Stage Miller Op-Amp (18D) - HARD (dim=18, MaxFEs=450, MaxIter=113)
+    Run: AVOA Iter   50 | Best = 1.0040e+06 | FEs = 204
+AVOA Iter  100 | Best = 1.0040e+06 | FEs = 404
+AVOA Iter   50 | Best = 1.0816e+06 | FEs = 204
+AVOA Iter  100 | Best = 1.0816e+06 | FEs = 404
+AVOA Iter   50 | Best = 1.1917e+06 | FEs = 204
+AVOA Iter  100 | Best = 1.1917e+06 | FEs = 404
+AVOA Iter   50 | Best = 1.0000e+06 | FEs = 204
+AVOA Iter  100 | Best = 1.0000e+06 | FEs = 404
+5 AVOA Iter   50 | Best = 1.0793e+06 | FEs = 204
+AVOA Iter  100 | Best = 1.0793e+06 | FEs = 404
+
+    Results: Min=1.0000e+06, Median=1.0793e+06, Mean=1.0713e+06, Std=7.7886e+04
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=300, MaxIter=75)
+    Run: AVOA Iter   50 | Best = 1.4672e+04 | FEs = 204
+AVOA Iter   50 | Best = 1.4285e+04 | FEs = 204
+AVOA Iter   50 | Best = 1.7850e+04 | FEs = 204
+AVOA Iter   50 | Best = 1.5162e+04 | FEs = 204
+5 AVOA Iter   50 | Best = 1.8123e+04 | FEs = 204
+
+    Results: Min=1.4285e+04, Median=1.5162e+04, Mean=1.6018e+04, Std=1.8255e+03
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=275, MaxIter=69)
+    Run: AVOA Iter   50 | Best = 1.0000e+12 | FEs = 204
+AVOA Iter   50 | Best = 1.0000e+12 | FEs = 204
+AVOA Iter   50 | Best = 1.0000e+12 | FEs = 204
+AVOA Iter   50 | Best = 1.0000e+12 | FEs = 204
+5 AVOA Iter   50 | Best = 1.0000e+12 | FEs = 204
+
+    Results: Min=1.0000e+12, Median=1.0000e+12, Mean=1.0000e+12, Std=1.2993e+05
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=225, MaxIter=57)
+    Run: AVOA Iter   50 | Best = 7.0676e+02 | FEs = 204
+AVOA Iter   50 | Best = 1.3869e+03 | FEs = 204
+AVOA Iter   50 | Best = 6.6747e+02 | FEs = 204
+AVOA Iter   50 | Best = 3.4957e+02 | FEs = 204
+5 AVOA Iter   50 | Best = 6.0122e+00 | FEs = 204
+
+    Results: Min=6.0122e+00, Median=6.6747e+02, Mean=6.2334e+02, Std=5.1186e+02
+
+--- Algorithm: RUN ---
+  Problem: E1: Two-Stage Miller Op-Amp (18D) - HARD (dim=18, MaxFEs=450, MaxIter=113)
+    Run: 5 
+    Results: Min=1.0062e+06, Median=1.0114e+06, Mean=1.0287e+06, Std=3.2702e+04
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=300, MaxIter=75)
+    Run: 5 
+    Results: Min=1.4122e+04, Median=1.4340e+04, Mean=1.4355e+04, Std=2.6348e+02
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=275, MaxIter=69)
+    Run: 5 
+    Results: Min=4.3457e-02, Median=1.0000e+12, Mean=8.0000e+11, Std=4.4721e+11
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=225, MaxIter=57)
+    Run: 5 
+    Results: Min=1.5881e-01, Median=3.5705e-01, Mean=6.3337e-01, Std=5.8871e-01
+
+--- Algorithm: L_SHADE ---
+  Problem: E1: Two-Stage Miller Op-Amp (18D) - HARD (dim=18, MaxFEs=450, MaxIter=113)
+    Run: Iter    1 | Best = 1.0942e+06 | FEs = 8
+Iter   12 | Best = 1.0304e+06 | FEs = 52
+Iter   24 | Best = 1.0076e+06 | FEs = 100
+Iter   36 | Best = 1.0056e+06 | FEs = 148
+Iter   48 | Best = 1.0056e+06 | FEs = 196
+Iter   60 | Best = 1.0048e+06 | FEs = 244
+Iter   72 | Best = 1.0040e+06 | FEs = 292
+Iter   84 | Best = 1.0038e+06 | FEs = 340
+Iter   96 | Best = 1.0037e+06 | FEs = 388
+Iter  108 | Best = 1.0033e+06 | FEs = 436
+Iter    1 | Best = 1.0918e+06 | FEs = 8
+Iter   12 | Best = 1.0864e+06 | FEs = 52
+Iter   24 | Best = 1.0855e+06 | FEs = 100
+Iter   36 | Best = 1.0847e+06 | FEs = 148
+Iter   48 | Best = 1.0846e+06 | FEs = 196
+Iter   60 | Best = 1.0833e+06 | FEs = 244
+Iter   72 | Best = 1.0817e+06 | FEs = 292
+Iter   84 | Best = 1.0807e+06 | FEs = 340
+Iter   96 | Best = 1.0806e+06 | FEs = 388
+Iter  108 | Best = 1.0805e+06 | FEs = 436
+Iter    1 | Best = 1.0986e+06 | FEs = 8
+Iter   12 | Best = 1.0220e+06 | FEs = 52
+Iter   24 | Best = 1.0202e+06 | FEs = 100
+Iter   36 | Best = 1.0173e+06 | FEs = 148
+Iter   48 | Best = 1.0144e+06 | FEs = 196
+Iter   60 | Best = 1.0139e+06 | FEs = 244
+Iter   72 | Best = 1.0138e+06 | FEs = 292
+Iter   84 | Best = 1.0137e+06 | FEs = 340
+Iter   96 | Best = 1.0136e+06 | FEs = 388
+Iter  108 | Best = 1.0136e+06 | FEs = 436
+Iter    1 | Best = 1.0854e+06 | FEs = 8
+Iter   12 | Best = 1.0777e+06 | FEs = 52
+Iter   24 | Best = 1.0021e+06 | FEs = 100
+Iter   36 | Best = 1.0021e+06 | FEs = 148
+Iter   48 | Best = 1.0021e+06 | FEs = 196
+Iter   60 | Best = 1.0020e+06 | FEs = 244
+Iter   72 | Best = 1.0020e+06 | FEs = 292
+Iter   84 | Best = 1.0020e+06 | FEs = 340
+Iter   96 | Best = 1.0020e+06 | FEs = 388
+Iter  108 | Best = 1.0019e+06 | FEs = 436
+5 Iter    1 | Best = 1.0037e+06 | FEs = 8
+Iter   12 | Best = 1.0037e+06 | FEs = 52
+Iter   24 | Best = 1.0034e+06 | FEs = 100
+Iter   36 | Best = 1.0031e+06 | FEs = 148
+Iter   48 | Best = 1.0030e+06 | FEs = 196
+Iter   60 | Best = 1.0029e+06 | FEs = 244
+Iter   72 | Best = 1.0027e+06 | FEs = 292
+Iter   84 | Best = 1.0025e+06 | FEs = 340
+Iter   96 | Best = 1.0024e+06 | FEs = 388
+Iter  108 | Best = 1.0023e+06 | FEs = 436
+
+    Results: Min=1.0019e+06, Median=1.0033e+06, Mean=1.0203e+06, Std=3.3964e+04
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=300, MaxIter=75)
+    Run: Iter    1 | Best = 1.4773e+04 | FEs = 8
+Iter    8 | Best = 1.4413e+04 | FEs = 36
+Iter   16 | Best = 1.4374e+04 | FEs = 68
+Iter   24 | Best = 1.4351e+04 | FEs = 100
+Iter   32 | Best = 1.4329e+04 | FEs = 132
+Iter   40 | Best = 1.4311e+04 | FEs = 164
+Iter   48 | Best = 1.4300e+04 | FEs = 196
+Iter   56 | Best = 1.4298e+04 | FEs = 228
+Iter   64 | Best = 1.4298e+04 | FEs = 260
+Iter   72 | Best = 1.4298e+04 | FEs = 292
+Iter    1 | Best = 1.4357e+04 | FEs = 8
+Iter    8 | Best = 1.4305e+04 | FEs = 36
+Iter   16 | Best = 1.4305e+04 | FEs = 68
+Iter   24 | Best = 1.4296e+04 | FEs = 100
+Iter   32 | Best = 1.4295e+04 | FEs = 132
+Iter   40 | Best = 1.4294e+04 | FEs = 164
+Iter   48 | Best = 1.4293e+04 | FEs = 196
+Iter   56 | Best = 1.4292e+04 | FEs = 228
+Iter   64 | Best = 1.4291e+04 | FEs = 260
+Iter   72 | Best = 1.4291e+04 | FEs = 292
+Iter    1 | Best = 1.4258e+04 | FEs = 8
+Iter    8 | Best = 1.4159e+04 | FEs = 36
+Iter   16 | Best = 1.4156e+04 | FEs = 68
+Iter   24 | Best = 1.4146e+04 | FEs = 100
+Iter   32 | Best = 1.4125e+04 | FEs = 132
+Iter   40 | Best = 1.4115e+04 | FEs = 164
+Iter   48 | Best = 1.4112e+04 | FEs = 196
+Iter   56 | Best = 1.4112e+04 | FEs = 228
+Iter   64 | Best = 1.4112e+04 | FEs = 260
+Iter   72 | Best = 1.4112e+04 | FEs = 292
+Iter    1 | Best = 1.4513e+04 | FEs = 8
+Iter    8 | Best = 1.4269e+04 | FEs = 36
+Iter   16 | Best = 1.4230e+04 | FEs = 68
+Iter   24 | Best = 1.4225e+04 | FEs = 100
+Iter   32 | Best = 1.4223e+04 | FEs = 132
+Iter   40 | Best = 1.4213e+04 | FEs = 164
+Iter   48 | Best = 1.4213e+04 | FEs = 196
+Iter   56 | Best = 1.4212e+04 | FEs = 228
+Iter   64 | Best = 1.4209e+04 | FEs = 260
+Iter   72 | Best = 1.4208e+04 | FEs = 292
+5 Iter    1 | Best = 1.4608e+04 | FEs = 8
+Iter    8 | Best = 1.4489e+04 | FEs = 36
+Iter   16 | Best = 1.4223e+04 | FEs = 68
+Iter   24 | Best = 1.4220e+04 | FEs = 100
+Iter   32 | Best = 1.4210e+04 | FEs = 132
+Iter   40 | Best = 1.4206e+04 | FEs = 164
+Iter   48 | Best = 1.4205e+04 | FEs = 196
+Iter   56 | Best = 1.4204e+04 | FEs = 228
+Iter   64 | Best = 1.4203e+04 | FEs = 260
+Iter   72 | Best = 1.4201e+04 | FEs = 292
+
+    Results: Min=1.4112e+04, Median=1.4208e+04, Mean=1.4222e+04, Std=7.6270e+01
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=275, MaxIter=69)
+    Run: Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 1.0000e+12 | FEs = 88
+Iter   28 | Best = 1.0000e+12 | FEs = 116
+Iter   35 | Best = 1.0000e+12 | FEs = 144
+Iter   42 | Best = 1.0000e+12 | FEs = 172
+Iter   49 | Best = 1.0000e+12 | FEs = 200
+Iter   56 | Best = 1.0000e+12 | FEs = 228
+Iter   63 | Best = 1.0000e+12 | FEs = 256
+Iter    1 | Best = 4.8571e+00 | FEs = 8
+Iter    7 | Best = 3.9599e+00 | FEs = 32
+Iter   14 | Best = 3.9599e+00 | FEs = 60
+Iter   21 | Best = 3.9599e+00 | FEs = 88
+Iter   28 | Best = 9.9221e-01 | FEs = 116
+Iter   35 | Best = 3.8850e-01 | FEs = 144
+Iter   42 | Best = 1.2260e-01 | FEs = 172
+Iter   49 | Best = 3.2620e-02 | FEs = 200
+Iter   56 | Best = 1.8791e-02 | FEs = 228
+Iter   63 | Best = 1.7889e-02 | FEs = 256
+Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 3.7011e-02 | FEs = 32
+Iter   14 | Best = 1.7597e-02 | FEs = 60
+Iter   21 | Best = 1.6520e-02 | FEs = 88
+Iter   28 | Best = 1.6493e-02 | FEs = 116
+Iter   35 | Best = 1.6406e-02 | FEs = 144
+Iter   42 | Best = 1.6317e-02 | FEs = 172
+Iter   49 | Best = 1.6109e-02 | FEs = 200
+Iter   56 | Best = 1.5529e-02 | FEs = 228
+Iter   63 | Best = 1.5493e-02 | FEs = 256
+Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 5.4592e-02 | FEs = 32
+Iter   14 | Best = 3.2768e-02 | FEs = 60
+Iter   21 | Best = 1.9275e-02 | FEs = 88
+Iter   28 | Best = 1.8728e-02 | FEs = 116
+Iter   35 | Best = 1.8454e-02 | FEs = 144
+Iter   42 | Best = 1.6874e-02 | FEs = 172
+Iter   49 | Best = 1.6874e-02 | FEs = 200
+Iter   56 | Best = 1.6874e-02 | FEs = 228
+Iter   63 | Best = 1.6852e-02 | FEs = 256
+5 Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 1.0000e+12 | FEs = 88
+Iter   28 | Best = 1.0000e+12 | FEs = 116
+Iter   35 | Best = 1.0000e+12 | FEs = 144
+Iter   42 | Best = 1.0000e+12 | FEs = 172
+Iter   49 | Best = 1.0000e+12 | FEs = 200
+Iter   56 | Best = 1.0000e+12 | FEs = 228
+Iter   63 | Best = 1.0000e+12 | FEs = 256
+
+    Results: Min=1.5481e-02, Median=1.6845e-02, Mean=4.0000e+11, Std=5.4772e+11
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=225, MaxIter=57)
+    Run: Iter    1 | Best = 8.8263e+01 | FEs = 8
+Iter    6 | Best = 4.0160e+00 | FEs = 28
+Iter   12 | Best = 1.9593e+00 | FEs = 52
+Iter   18 | Best = 8.2988e-01 | FEs = 76
+Iter   24 | Best = 3.9987e-01 | FEs = 100
+Iter   30 | Best = 2.9059e-01 | FEs = 124
+Iter   36 | Best = 2.9059e-01 | FEs = 148
+Iter   42 | Best = 2.9059e-01 | FEs = 172
+Iter   48 | Best = 2.9059e-01 | FEs = 196
+Iter   54 | Best = 2.9059e-01 | FEs = 220
+Iter    1 | Best = 5.1610e+02 | FEs = 8
+Iter    6 | Best = 2.7186e+01 | FEs = 28
+Iter   12 | Best = 2.5228e+01 | FEs = 52
+Iter   18 | Best = 1.8693e+01 | FEs = 76
+Iter   24 | Best = 1.3717e+01 | FEs = 100
+Iter   30 | Best = 8.1860e+00 | FEs = 124
+Iter   36 | Best = 1.7830e+00 | FEs = 148
+Iter   42 | Best = 1.7830e+00 | FEs = 172
+Iter   48 | Best = 1.7010e+00 | FEs = 196
+Iter   54 | Best = 1.4396e+00 | FEs = 220
+Iter    1 | Best = 2.2349e+00 | FEs = 8
+Iter    6 | Best = 9.0283e-01 | FEs = 28
+Iter   12 | Best = 2.6385e-01 | FEs = 52
+Iter   18 | Best = 2.5005e-01 | FEs = 76
+Iter   24 | Best = 1.8820e-01 | FEs = 100
+Iter   30 | Best = 1.7714e-01 | FEs = 124
+Iter   36 | Best = 7.5189e-02 | FEs = 148
+Iter   42 | Best = 4.3217e-02 | FEs = 172
+Iter   48 | Best = 4.3217e-02 | FEs = 196
+Iter   54 | Best = 4.3217e-02 | FEs = 220
+Iter    1 | Best = 3.4835e+00 | FEs = 8
+Iter    6 | Best = 1.9449e+00 | FEs = 28
+Iter   12 | Best = 1.8358e-01 | FEs = 52
+Iter   18 | Best = 9.8511e-02 | FEs = 76
+Iter   24 | Best = 2.4095e-02 | FEs = 100
+Iter   30 | Best = 2.0064e-02 | FEs = 124
+Iter   36 | Best = 2.0064e-02 | FEs = 148
+Iter   42 | Best = 2.0064e-02 | FEs = 172
+Iter   48 | Best = 2.0064e-02 | FEs = 196
+Iter   54 | Best = 2.0064e-02 | FEs = 220
+5 Iter    1 | Best = 3.4096e+01 | FEs = 8
+Iter    6 | Best = 5.0135e-01 | FEs = 28
+Iter   12 | Best = 4.5508e-01 | FEs = 52
+Iter   18 | Best = 2.9059e-01 | FEs = 76
+Iter   24 | Best = 2.9059e-01 | FEs = 100
+Iter   30 | Best = 2.9059e-01 | FEs = 124
+Iter   36 | Best = 2.9059e-01 | FEs = 148
+Iter   42 | Best = 2.9059e-01 | FEs = 172
+Iter   48 | Best = 2.9059e-01 | FEs = 196
+Iter   54 | Best = 2.9059e-01 | FEs = 220
+
+    Results: Min=2.0064e-02, Median=2.9059e-01, Mean=4.1682e-01, Std=5.8629e-01
+
+--- Algorithm: KDO ---
+  Problem: E1: Two-Stage Miller Op-Amp (18D) - HARD (dim=18, MaxFEs=450, MaxIter=113)
+    Run: Iter    1 | Best = 1.1019e+06 | FEs = 8
+Iter   12 | Best = 1.0533e+06 | FEs = 52
+Iter   24 | Best = 1.0344e+06 | FEs = 100
+Iter   36 | Best = 1.0344e+06 | FEs = 148
+Iter   48 | Best = 1.0329e+06 | FEs = 196
+Iter   60 | Best = 1.0329e+06 | FEs = 244
+Iter   72 | Best = 1.0326e+06 | FEs = 292
+Iter   84 | Best = 1.0323e+06 | FEs = 340
+Iter   96 | Best = 1.0078e+06 | FEs = 388
+Iter  108 | Best = 1.0077e+06 | FEs = 436
+Iter    1 | Best = 1.0093e+06 | FEs = 8
+Iter   12 | Best = 1.0011e+06 | FEs = 52
+Iter   24 | Best = 1.0011e+06 | FEs = 100
+Iter   36 | Best = 1.0011e+06 | FEs = 148
+Iter   48 | Best = 1.0011e+06 | FEs = 196
+Iter   60 | Best = 1.0010e+06 | FEs = 244
+Iter   72 | Best = 1.0010e+06 | FEs = 292
+Iter   84 | Best = 1.0010e+06 | FEs = 340
+Iter   96 | Best = 1.0009e+06 | FEs = 390
+Iter  108 | Best = 1.0009e+06 | FEs = 439
+Iter    1 | Best = 1.0835e+06 | FEs = 8
+Iter   12 | Best = 1.0809e+06 | FEs = 52
+Iter   24 | Best = 1.0146e+06 | FEs = 100
+Iter   36 | Best = 1.0088e+06 | FEs = 148
+Iter   48 | Best = 1.0058e+06 | FEs = 196
+Iter   60 | Best = 1.0045e+06 | FEs = 244
+Iter   72 | Best = 1.0045e+06 | FEs = 292
+Iter   84 | Best = 1.0035e+06 | FEs = 340
+Iter   96 | Best = 1.0028e+06 | FEs = 388
+Iter  108 | Best = 1.0026e+06 | FEs = 436
+Iter    1 | Best = 1.0880e+06 | FEs = 8
+Iter   12 | Best = 1.0008e+06 | FEs = 52
+Iter   24 | Best = 1.0006e+06 | FEs = 100
+Iter   36 | Best = 1.0006e+06 | FEs = 148
+Iter   48 | Best = 1.0006e+06 | FEs = 196
+Iter   60 | Best = 1.0006e+06 | FEs = 245
+Iter   72 | Best = 1.0006e+06 | FEs = 294
+Iter   84 | Best = 1.0005e+06 | FEs = 342
+Iter   96 | Best = 1.0004e+06 | FEs = 391
+Iter  108 | Best = 1.0004e+06 | FEs = 441
+5 Iter    1 | Best = 1.0968e+06 | FEs = 8
+Iter   12 | Best = 1.0383e+06 | FEs = 52
+Iter   24 | Best = 1.0235e+06 | FEs = 100
+Iter   36 | Best = 1.0233e+06 | FEs = 148
+Iter   48 | Best = 1.0178e+06 | FEs = 196
+Iter   60 | Best = 1.0173e+06 | FEs = 244
+Iter   72 | Best = 1.0163e+06 | FEs = 292
+Iter   84 | Best = 1.0154e+06 | FEs = 341
+Iter   96 | Best = 1.0154e+06 | FEs = 389
+Iter  108 | Best = 1.0152e+06 | FEs = 437
+
+    Results: Min=1.0004e+06, Median=1.0026e+06, Mean=1.0054e+06, Std=6.1918e+03
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=300, MaxIter=75)
+    Run: Iter    1 | Best = 1.4574e+04 | FEs = 8
+Iter    8 | Best = 1.4435e+04 | FEs = 36
+Iter   16 | Best = 1.4426e+04 | FEs = 68
+Iter   24 | Best = 1.4136e+04 | FEs = 100
+Iter   32 | Best = 1.4126e+04 | FEs = 132
+Iter   40 | Best = 1.4122e+04 | FEs = 164
+Iter   48 | Best = 1.4122e+04 | FEs = 196
+Iter   56 | Best = 1.4122e+04 | FEs = 228
+Iter   64 | Best = 1.4122e+04 | FEs = 260
+Iter   72 | Best = 1.4121e+04 | FEs = 292
+Iter    1 | Best = 1.6052e+04 | FEs = 8
+Iter    8 | Best = 1.5270e+04 | FEs = 36
+Iter   16 | Best = 1.4301e+04 | FEs = 68
+Iter   24 | Best = 1.4134e+04 | FEs = 100
+Iter   32 | Best = 1.4126e+04 | FEs = 132
+Iter   40 | Best = 1.4124e+04 | FEs = 164
+Iter   48 | Best = 1.4122e+04 | FEs = 196
+Iter   56 | Best = 1.4119e+04 | FEs = 228
+Iter   64 | Best = 1.4118e+04 | FEs = 260
+Iter   72 | Best = 1.4116e+04 | FEs = 292
+Iter    1 | Best = 1.6124e+04 | FEs = 8
+Iter    8 | Best = 1.4165e+04 | FEs = 36
+Iter   16 | Best = 1.4165e+04 | FEs = 68
+Iter   24 | Best = 1.4165e+04 | FEs = 100
+Iter   32 | Best = 1.4149e+04 | FEs = 132
+Iter   40 | Best = 1.4146e+04 | FEs = 164
+Iter   48 | Best = 1.4138e+04 | FEs = 196
+Iter   56 | Best = 1.4130e+04 | FEs = 228
+Iter   64 | Best = 1.4126e+04 | FEs = 261
+Iter   72 | Best = 1.4117e+04 | FEs = 293
+Iter    1 | Best = 1.4620e+04 | FEs = 8
+Iter    8 | Best = 1.4515e+04 | FEs = 36
+Iter   16 | Best = 1.4512e+04 | FEs = 68
+Iter   24 | Best = 1.4511e+04 | FEs = 100
+Iter   32 | Best = 1.4511e+04 | FEs = 132
+Iter   40 | Best = 1.4422e+04 | FEs = 164
+Iter   48 | Best = 1.4182e+04 | FEs = 196
+Iter   56 | Best = 1.4173e+04 | FEs = 228
+Iter   64 | Best = 1.4173e+04 | FEs = 260
+Iter   72 | Best = 1.4173e+04 | FEs = 292
+5 Iter    1 | Best = 2.0530e+04 | FEs = 8
+Iter    8 | Best = 1.4377e+04 | FEs = 36
+Iter   16 | Best = 1.4373e+04 | FEs = 68
+Iter   24 | Best = 1.4369e+04 | FEs = 100
+Iter   32 | Best = 1.4369e+04 | FEs = 132
+Iter   40 | Best = 1.4369e+04 | FEs = 164
+Iter   48 | Best = 1.4369e+04 | FEs = 196
+Iter   56 | Best = 1.4369e+04 | FEs = 228
+Iter   64 | Best = 1.4369e+04 | FEs = 260
+Iter   72 | Best = 1.4369e+04 | FEs = 293
+
+    Results: Min=1.4116e+04, Median=1.4121e+04, Mean=1.4179e+04, Std=1.0862e+02
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=275, MaxIter=69)
+    Run: Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.9410e+00 | FEs = 32
+Iter   14 | Best = 1.1900e+00 | FEs = 60
+Iter   21 | Best = 8.8227e-01 | FEs = 88
+Iter   28 | Best = 6.3400e-01 | FEs = 116
+Iter   35 | Best = 3.3057e-01 | FEs = 144
+Iter   42 | Best = 1.2952e-01 | FEs = 172
+Iter   49 | Best = 6.0140e-02 | FEs = 200
+Iter   56 | Best = 3.8202e-02 | FEs = 228
+Iter   63 | Best = 3.1245e-02 | FEs = 256
+Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 1.0000e+12 | FEs = 88
+Iter   28 | Best = 1.0000e+12 | FEs = 116
+Iter   35 | Best = 1.0000e+12 | FEs = 144
+Iter   42 | Best = 1.0000e+12 | FEs = 172
+Iter   49 | Best = 1.0000e+12 | FEs = 200
+Iter   56 | Best = 1.0000e+12 | FEs = 228
+Iter   63 | Best = 1.0000e+12 | FEs = 256
+Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 3.1218e-02 | FEs = 88
+Iter   28 | Best = 2.6515e-02 | FEs = 116
+Iter   35 | Best = 2.5345e-02 | FEs = 144
+Iter   42 | Best = 2.5239e-02 | FEs = 172
+Iter   49 | Best = 2.2855e-02 | FEs = 200
+Iter   56 | Best = 2.2555e-02 | FEs = 228
+Iter   63 | Best = 2.1156e-02 | FEs = 256
+Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 1.9261e-02 | FEs = 88
+Iter   28 | Best = 1.9261e-02 | FEs = 116
+Iter   35 | Best = 1.9239e-02 | FEs = 144
+Iter   42 | Best = 1.9222e-02 | FEs = 172
+Iter   49 | Best = 1.9089e-02 | FEs = 200
+Iter   56 | Best = 1.8725e-02 | FEs = 228
+Iter   63 | Best = 1.8699e-02 | FEs = 256
+5 Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.6989e+00 | FEs = 32
+Iter   14 | Best = 1.6837e+00 | FEs = 60
+Iter   21 | Best = 1.3079e+00 | FEs = 88
+Iter   28 | Best = 1.1865e+00 | FEs = 116
+Iter   35 | Best = 1.1863e+00 | FEs = 144
+Iter   42 | Best = 1.1863e+00 | FEs = 172
+Iter   49 | Best = 1.1863e+00 | FEs = 200
+Iter   56 | Best = 1.1863e+00 | FEs = 228
+Iter   63 | Best = 1.1863e+00 | FEs = 259
+
+    Results: Min=1.8520e-02, Median=3.0694e-02, Mean=2.0000e+11, Std=4.4721e+11
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=225, MaxIter=57)
+    Run: Iter    1 | Best = 1.1467e+02 | FEs = 8
+Iter    6 | Best = 7.0542e+00 | FEs = 28
+Iter   12 | Best = 6.7601e-01 | FEs = 52
+Iter   18 | Best = 5.8862e-01 | FEs = 76
+Iter   24 | Best = 1.7895e-01 | FEs = 100
+Iter   30 | Best = 1.6644e-01 | FEs = 124
+Iter   36 | Best = 1.6644e-01 | FEs = 148
+Iter   42 | Best = 1.1663e-01 | FEs = 172
+Iter   48 | Best = 7.5147e-02 | FEs = 196
+Iter   54 | Best = 7.5147e-02 | FEs = 220
+Iter    1 | Best = 6.6955e+02 | FEs = 8
+Iter    6 | Best = 1.7462e+00 | FEs = 28
+Iter   12 | Best = 7.4374e-01 | FEs = 52
+Iter   18 | Best = 7.3453e-01 | FEs = 76
+Iter   24 | Best = 7.3453e-01 | FEs = 100
+Iter   30 | Best = 6.7124e-01 | FEs = 124
+Iter   36 | Best = 6.5202e-01 | FEs = 148
+Iter   42 | Best = 6.2047e-01 | FEs = 172
+Iter   48 | Best = 4.0432e-01 | FEs = 196
+Iter   54 | Best = 2.9719e-01 | FEs = 220
+Iter    1 | Best = 1.1728e+00 | FEs = 8
+Iter    6 | Best = 2.4878e-01 | FEs = 28
+Iter   12 | Best = 2.2357e-01 | FEs = 52
+Iter   18 | Best = 1.6532e-01 | FEs = 76
+Iter   24 | Best = 1.6532e-01 | FEs = 100
+Iter   30 | Best = 1.6532e-01 | FEs = 124
+Iter   36 | Best = 1.6532e-01 | FEs = 148
+Iter   42 | Best = 1.1585e-01 | FEs = 172
+Iter   48 | Best = 7.5147e-02 | FEs = 196
+Iter   54 | Best = 4.3219e-02 | FEs = 220
+Iter    1 | Best = 7.4264e-01 | FEs = 8
+Iter    6 | Best = 1.3689e-01 | FEs = 28
+Iter   12 | Best = 4.4438e-02 | FEs = 52
+Iter   18 | Best = 4.3335e-02 | FEs = 76
+Iter   24 | Best = 4.3335e-02 | FEs = 100
+Iter   30 | Best = 4.3335e-02 | FEs = 124
+Iter   36 | Best = 4.3248e-02 | FEs = 148
+Iter   42 | Best = 4.3248e-02 | FEs = 172
+Iter   48 | Best = 4.3218e-02 | FEs = 196
+Iter   54 | Best = 4.3217e-02 | FEs = 220
+5 Iter    1 | Best = 2.4122e+03 | FEs = 8
+Iter    6 | Best = 6.2246e+00 | FEs = 28
+Iter   12 | Best = 3.3794e-01 | FEs = 52
+Iter   18 | Best = 3.2032e-01 | FEs = 76
+Iter   24 | Best = 3.2032e-01 | FEs = 100
+Iter   30 | Best = 3.1036e-01 | FEs = 124
+Iter   36 | Best = 3.1036e-01 | FEs = 148
+Iter   42 | Best = 3.0025e-01 | FEs = 172
+Iter   48 | Best = 2.9059e-01 | FEs = 196
+Iter   54 | Best = 2.9059e-01 | FEs = 220
+
+    Results: Min=4.3217e-02, Median=7.5147e-02, Mean=1.3964e-01, Std=1.1922e-01
+
+--- Algorithm: DE ---
+  Problem: E1: Two-Stage Miller Op-Amp (18D) - HARD (dim=18, MaxFEs=450, MaxIter=113)
+    Run: Iter    1 | Best = 1.0885e+06 | FEs = 8
+Iter   12 | Best = 1.0830e+06 | FEs = 52
+Iter   24 | Best = 1.0824e+06 | FEs = 100
+Iter   36 | Best = 1.0010e+06 | FEs = 148
+Iter   48 | Best = 1.0010e+06 | FEs = 196
+Iter   60 | Best = 1.0010e+06 | FEs = 244
+Iter   72 | Best = 1.0010e+06 | FEs = 292
+Iter   84 | Best = 1.0010e+06 | FEs = 340
+Iter   96 | Best = 1.0010e+06 | FEs = 388
+Iter  108 | Best = 1.0010e+06 | FEs = 436
+Iter    1 | Best = 1.0389e+06 | FEs = 8
+Iter   12 | Best = 1.0235e+06 | FEs = 52
+Iter   24 | Best = 1.0207e+06 | FEs = 100
+Iter   36 | Best = 1.0200e+06 | FEs = 148
+Iter   48 | Best = 1.0200e+06 | FEs = 196
+Iter   60 | Best = 1.0200e+06 | FEs = 244
+Iter   72 | Best = 1.0200e+06 | FEs = 292
+Iter   84 | Best = 1.0199e+06 | FEs = 340
+Iter   96 | Best = 1.0184e+06 | FEs = 388
+Iter  108 | Best = 1.0184e+06 | FEs = 436
+Iter    1 | Best = 1.0973e+06 | FEs = 8
+Iter   12 | Best = 1.0162e+06 | FEs = 52
+Iter   24 | Best = 1.0102e+06 | FEs = 100
+Iter   36 | Best = 1.0102e+06 | FEs = 148
+Iter   48 | Best = 1.0102e+06 | FEs = 196
+Iter   60 | Best = 1.0102e+06 | FEs = 244
+Iter   72 | Best = 1.0102e+06 | FEs = 292
+Iter   84 | Best = 1.0102e+06 | FEs = 340
+Iter   96 | Best = 1.0102e+06 | FEs = 388
+Iter  108 | Best = 1.0102e+06 | FEs = 436
+Iter    1 | Best = 1.1013e+06 | FEs = 8
+Iter   12 | Best = 1.0276e+06 | FEs = 52
+Iter   24 | Best = 1.0174e+06 | FEs = 100
+Iter   36 | Best = 1.0135e+06 | FEs = 148
+Iter   48 | Best = 1.0135e+06 | FEs = 196
+Iter   60 | Best = 1.0135e+06 | FEs = 244
+Iter   72 | Best = 1.0135e+06 | FEs = 292
+Iter   84 | Best = 1.0135e+06 | FEs = 340
+Iter   96 | Best = 1.0135e+06 | FEs = 388
+Iter  108 | Best = 1.0135e+06 | FEs = 436
+5 Iter    1 | Best = 1.0880e+06 | FEs = 8
+Iter   12 | Best = 1.0007e+06 | FEs = 52
+Iter   24 | Best = 1.0007e+06 | FEs = 100
+Iter   36 | Best = 1.0007e+06 | FEs = 148
+Iter   48 | Best = 1.0007e+06 | FEs = 196
+Iter   60 | Best = 1.0006e+06 | FEs = 244
+Iter   72 | Best = 1.0006e+06 | FEs = 292
+Iter   84 | Best = 1.0006e+06 | FEs = 340
+Iter   96 | Best = 1.0006e+06 | FEs = 388
+Iter  108 | Best = 1.0006e+06 | FEs = 436
+
+    Results: Min=1.0006e+06, Median=1.0102e+06, Mean=1.0087e+06, Std=7.8320e+03
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=300, MaxIter=75)
+    Run: Iter    1 | Best = 1.4287e+04 | FEs = 8
+Iter    8 | Best = 1.4287e+04 | FEs = 36
+Iter   16 | Best = 1.4146e+04 | FEs = 68
+Iter   24 | Best = 1.4136e+04 | FEs = 100
+Iter   32 | Best = 1.4136e+04 | FEs = 132
+Iter   40 | Best = 1.4132e+04 | FEs = 164
+Iter   48 | Best = 1.4130e+04 | FEs = 196
+Iter   56 | Best = 1.4130e+04 | FEs = 228
+Iter   64 | Best = 1.4129e+04 | FEs = 260
+Iter   72 | Best = 1.4129e+04 | FEs = 292
+Iter    1 | Best = 1.5773e+04 | FEs = 8
+Iter    8 | Best = 1.5207e+04 | FEs = 36
+Iter   16 | Best = 1.5081e+04 | FEs = 68
+Iter   24 | Best = 1.4226e+04 | FEs = 100
+Iter   32 | Best = 1.4196e+04 | FEs = 132
+Iter   40 | Best = 1.4196e+04 | FEs = 164
+Iter   48 | Best = 1.4190e+04 | FEs = 196
+Iter   56 | Best = 1.4189e+04 | FEs = 228
+Iter   64 | Best = 1.4189e+04 | FEs = 260
+Iter   72 | Best = 1.4188e+04 | FEs = 292
+Iter    1 | Best = 1.4741e+04 | FEs = 8
+Iter    8 | Best = 1.4203e+04 | FEs = 36
+Iter   16 | Best = 1.4203e+04 | FEs = 68
+Iter   24 | Best = 1.4157e+04 | FEs = 100
+Iter   32 | Best = 1.4152e+04 | FEs = 132
+Iter   40 | Best = 1.4149e+04 | FEs = 164
+Iter   48 | Best = 1.4145e+04 | FEs = 196
+Iter   56 | Best = 1.4145e+04 | FEs = 228
+Iter   64 | Best = 1.4144e+04 | FEs = 260
+Iter   72 | Best = 1.4144e+04 | FEs = 292
+Iter    1 | Best = 1.4400e+04 | FEs = 8
+Iter    8 | Best = 1.4149e+04 | FEs = 36
+Iter   16 | Best = 1.4144e+04 | FEs = 68
+Iter   24 | Best = 1.4144e+04 | FEs = 100
+Iter   32 | Best = 1.4140e+04 | FEs = 132
+Iter   40 | Best = 1.4137e+04 | FEs = 164
+Iter   48 | Best = 1.4132e+04 | FEs = 196
+Iter   56 | Best = 1.4132e+04 | FEs = 228
+Iter   64 | Best = 1.4130e+04 | FEs = 260
+Iter   72 | Best = 1.4129e+04 | FEs = 292
+5 Iter    1 | Best = 1.4656e+04 | FEs = 8
+Iter    8 | Best = 1.4152e+04 | FEs = 36
+Iter   16 | Best = 1.4152e+04 | FEs = 68
+Iter   24 | Best = 1.4150e+04 | FEs = 100
+Iter   32 | Best = 1.4149e+04 | FEs = 132
+Iter   40 | Best = 1.4148e+04 | FEs = 164
+Iter   48 | Best = 1.4147e+04 | FEs = 196
+Iter   56 | Best = 1.4146e+04 | FEs = 228
+Iter   64 | Best = 1.4146e+04 | FEs = 260
+Iter   72 | Best = 1.4146e+04 | FEs = 292
+
+    Results: Min=1.4129e+04, Median=1.4144e+04, Mean=1.4147e+04, Std=2.4029e+01
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=275, MaxIter=69)
+    Run: Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 1.0000e+12 | FEs = 88
+Iter   28 | Best = 1.0000e+12 | FEs = 116
+Iter   35 | Best = 1.0000e+12 | FEs = 144
+Iter   42 | Best = 1.0000e+12 | FEs = 172
+Iter   49 | Best = 1.0000e+12 | FEs = 200
+Iter   56 | Best = 1.0000e+12 | FEs = 228
+Iter   63 | Best = 1.0000e+12 | FEs = 256
+Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 5.7893e-01 | FEs = 32
+Iter   14 | Best = 5.7893e-01 | FEs = 60
+Iter   21 | Best = 5.7893e-01 | FEs = 88
+Iter   28 | Best = 1.5353e-01 | FEs = 116
+Iter   35 | Best = 1.5353e-01 | FEs = 144
+Iter   42 | Best = 7.8198e-02 | FEs = 172
+Iter   49 | Best = 7.8198e-02 | FEs = 200
+Iter   56 | Best = 7.8198e-02 | FEs = 228
+Iter   63 | Best = 7.8198e-02 | FEs = 256
+Iter    1 | Best = 3.5273e-01 | FEs = 8
+Iter    7 | Best = 3.5273e-01 | FEs = 32
+Iter   14 | Best = 3.5273e-01 | FEs = 60
+Iter   21 | Best = 2.1691e-02 | FEs = 88
+Iter   28 | Best = 2.1691e-02 | FEs = 116
+Iter   35 | Best = 2.0981e-02 | FEs = 144
+Iter   42 | Best = 1.8453e-02 | FEs = 172
+Iter   49 | Best = 1.7514e-02 | FEs = 200
+Iter   56 | Best = 1.6856e-02 | FEs = 228
+Iter   63 | Best = 1.6856e-02 | FEs = 256
+Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 1.0000e+12 | FEs = 88
+Iter   28 | Best = 1.0000e+12 | FEs = 116
+Iter   35 | Best = 1.0000e+12 | FEs = 144
+Iter   42 | Best = 1.0000e+12 | FEs = 172
+Iter   49 | Best = 1.0000e+12 | FEs = 200
+Iter   56 | Best = 1.0000e+12 | FEs = 228
+Iter   63 | Best = 1.0000e+12 | FEs = 256
+5 Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 1.0000e+12 | FEs = 88
+Iter   28 | Best = 1.0000e+12 | FEs = 116
+Iter   35 | Best = 1.0000e+12 | FEs = 144
+Iter   42 | Best = 1.0000e+12 | FEs = 172
+Iter   49 | Best = 1.0000e+12 | FEs = 200
+Iter   56 | Best = 1.0000e+12 | FEs = 228
+Iter   63 | Best = 1.0000e+12 | FEs = 256
+
+    Results: Min=1.6856e-02, Median=1.0000e+12, Mean=6.0000e+11, Std=5.4772e+11
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=225, MaxIter=57)
+    Run: Iter    1 | Best = 1.7924e+01 | FEs = 8
+Iter    6 | Best = 2.4715e+00 | FEs = 28
+Iter   12 | Best = 5.5650e-01 | FEs = 52
+Iter   18 | Best = 4.4474e-01 | FEs = 76
+Iter   24 | Best = 4.4474e-01 | FEs = 100
+Iter   30 | Best = 4.4411e-01 | FEs = 124
+Iter   36 | Best = 4.1751e-01 | FEs = 148
+Iter   42 | Best = 2.0013e-01 | FEs = 172
+Iter   48 | Best = 1.1677e-01 | FEs = 196
+Iter   54 | Best = 4.3218e-02 | FEs = 220
+Iter    1 | Best = 1.8052e+02 | FEs = 8
+Iter    6 | Best = 1.2043e+00 | FEs = 28
+Iter   12 | Best = 1.1614e+00 | FEs = 52
+Iter   18 | Best = 1.1310e+00 | FEs = 76
+Iter   24 | Best = 1.1163e+00 | FEs = 100
+Iter   30 | Best = 1.1155e+00 | FEs = 124
+Iter   36 | Best = 1.1154e+00 | FEs = 148
+Iter   42 | Best = 1.1154e+00 | FEs = 172
+Iter   48 | Best = 1.1150e+00 | FEs = 196
+Iter   54 | Best = 1.1147e+00 | FEs = 220
+Iter    1 | Best = 4.6324e+02 | FEs = 8
+Iter    6 | Best = 3.5209e+01 | FEs = 28
+Iter   12 | Best = 1.0714e+00 | FEs = 52
+Iter   18 | Best = 4.6016e-01 | FEs = 76
+Iter   24 | Best = 3.0655e-01 | FEs = 100
+Iter   30 | Best = 6.3541e-02 | FEs = 124
+Iter   36 | Best = 2.0066e-02 | FEs = 148
+Iter   42 | Best = 2.0064e-02 | FEs = 172
+Iter   48 | Best = 2.0064e-02 | FEs = 196
+Iter   54 | Best = 2.0064e-02 | FEs = 220
+Iter    1 | Best = 9.6529e+01 | FEs = 8
+Iter    6 | Best = 7.0659e+00 | FEs = 28
+Iter   12 | Best = 6.1516e-01 | FEs = 52
+Iter   18 | Best = 6.1467e-01 | FEs = 76
+Iter   24 | Best = 6.1390e-01 | FEs = 100
+Iter   30 | Best = 6.1373e-01 | FEs = 124
+Iter   36 | Best = 3.7612e-01 | FEs = 148
+Iter   42 | Best = 3.0050e-01 | FEs = 172
+Iter   48 | Best = 2.8480e-01 | FEs = 196
+Iter   54 | Best = 2.5130e-01 | FEs = 220
+5 Iter    1 | Best = 3.5817e-01 | FEs = 8
+Iter    6 | Best = 1.8215e-01 | FEs = 28
+Iter   12 | Best = 1.8215e-01 | FEs = 52
+Iter   18 | Best = 1.8104e-01 | FEs = 76
+Iter   24 | Best = 1.7673e-01 | FEs = 100
+Iter   30 | Best = 1.7507e-01 | FEs = 124
+Iter   36 | Best = 1.7303e-01 | FEs = 148
+Iter   42 | Best = 1.7303e-01 | FEs = 172
+Iter   48 | Best = 1.7205e-01 | FEs = 196
+Iter   54 | Best = 1.7166e-01 | FEs = 220
+
+    Results: Min=2.0064e-02, Median=1.7135e-01, Mean=3.2012e-01, Std=4.5412e-01
+
+--- Algorithm: WOA ---
+  Problem: E1: Two-Stage Miller Op-Amp (18D) - HARD (dim=18, MaxFEs=450, MaxIter=113)
+    Run: Iter    1 | Best = 1.0851e+06 | FEs = 8
+Iter   12 | Best = 1.0000e+06 | FEs = 52
+Iter   24 | Best = 1.0000e+06 | FEs = 100
+Iter   36 | Best = 1.0000e+06 | FEs = 148
+Iter   48 | Best = 1.0000e+06 | FEs = 196
+Iter   60 | Best = 1.0000e+06 | FEs = 244
+Iter   72 | Best = 1.0000e+06 | FEs = 292
+Iter   84 | Best = 1.0000e+06 | FEs = 340
+Iter   96 | Best = 1.0000e+06 | FEs = 388
+Iter  108 | Best = 1.0000e+06 | FEs = 436
+Iter    1 | Best = 1.2292e+06 | FEs = 8
+Iter   12 | Best = 1.0887e+06 | FEs = 52
+Iter   24 | Best = 1.0307e+06 | FEs = 100
+Iter   36 | Best = 1.0302e+06 | FEs = 148
+Iter   48 | Best = 1.0302e+06 | FEs = 196
+Iter   60 | Best = 1.0302e+06 | FEs = 244
+Iter   72 | Best = 1.0302e+06 | FEs = 292
+Iter   84 | Best = 1.0302e+06 | FEs = 340
+Iter   96 | Best = 1.0302e+06 | FEs = 388
+Iter  108 | Best = 1.0302e+06 | FEs = 436
+Iter    1 | Best = 1.1814e+06 | FEs = 8
+Iter   12 | Best = 1.0013e+06 | FEs = 52
+Iter   24 | Best = 1.0013e+06 | FEs = 100
+Iter   36 | Best = 1.0012e+06 | FEs = 148
+Iter   48 | Best = 1.0010e+06 | FEs = 196
+Iter   60 | Best = 1.0010e+06 | FEs = 244
+Iter   72 | Best = 1.0010e+06 | FEs = 292
+Iter   84 | Best = 1.0010e+06 | FEs = 340
+Iter   96 | Best = 1.0009e+06 | FEs = 388
+Iter  108 | Best = 1.0009e+06 | FEs = 436
+Iter    1 | Best = 1.1569e+06 | FEs = 8
+Iter   12 | Best = 1.0000e+06 | FEs = 52
+Iter   24 | Best = 1.0000e+06 | FEs = 100
+Iter   36 | Best = 1.0000e+06 | FEs = 148
+Iter   48 | Best = 1.0000e+06 | FEs = 196
+Iter   60 | Best = 1.0000e+06 | FEs = 244
+Iter   72 | Best = 1.0000e+06 | FEs = 292
+Iter   84 | Best = 1.0000e+06 | FEs = 340
+Iter   96 | Best = 1.0000e+06 | FEs = 388
+Iter  108 | Best = 1.0000e+06 | FEs = 436
+5 Iter    1 | Best = 1.0843e+06 | FEs = 8
+Iter   12 | Best = 1.0000e+06 | FEs = 52
+Iter   24 | Best = 1.0000e+06 | FEs = 100
+Iter   36 | Best = 1.0000e+06 | FEs = 148
+Iter   48 | Best = 1.0000e+06 | FEs = 196
+Iter   60 | Best = 1.0000e+06 | FEs = 244
+Iter   72 | Best = 1.0000e+06 | FEs = 292
+Iter   84 | Best = 1.0000e+06 | FEs = 340
+Iter   96 | Best = 1.0000e+06 | FEs = 388
+Iter  108 | Best = 1.0000e+06 | FEs = 436
+
+    Results: Min=1.0000e+06, Median=1.0000e+06, Mean=1.0062e+06, Std=1.3404e+04
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=300, MaxIter=75)
+    Run: Iter    1 | Best = 1.4921e+04 | FEs = 8
+Iter    8 | Best = 1.4340e+04 | FEs = 36
+Iter   16 | Best = 1.4339e+04 | FEs = 68
+Iter   24 | Best = 1.4339e+04 | FEs = 100
+Iter   32 | Best = 1.4339e+04 | FEs = 132
+Iter   40 | Best = 1.4339e+04 | FEs = 164
+Iter   48 | Best = 1.4339e+04 | FEs = 196
+Iter   56 | Best = 1.4339e+04 | FEs = 228
+Iter   64 | Best = 1.4339e+04 | FEs = 260
+Iter   72 | Best = 1.4339e+04 | FEs = 292
+Iter    1 | Best = 1.5843e+04 | FEs = 8
+Iter    8 | Best = 1.4573e+04 | FEs = 36
+Iter   16 | Best = 1.4470e+04 | FEs = 68
+Iter   24 | Best = 1.4362e+04 | FEs = 100
+Iter   32 | Best = 1.4351e+04 | FEs = 132
+Iter   40 | Best = 1.4351e+04 | FEs = 164
+Iter   48 | Best = 1.4351e+04 | FEs = 196
+Iter   56 | Best = 1.4351e+04 | FEs = 228
+Iter   64 | Best = 1.4351e+04 | FEs = 260
+Iter   72 | Best = 1.4351e+04 | FEs = 292
+Iter    1 | Best = 1.4363e+04 | FEs = 8
+Iter    8 | Best = 1.4308e+04 | FEs = 36
+Iter   16 | Best = 1.4307e+04 | FEs = 68
+Iter   24 | Best = 1.4307e+04 | FEs = 100
+Iter   32 | Best = 1.4307e+04 | FEs = 132
+Iter   40 | Best = 1.4307e+04 | FEs = 164
+Iter   48 | Best = 1.4307e+04 | FEs = 196
+Iter   56 | Best = 1.4307e+04 | FEs = 228
+Iter   64 | Best = 1.4307e+04 | FEs = 260
+Iter   72 | Best = 1.4307e+04 | FEs = 292
+Iter    1 | Best = 1.4739e+04 | FEs = 8
+Iter    8 | Best = 1.4422e+04 | FEs = 36
+Iter   16 | Best = 1.4360e+04 | FEs = 68
+Iter   24 | Best = 1.4341e+04 | FEs = 100
+Iter   32 | Best = 1.4340e+04 | FEs = 132
+Iter   40 | Best = 1.4340e+04 | FEs = 164
+Iter   48 | Best = 1.4340e+04 | FEs = 196
+Iter   56 | Best = 1.4339e+04 | FEs = 228
+Iter   64 | Best = 1.4339e+04 | FEs = 260
+Iter   72 | Best = 1.4339e+04 | FEs = 292
+5 Iter    1 | Best = 1.4847e+04 | FEs = 8
+Iter    8 | Best = 1.4354e+04 | FEs = 36
+Iter   16 | Best = 1.4341e+04 | FEs = 68
+Iter   24 | Best = 1.4340e+04 | FEs = 100
+Iter   32 | Best = 1.4312e+04 | FEs = 132
+Iter   40 | Best = 1.4312e+04 | FEs = 164
+Iter   48 | Best = 1.4311e+04 | FEs = 196
+Iter   56 | Best = 1.4311e+04 | FEs = 228
+Iter   64 | Best = 1.4311e+04 | FEs = 260
+Iter   72 | Best = 1.4311e+04 | FEs = 292
+
+    Results: Min=1.4307e+04, Median=1.4339e+04, Mean=1.4330e+04, Std=1.9266e+01
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=275, MaxIter=69)
+    Run: Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 1.0000e+12 | FEs = 88
+Iter   28 | Best = 1.0000e+12 | FEs = 116
+Iter   35 | Best = 1.0000e+12 | FEs = 144
+Iter   42 | Best = 1.0000e+12 | FEs = 172
+Iter   49 | Best = 1.0000e+12 | FEs = 200
+Iter   56 | Best = 1.0000e+12 | FEs = 228
+Iter   63 | Best = 1.0000e+12 | FEs = 256
+Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 1.0000e+12 | FEs = 88
+Iter   28 | Best = 1.0000e+12 | FEs = 116
+Iter   35 | Best = 1.0000e+12 | FEs = 144
+Iter   42 | Best = 1.0000e+12 | FEs = 172
+Iter   49 | Best = 1.0000e+12 | FEs = 200
+Iter   56 | Best = 1.0000e+12 | FEs = 228
+Iter   63 | Best = 1.0000e+12 | FEs = 256
+Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 2.4419e-02 | FEs = 32
+Iter   14 | Best = 2.4271e-02 | FEs = 60
+Iter   21 | Best = 2.4261e-02 | FEs = 88
+Iter   28 | Best = 2.4239e-02 | FEs = 116
+Iter   35 | Best = 2.4199e-02 | FEs = 144
+Iter   42 | Best = 2.3936e-02 | FEs = 172
+Iter   49 | Best = 2.3936e-02 | FEs = 200
+Iter   56 | Best = 2.3936e-02 | FEs = 228
+Iter   63 | Best = 2.3930e-02 | FEs = 256
+Iter    1 | Best = 3.7556e-02 | FEs = 8
+Iter    7 | Best = 3.1995e-02 | FEs = 32
+Iter   14 | Best = 3.1698e-02 | FEs = 60
+Iter   21 | Best = 3.1698e-02 | FEs = 88
+Iter   28 | Best = 3.1677e-02 | FEs = 116
+Iter   35 | Best = 3.1677e-02 | FEs = 144
+Iter   42 | Best = 3.1622e-02 | FEs = 172
+Iter   49 | Best = 3.1622e-02 | FEs = 200
+Iter   56 | Best = 3.1622e-02 | FEs = 228
+Iter   63 | Best = 3.1391e-02 | FEs = 256
+5 Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.0000e+12 | FEs = 32
+Iter   14 | Best = 1.0000e+12 | FEs = 60
+Iter   21 | Best = 1.0000e+12 | FEs = 88
+Iter   28 | Best = 1.0000e+12 | FEs = 116
+Iter   35 | Best = 1.0000e+12 | FEs = 144
+Iter   42 | Best = 1.0000e+12 | FEs = 172
+Iter   49 | Best = 1.0000e+12 | FEs = 200
+Iter   56 | Best = 1.0000e+12 | FEs = 228
+Iter   63 | Best = 1.0000e+12 | FEs = 256
+
+    Results: Min=2.3929e-02, Median=1.0000e+12, Mean=6.0000e+11, Std=5.4772e+11
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=225, MaxIter=57)
+    Run: Iter    1 | Best = 3.4550e+02 | FEs = 8
+Iter    6 | Best = 1.4678e+01 | FEs = 28
+Iter   12 | Best = 1.1324e+01 | FEs = 52
+Iter   18 | Best = 1.1255e+01 | FEs = 76
+Iter   24 | Best = 1.1112e+01 | FEs = 100
+Iter   30 | Best = 1.0978e+01 | FEs = 124
+Iter   36 | Best = 4.5979e+00 | FEs = 148
+Iter   42 | Best = 4.5979e+00 | FEs = 172
+Iter   48 | Best = 4.5798e+00 | FEs = 196
+Iter   54 | Best = 4.5637e+00 | FEs = 220
+Iter    1 | Best = 5.1526e+00 | FEs = 8
+Iter    6 | Best = 2.1250e+00 | FEs = 28
+Iter   12 | Best = 2.1250e+00 | FEs = 52
+Iter   18 | Best = 2.1250e+00 | FEs = 76
+Iter   24 | Best = 2.0378e+00 | FEs = 100
+Iter   30 | Best = 2.0260e+00 | FEs = 124
+Iter   36 | Best = 1.9947e+00 | FEs = 148
+Iter   42 | Best = 1.8698e+00 | FEs = 172
+Iter   48 | Best = 1.8698e+00 | FEs = 196
+Iter   54 | Best = 1.8698e+00 | FEs = 220
+Iter    1 | Best = 7.6403e+00 | FEs = 8
+Iter    6 | Best = 4.8745e+00 | FEs = 28
+Iter   12 | Best = 1.2814e+00 | FEs = 52
+Iter   18 | Best = 8.7672e-01 | FEs = 76
+Iter   24 | Best = 8.7672e-01 | FEs = 100
+Iter   30 | Best = 8.0710e-01 | FEs = 124
+Iter   36 | Best = 8.0710e-01 | FEs = 148
+Iter   42 | Best = 8.0710e-01 | FEs = 172
+Iter   48 | Best = 8.0265e-01 | FEs = 196
+Iter   54 | Best = 8.0193e-01 | FEs = 220
+Iter    1 | Best = 4.6472e+02 | FEs = 8
+Iter    6 | Best = 5.6568e+01 | FEs = 28
+Iter   12 | Best = 3.0881e+01 | FEs = 52
+Iter   18 | Best = 3.0766e+01 | FEs = 76
+Iter   24 | Best = 3.0629e+01 | FEs = 100
+Iter   30 | Best = 3.0563e+01 | FEs = 124
+Iter   36 | Best = 3.0563e+01 | FEs = 148
+Iter   42 | Best = 3.0563e+01 | FEs = 172
+Iter   48 | Best = 3.0539e+01 | FEs = 196
+Iter   54 | Best = 3.0533e+01 | FEs = 220
+5 Iter    1 | Best = 6.6595e+00 | FEs = 8
+Iter    6 | Best = 3.3253e+00 | FEs = 28
+Iter   12 | Best = 3.3047e+00 | FEs = 52
+Iter   18 | Best = 3.3047e+00 | FEs = 76
+Iter   24 | Best = 3.3047e+00 | FEs = 100
+Iter   30 | Best = 2.5900e+00 | FEs = 124
+Iter   36 | Best = 2.5900e+00 | FEs = 148
+Iter   42 | Best = 2.5248e+00 | FEs = 172
+Iter   48 | Best = 2.5121e+00 | FEs = 196
+Iter   54 | Best = 2.4743e+00 | FEs = 220
+
+    Results: Min=8.0193e-01, Median=2.4743e+00, Mean=8.0483e+00, Std=1.2644e+01
+
+--- Algorithm: HHO ---
+  Problem: E1: Two-Stage Miller Op-Amp (18D) - HARD (dim=18, MaxFEs=450, MaxIter=113)
+    Run: Iter    1 | Best = 1.0270e+06 | FEs = 8
+Iter   12 | Best = 1.0269e+06 | FEs = 57
+Iter   24 | Best = 1.0269e+06 | FEs = 121
+Iter   36 | Best = 1.0268e+06 | FEs = 181
+Iter   48 | Best = 1.0268e+06 | FEs = 247
+Iter   60 | Best = 1.0268e+06 | FEs = 317
+Iter   72 | Best = 1.0268e+06 | FEs = 384
+Iter   84 | Best = 1.0268e+06 | FEs = 450
+Iter    1 | Best = 1.2191e+06 | FEs = 8
+Iter   12 | Best = 1.0018e+06 | FEs = 54
+Iter   24 | Best = 1.0018e+06 | FEs = 120
+Iter   36 | Best = 1.0018e+06 | FEs = 181
+Iter   48 | Best = 1.0018e+06 | FEs = 245
+Iter   60 | Best = 1.0018e+06 | FEs = 308
+Iter   72 | Best = 1.0018e+06 | FEs = 374
+Iter   84 | Best = 1.0010e+06 | FEs = 443
+Iter    1 | Best = 1.0832e+06 | FEs = 8
+Iter   12 | Best = 1.0819e+06 | FEs = 52
+Iter   24 | Best = 1.0076e+06 | FEs = 114
+Iter   36 | Best = 1.0076e+06 | FEs = 181
+Iter   48 | Best = 1.0059e+06 | FEs = 241
+Iter   60 | Best = 1.0016e+06 | FEs = 312
+Iter   72 | Best = 1.0014e+06 | FEs = 384
+Iter   84 | Best = 1.0014e+06 | FEs = 449
+Iter    1 | Best = 1.0907e+06 | FEs = 8
+Iter   12 | Best = 1.0054e+06 | FEs = 64
+Iter   24 | Best = 1.0032e+06 | FEs = 117
+Iter   36 | Best = 1.0025e+06 | FEs = 171
+Iter   48 | Best = 1.0025e+06 | FEs = 226
+Iter   60 | Best = 1.0025e+06 | FEs = 294
+Iter   72 | Best = 1.0025e+06 | FEs = 368
+Iter   84 | Best = 1.0025e+06 | FEs = 435
+5 Iter    1 | Best = 1.2300e+06 | FEs = 8
+Iter   12 | Best = 1.0398e+06 | FEs = 58
+Iter   24 | Best = 1.0190e+06 | FEs = 117
+Iter   36 | Best = 1.0188e+06 | FEs = 174
+Iter   48 | Best = 1.0188e+06 | FEs = 229
+Iter   60 | Best = 1.0187e+06 | FEs = 295
+Iter   72 | Best = 1.0187e+06 | FEs = 366
+Iter   84 | Best = 1.0187e+06 | FEs = 437
+
+    Results: Min=1.0010e+06, Median=1.0025e+06, Mean=1.0101e+06, Std=1.1951e+04
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=300, MaxIter=75)
+    Run: Iter    1 | Best = 1.4726e+04 | FEs = 9
+Iter    8 | Best = 1.4696e+04 | FEs = 40
+Iter   16 | Best = 1.4566e+04 | FEs = 79
+Iter   24 | Best = 1.4518e+04 | FEs = 119
+Iter   32 | Best = 1.4508e+04 | FEs = 163
+Iter   40 | Best = 1.4508e+04 | FEs = 212
+Iter   48 | Best = 1.4508e+04 | FEs = 257
+Iter   56 | Best = 1.4363e+04 | FEs = 301
+Iter    1 | Best = 1.4967e+04 | FEs = 8
+Iter    8 | Best = 1.4335e+04 | FEs = 37
+Iter   16 | Best = 1.4333e+04 | FEs = 76
+Iter   24 | Best = 1.4333e+04 | FEs = 111
+Iter   32 | Best = 1.4333e+04 | FEs = 154
+Iter   40 | Best = 1.4333e+04 | FEs = 204
+Iter   48 | Best = 1.4333e+04 | FEs = 251
+Iter   56 | Best = 1.4333e+04 | FEs = 298
+Iter    1 | Best = 1.6096e+04 | FEs = 8
+Iter    8 | Best = 1.4538e+04 | FEs = 38
+Iter   16 | Best = 1.4345e+04 | FEs = 76
+Iter   24 | Best = 1.4345e+04 | FEs = 115
+Iter   32 | Best = 1.4345e+04 | FEs = 156
+Iter   40 | Best = 1.4345e+04 | FEs = 199
+Iter   48 | Best = 1.4345e+04 | FEs = 244
+Iter   56 | Best = 1.4345e+04 | FEs = 288
+Iter    1 | Best = 1.8227e+04 | FEs = 8
+Iter    8 | Best = 1.6893e+04 | FEs = 35
+Iter   16 | Best = 1.4713e+04 | FEs = 67
+Iter   24 | Best = 1.4712e+04 | FEs = 105
+Iter   32 | Best = 1.4513e+04 | FEs = 145
+Iter   40 | Best = 1.4513e+04 | FEs = 186
+Iter   48 | Best = 1.4513e+04 | FEs = 231
+Iter   56 | Best = 1.4513e+04 | FEs = 279
+5 Iter    1 | Best = 1.4581e+04 | FEs = 8
+Iter    8 | Best = 1.4548e+04 | FEs = 42
+Iter   16 | Best = 1.4548e+04 | FEs = 76
+Iter   24 | Best = 1.4548e+04 | FEs = 117
+Iter   32 | Best = 1.4548e+04 | FEs = 157
+Iter   40 | Best = 1.4547e+04 | FEs = 202
+Iter   48 | Best = 1.4547e+04 | FEs = 247
+Iter   56 | Best = 1.4436e+04 | FEs = 293
+
+    Results: Min=1.4333e+04, Median=1.4363e+04, Mean=1.4397e+04, Std=7.5355e+01
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=275, MaxIter=69)
+    Run: Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 1.4580e+00 | FEs = 40
+Iter   14 | Best = 1.4577e+00 | FEs = 73
+Iter   21 | Best = 1.4577e+00 | FEs = 110
+Iter   28 | Best = 1.4530e+00 | FEs = 149
+Iter   35 | Best = 1.4530e+00 | FEs = 190
+Iter   42 | Best = 1.4530e+00 | FEs = 228
+Iter   49 | Best = 1.4530e+00 | FEs = 267
+Iter    1 | Best = 1.4735e+00 | FEs = 8
+Iter    7 | Best = 1.4735e+00 | FEs = 34
+Iter   14 | Best = 1.4735e+00 | FEs = 71
+Iter   21 | Best = 1.4735e+00 | FEs = 103
+Iter   28 | Best = 4.5897e-01 | FEs = 139
+Iter   35 | Best = 1.4102e-01 | FEs = 167
+Iter   42 | Best = 1.4102e-01 | FEs = 206
+Iter   49 | Best = 1.4102e-01 | FEs = 241
+Iter    1 | Best = 1.0000e+12 | FEs = 10
+Iter    7 | Best = 1.0000e+12 | FEs = 35
+Iter   14 | Best = 2.5221e+02 | FEs = 69
+Iter   21 | Best = 1.6955e+01 | FEs = 112
+Iter   28 | Best = 2.8211e-01 | FEs = 143
+Iter   35 | Best = 2.6020e-01 | FEs = 183
+Iter   42 | Best = 2.6008e-01 | FEs = 222
+Iter   49 | Best = 2.5919e-01 | FEs = 258
+Iter    1 | Best = 5.1970e-01 | FEs = 9
+Iter    7 | Best = 3.7037e-01 | FEs = 36
+Iter   14 | Best = 3.5432e-01 | FEs = 67
+Iter   21 | Best = 3.1741e-01 | FEs = 100
+Iter   28 | Best = 3.0482e-01 | FEs = 133
+Iter   35 | Best = 3.0266e-01 | FEs = 175
+Iter   42 | Best = 3.0266e-01 | FEs = 213
+Iter   49 | Best = 3.0257e-01 | FEs = 253
+5 Iter    1 | Best = 1.0000e+12 | FEs = 8
+Iter    7 | Best = 3.7001e+00 | FEs = 37
+Iter   14 | Best = 3.7001e+00 | FEs = 66
+Iter   21 | Best = 2.6167e+00 | FEs = 104
+Iter   28 | Best = 2.6167e+00 | FEs = 147
+Iter   35 | Best = 2.6167e+00 | FEs = 185
+Iter   42 | Best = 2.6167e+00 | FEs = 226
+Iter   49 | Best = 4.8863e-01 | FEs = 264
+
+    Results: Min=1.2508e-01, Median=3.0256e-01, Mean=5.1937e-01, Std=5.3395e-01
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=225, MaxIter=57)
+    Run: Iter    1 | Best = 5.6047e+02 | FEs = 7
+Iter    6 | Best = 3.7402e+02 | FEs = 28
+Iter   12 | Best = 2.2686e+02 | FEs = 58
+Iter   18 | Best = 5.7352e+01 | FEs = 84
+Iter   24 | Best = 3.0747e+01 | FEs = 119
+Iter   30 | Best = 3.0747e+01 | FEs = 153
+Iter   36 | Best = 3.0353e+01 | FEs = 187
+Iter   42 | Best = 2.9563e+01 | FEs = 220
+Iter    1 | Best = 9.6462e+00 | FEs = 8
+Iter    6 | Best = 9.6229e+00 | FEs = 35
+Iter   12 | Best = 7.1053e+00 | FEs = 60
+Iter   18 | Best = 7.1028e+00 | FEs = 87
+Iter   24 | Best = 7.1028e+00 | FEs = 122
+Iter   30 | Best = 7.1028e+00 | FEs = 156
+Iter   36 | Best = 6.8338e+00 | FEs = 191
+Iter   42 | Best = 6.8294e+00 | FEs = 222
+Iter    1 | Best = 1.8424e+02 | FEs = 8
+Iter    6 | Best = 6.4339e+01 | FEs = 34
+Iter   12 | Best = 6.3391e+01 | FEs = 62
+Iter   18 | Best = 1.1485e+01 | FEs = 91
+Iter   24 | Best = 1.1485e+01 | FEs = 120
+Iter   30 | Best = 1.1485e+01 | FEs = 146
+Iter   36 | Best = 6.3567e-01 | FEs = 176
+Iter   42 | Best = 5.4768e-01 | FEs = 209
+Iter    1 | Best = 1.1376e+01 | FEs = 8
+Iter    6 | Best = 2.5567e+00 | FEs = 30
+Iter   12 | Best = 2.3760e+00 | FEs = 59
+Iter   18 | Best = 2.3757e+00 | FEs = 86
+Iter   24 | Best = 2.3663e+00 | FEs = 115
+Iter   30 | Best = 2.3653e+00 | FEs = 151
+Iter   36 | Best = 2.3653e+00 | FEs = 181
+Iter   42 | Best = 2.3653e+00 | FEs = 215
+5 Iter    1 | Best = 2.6229e+00 | FEs = 10
+Iter    6 | Best = 2.6038e+00 | FEs = 34
+Iter   12 | Best = 2.3740e+00 | FEs = 66
+Iter   18 | Best = 2.3489e+00 | FEs = 96
+Iter   24 | Best = 7.6408e-01 | FEs = 126
+Iter   30 | Best = 7.5442e-01 | FEs = 159
+Iter   36 | Best = 7.5360e-01 | FEs = 190
+Iter   42 | Best = 7.2703e-01 | FEs = 217
+
+    Results: Min=5.4752e-01, Median=2.3653e+00, Mean=8.0061e+00, Std=1.2313e+01
+
+========================================
+OPTIMIZATION COMPLETED
+========================================
+
+
+========================================
+EXTRACTING PHYSICAL PARAMETERS FOR ALL CIRCUITS
+========================================
+
+Processing Problem P1 (E1: Two-Stage Miller Op-Amp (18D) - HARD)...
+  Algorithm CMA_ES: 5 valid runs, 0 failed runs
+  Algorithm AVOA: 5 valid runs, 0 failed runs
+  Algorithm RUN: 5 valid runs, 0 failed runs
+  Algorithm L_SHADE: 5 valid runs, 0 failed runs
+  Algorithm KDO: 5 valid runs, 0 failed runs
+  Algorithm DE: 5 valid runs, 0 failed runs
+  Algorithm WOA: 5 valid runs, 0 failed runs
+  Algorithm HHO: 5 valid runs, 0 failed runs
+
+--- E1: Two-Stage Miller Op-Amp (18D) - HARD ---
+Algorithm     Gain (dB)       GBW (MHz)       PM (deg)        SR (V/us)       Power (mW)      ICMR (V)        Output Swing (V)
+----------------------------------------------------------------------------------------------------------------------------
+CMA_ES               99.6643        116.1258         33.8779         26.9827          0.5240          0.0748          0.6276
+AVOA                 86.0065        138.3275         34.4258         98.0164          1.6318          0.0932          0.5917
+RUN                  73.0428         37.2695         54.1600         61.1852          1.9077          0.4670          0.5107
+L_SHADE              87.9310       1781.6356         39.4848       1358.9379          1.8465          0.0840          0.5010
+\textbf{KDO       }         81.2941         37.0365         36.8848         42.0753          1.4901          0.1267          0.3540
+DE                   74.2472         44.2394         52.0943        115.7240          1.6195          0.3142          0.4574
+WOA                  82.0625        103.0484         45.0000        494.2808          1.8009          0.2358          0.2558
+HHO                  82.1549        397.1751         43.3954        405.2513          1.5867          0.1274          0.4012
+
+Processing Problem P2 (E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise)...
+  Algorithm CMA_ES: 5 valid runs, 0 failed runs
+  Algorithm AVOA: 5 valid runs, 0 failed runs
+  Algorithm RUN: 5 valid runs, 0 failed runs
+  Algorithm L_SHADE: 5 valid runs, 0 failed runs
+  Algorithm KDO: 5 valid runs, 0 failed runs
+  Algorithm DE: 5 valid runs, 0 failed runs
+  Algorithm WOA: 5 valid runs, 0 failed runs
+  Algorithm HHO: 5 valid runs, 0 failed runs
+
+--- E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise ---
+Algorithm     Gain (dB)       NF (dB)         S11 (dB)        S22 (dB)        Power (mW)      Yield (%)     
+------------------------------------------------------------------------------------------------------------
+CMA_ES                8.6789          1.0000         -3.5630         -0.2308          3.0612          0.0000
+AVOA                  0.0000          1.0000         -4.2295         -0.3188          3.4778          0.0000
+RUN                   4.9188          1.0000         -2.6480         -0.2567          3.7528          0.0000
+L_SHADE               2.3679          1.0000         -2.9807         -0.2587          2.4905          0.0000
+\textbf{KDO       }          9.4427          1.0000         -3.8661         -0.2669          3.0262          0.0000
+DE                    5.3476          1.0000         -1.6407         -0.3200          3.7968          0.0000
+WOA                   0.0000          1.0000         -9.4797         -0.3813          7.1315          0.0000
+HHO                   3.0175          1.0000         -0.6322         -0.3088          5.3210          0.0000
+
+Processing Problem P3 (E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD)...
+  Algorithm CMA_ES: 5 valid runs, 0 failed runs
+  Algorithm AVOA: 5 valid runs, 0 failed runs
+  Algorithm RUN: 5 valid runs, 0 failed runs
+  Algorithm L_SHADE: 5 valid runs, 0 failed runs
+  Algorithm KDO: 5 valid runs, 0 failed runs
+  Algorithm DE: 5 valid runs, 0 failed runs
+  Algorithm WOA: 5 valid runs, 0 failed runs
+  Algorithm HHO: 5 valid runs, 0 failed runs
+
+--- E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD ---
+Algorithm     f_osc (GHz)     PN (dBc/Hz)     Power (mW)      TR (%)          FOM (dB)      
+--------------------------------------------------------------------------------------------
+CMA_ES                2.5143       -129.6021          6.1709         38.3853        -71.0926
+AVOA                  1.8288       -131.7324          6.1864         39.7306        -74.4937
+RUN                   1.6303       -129.9787          4.6303         34.9028        -72.3152
+L_SHADE               2.1805       -122.3904          3.1886         45.1307        -59.7040
+\textbf{KDO       }          2.5856       -120.2607          2.8547         41.8568        -55.6845
+DE                    1.9581       -127.0031          4.1118         38.2032        -67.0159
+WOA                   1.9869       -125.0398          2.7512         41.0375        -63.2839
+HHO                   2.9793       -122.5001          5.0380         42.8121        -58.9032
+
+Processing Problem P4 (E4: Robust 6T FinFET SRAM Cell (9D) - HARD)...
+  Algorithm CMA_ES: 5 valid runs, 0 failed runs
+  Algorithm AVOA: 5 valid runs, 0 failed runs
+  Algorithm RUN: 5 valid runs, 0 failed runs
+  Algorithm L_SHADE: 5 valid runs, 0 failed runs
+  Algorithm KDO: 5 valid runs, 0 failed runs
+  Algorithm DE: 5 valid runs, 0 failed runs
+  Algorithm WOA: 5 valid runs, 0 failed runs
+  Algorithm HHO: 5 valid runs, 0 failed runs
+
+--- E4: Robust 6T FinFET SRAM Cell (9D) - HARD ---
+Algorithm     SNM (mV)        Yield (%)       I_leak (nA)     Area (um^2)     CR              PR            
+------------------------------------------------------------------------------------------------------------
+CMA_ES              165.4882         64.2000          4.8704          0.0193          1.2062          0.2297
+AVOA                129.7015         25.0000          3.6324          0.0172          0.9831          0.2723
+RUN                 162.9297         80.9000          3.1496          0.0162          1.7266          0.2977
+L_SHADE             171.7585         70.2000          3.9607          0.0172          3.9707          0.3577
+\textbf{KDO       }        186.3349         99.6000          2.8552          0.0111          3.7831          0.2635
+DE                  167.9945         67.9000          1.9667          0.0111          1.6095          0.1733
+WOA                 160.3908         43.4000          5.7005          0.0265          1.5870          0.3279
+HHO                 156.0448         54.1000          4.0704          0.0255          1.3228          0.4236
+
+Physical parameters saved to: Results_Electronics_Hard\2026-08-24_00-10-07\Raw_Data\Physical_Parameters.mat
+
+========================================
+SPICE VALIDATION TABLE (TO BE COMPLETED)
+========================================
+
+The following table compares MATLAB model predictions with SPICE simulations.
+Fill the SPICE columns after running HSPICE simulations.
+
+=== SPICE VALIDATION FOR E1: Two-Stage Miller Op-Amp (18D) - HARD ===
+Parameter             KDO (MATLAB)     KDO (SPICE)      Error (%)        L-SHADE (SPICE)
+----------------------------------------------------------------------------------------------------
+WARNING: SPICE validation data is placeholder. Replace with actual results.
+Gain (dB)                     81.2941              N/A             N/A          87.9310
+GBW (MHz)                     37.0365              N/A             N/A        1781.6356
+PM (deg)                      36.8848              N/A             N/A          39.4848
+SR (V/us)                     42.0753              N/A             N/A        1358.9379
+Power (mW)                     1.4901              N/A             N/A           1.8465
+ICMR (V)                       0.1267              N/A             N/A           0.0840
+Output Swing (V)               0.3540              N/A             N/A           0.5010
+
+NOTE: The SPICE column currently shows NaN to indicate missing data.
+Replace these with actual HSPICE simulation results for final validation.
+
+Calculating basic rankings (median-based)...
+
+================================================================================
+ADVANCED PAIRED STATISTICAL ANALYSIS
+================================================================================
+
+Computing paired tests, effect sizes, and Holm correction vs KDO...
+  Problem 1: E1: Two-Stage Miller Op-Amp (18D) - HARD
+  Problem 2: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise
+  Problem 3: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD
+  Problem 4: E4: Robust 6T FinFET SRAM Cell (9D) - HARD
+
+--- Summary of Paired Wilcoxon Signed-Rank Test vs KDO ---
+Overall KDO performance: 0 Wins / 28 Ties / 0 Losses (Holm-corrected)
+
+Detailed per-algorithm summary:
+  vs CMA_ES     : 0 W / 4 T / 0 L
+  vs AVOA       : 0 W / 4 T / 0 L
+  vs RUN        : 0 W / 4 T / 0 L
+  vs L_SHADE    : 0 W / 4 T / 0 L
+  vs DE         : 0 W / 4 T / 0 L
+  vs WOA        : 0 W / 4 T / 0 L
+  vs HHO        : 0 W / 4 T / 0 L
+
+========================================
+FRIEDMAN TEST (Q1 Standard)
+========================================
+
+
+Problem 1: E1: Two-Stage Miller Op-Amp (18D) - HARD
+  Friedman test p-value: 0.015228
+  Significant differences exist among algorithms (p < 0.05)
+  Average ranks (Friedman):
+    CMA_ES    : 7.600
+    AVOA      : 5.500
+    RUN       : 5.400
+    L_SHADE   : 4.600
+    KDO       : 3.200
+    DE        : 3.600
+    WOA       : 1.900
+    HHO       : 4.200
+
+Problem 2: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise
+  Friedman test p-value: 0.001847
+  Significant differences exist among algorithms (p < 0.05)
+  Average ranks (Friedman):
+    CMA_ES    : 7.000
+    AVOA      : 6.800
+    RUN       : 4.400
+    L_SHADE   : 2.800
+    KDO       : 2.400
+    DE        : 2.000
+    WOA       : 4.600
+    HHO       : 6.000
+
+Problem 3: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD
+  Friedman test p-value: 0.008187
+  Significant differences exist among algorithms (p < 0.05)
+  Average ranks (Friedman):
+    CMA_ES    : 6.000
+    AVOA      : 7.400
+    RUN       : 5.800
+    L_SHADE   : 2.200
+    KDO       : 2.800
+    DE        : 3.800
+    WOA       : 4.800
+    HHO       : 3.200
+
+Problem 4: E4: Robust 6T FinFET SRAM Cell (9D) - HARD
+  Friedman test p-value: 0.000082
+  Significant differences exist among algorithms (p < 0.05)
+  Average ranks (Friedman):
+    CMA_ES    : 7.400
+    AVOA      : 7.400
+    RUN       : 3.200
+    L_SHADE   : 2.800
+    KDO       : 2.200
+    DE        : 1.800
+    WOA       : 5.600
+    HHO       : 5.600
+
+========================================
+OVERALL FRIEDMAN TEST (All Problems)
+========================================
+
+Overall Friedman test p-value: 0.000000
+Significant differences exist among algorithms overall (p < 0.05)
+
+Overall average ranks (Friedman):
+  CMA_ES    : 7.000
+  AVOA      : 6.775
+  RUN       : 4.700
+  L_SHADE   : 3.100
+  KDO       : 2.650
+  DE        : 2.800
+  WOA       : 4.225
+  HHO       : 4.750
+
+========================================
+CRITICAL DIFFERENCE DIAGRAM
+========================================
+
+Critical Difference (CD) = 5.2498
+  k = 8 algorithms, N = 4 problems
+  q_alpha(0.05) = 3.031
+
+Overall Friedman average ranks:
+  CMA_ES    : 7.000
+  AVOA      : 6.775
+  RUN       : 4.700
+  L_SHADE   : 3.100
+  KDO       : 2.650
+  DE        : 2.800
+  WOA       : 4.225
+  HHO       : 4.750
+CD Diagram saved (PNG + PDF)
+
+========================================
+PERFORMANCE PROFILES (Dolan & More)
+========================================
+
+Performance Profiles saved (PNG + PDF)
+
+========================================
+CONVERGENCE CURVES
+========================================
+
+Convergence curve P1 saved (PNG + PDF)
+Convergence curve P2 saved (PNG + PDF)
+Convergence curve P3 saved (PNG + PDF)
+Convergence curve P4 saved (PNG + PDF)
+
+========================================
+BOX PLOTS
+========================================
+
+Boxplot P1 saved (PNG + PDF)
+Boxplot P2 saved (PNG + PDF)
+Boxplot P3 saved (PNG + PDF)
+Boxplot P4 saved (PNG + PDF)
+
+========================================
+RUNTIME ANALYSIS
+========================================
+
+Mean execution time per algorithm (seconds):
+Algorithm     P1         P2         P3         P4         Overall
+-------------------------------------------------------------------
+CMA_ES         113.531      70.111     109.747      59.213      88.150
+AVOA           105.211      15.118      56.743      60.050      59.281
+RUN            139.432      81.448     141.892      55.851     104.656
+L_SHADE        144.505      79.146     115.561      57.478      99.172
+KDO            143.477      82.154     161.979      57.358     111.242
+DE             144.269      81.015     108.644      58.022      97.987
+WOA            137.476      72.605     159.272      52.755     105.527
+HHO            134.233      59.049     138.484      53.606      96.343
+Runtime chart saved (PNG + PDF)
+
+========================================
+AUC ANALYSIS (Convergence Speed)
+========================================
+
+Mean AUC (lower = faster convergence):
+Algorithm     P1         P2         P3         P4       
+--------------------------------------------------------
+CMA_ES          0.0043      0.0118      0.0687      0.1638  
+AVOA            0.0533      0.0979      0.0177      0.0629  
+RUN             0.2800      0.2185      0.3006      0.2577  
+L_SHADE         0.2043      0.1057      0.1897      0.0620  
+KDO             0.1248      0.1650      0.1393      0.0721  
+DE              0.1041      0.1020      0.1495      0.0364  
+WOA             0.0383      0.0302      0.0919      0.0720  
+HHO             0.1221      0.2812      0.2010      0.2294  
+AUC heatmap saved (PNG + PDF)
+
+========================================
+RANK HEATMAP
+========================================
+
+Rank heatmap saved (PNG + PDF)
+
+========================================
+SAVING EXCEL RESULTS
+========================================
+
+Sheet "Main_Results" saved.
+Sheet "Summary" saved.
+Sheet "Wilcoxon_Advanced" saved.
+Sheet "Friedman_Tests" saved.
+Sheet "Raw_Data" saved.
+Sheet "Runtime" saved.
+Sheet "Physical_Params" saved (reference).
+
+All Excel sheets saved to:
+  Results_Electronics_Hard\2026-08-24_00-10-07\Excel_Results\Electronics_Results_Hard_Fast.xlsx
+
+========================================
+GENERATING LATEX TABLES
+========================================
+
+  Generating Table 1: Main Results...
+    Saved: Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables\Table1_Main_Results.tex
+  Generating Table 2: Best/Median/Worst Results...
+    Saved: Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables\Table2_Best_Median_Worst.tex
+  Generating Table 3: Friedman Ranks...
+    Saved: Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables\Table3_Friedman_Ranks.tex
+  Generating Table 4: Wilcoxon Test Results...
+    Saved: Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables\Table4_Wilcoxon_Advanced.tex
+  Generating Table 5: Runtime Analysis...
+    Saved: Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables\Table5_Runtime_Analysis.tex
+  Generating Table 6: AUC Convergence Speed...
+    Saved: Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables\Table6_AUC_Convergence.tex
+  Generating Table 7: Detailed per Problem Results...
+    Saved: 4 detailed problem tables
+  Generating Table 8: Friedman Test Statistics...
+    Saved: Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables\Table8_Friedman_Statistics.tex
+  Generating Table 9: Summary Statistics...
+    Saved: Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables\Table9_Summary_Statistics.tex
+  Generating Master LaTeX File...
+    Saved: Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables\All_Tables_Master.tex
+
+All LaTeX tables saved in: Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables
+
+========================================
+SAVING MAT FILE
+========================================
+
+MAT file saved: Results_Electronics_Hard\2026-08-24_00-10-07\Raw_Data\Electronics_Results_Hard_Fast.mat
+
+========================================
+           FINAL SUMMARY (HARD VERSION - FAST)
+========================================
+
+Total execution time: 15315.89 seconds (255.26 minutes)
+Results saved in: Results_Electronics_Hard\2026-08-24_00-10-07
+
+Output format: PNG (preview) + PDF (journal)
+
+Algorithm       Avg Rank  Friedman Rank   Mean Time(s)
+-------------------------------------------------------
+KDO             1.750     2.650           111.242    <-- PROPOSED
+DE              3.250     2.800           97.987    
+L_SHADE         2.750     3.100           99.172    
+WOA             4.000     4.225           105.527   
+RUN             5.250     4.700           104.656   
+HHO             4.000     4.750           96.343    
+AVOA            7.500     6.775           59.281    
+CMA_ES          7.500     7.000           88.150    
+
+=======================================================
+Win/Tie/Loss Summary for KDO (HARD VERSION - FAST, Holm-corrected):
+------------------------------
+vs CMA_ES     : 0 W / 4 T / 0 L
+vs AVOA       : 0 W / 4 T / 0 L
+vs RUN        : 0 W / 4 T / 0 L
+vs L_SHADE    : 0 W / 4 T / 0 L
+vs DE         : 0 W / 4 T / 0 L
+vs WOA        : 0 W / 4 T / 0 L
+vs HHO        : 0 W / 4 T / 0 L
+=======================================================
+
+Files generated:
+  Excel   : Results_Electronics_Hard\2026-08-24_00-10-07\Excel_Results\Electronics_Results_Hard_Fast.xlsx
+  LaTeX   : Results_Electronics_Hard\2026-08-24_00-10-07\Latex_Tables\All_Tables_Master.tex (and 10 additional table files)
+  MAT     : Results_Electronics_Hard\2026-08-24_00-10-07\Raw_Data\Electronics_Results_Hard_Fast.mat
+  Diary   : Results_Electronics_Hard\2026-08-24_00-10-07\execution_log.txt
+
+Images saved in:
+  PNG (preview) : Results_Electronics_Hard\2026-08-24_00-10-07\Convergence_Curves
+  PDF (journal) : PDF (same folders as PNG)
+
+Done.
