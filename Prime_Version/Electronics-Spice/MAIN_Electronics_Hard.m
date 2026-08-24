@@ -25,12 +25,12 @@ total_timer = tic;
 benchmark_choice = 'Electronics';
 
 % *** Number of independent runs  ***
-num_runs = 15;
+num_runs = 5;
 
 % Algorithm parameters
-population_size = 10;      % Increased for better exploration
+population_size = 5;      % Increased for better exploration
 % *** MaxFEs per dimension 
-MaxFEs_per_dim = 100;
+MaxFEs_per_dim = 25;
 
 % Analysis levels
 analysis_levels = {'Full', 'Partial', 'Behavioral'};
@@ -74,17 +74,17 @@ problem_ids.Behavioral = [2, 3];        % LNA + VCO
 % =========================================================================
 algorithms = {
    
-    %'CMA_ES',       @CMA_ES,       'Covariance Matrix Adaptation ES';
-    %'AVOA',         @AVOA,         'African Vultures Optimization Algorithm';
-    %'COA',          @COA,          'Crayfish Optimization Algorithm';
-    %'RUN',          @RUN,          'Runge-Kutta Optimizer';
-    %'L_SHADE',      @L_SHADE,      'Success-History DE';
+    'CMA_ES',       @CMA_ES,       'Covariance Matrix Adaptation ES';
+    'AVOA',         @AVOA,         'African Vultures Optimization Algorithm';
+    'COA',          @COA,          'Crayfish Optimization Algorithm';
+    'RUN',          @RUN,          'Runge-Kutta Optimizer';
+    'L_SHADE',      @L_SHADE,      'Success-History DE';
     %'GBO',          @GBO,          'Gradient-Based Optimizer';
     'KDO',          @KDO,          'Karma Dharma Optimizer (Proposed)';
-    %'DE',           @DE,           'Differential Evolution (F=0.8, CR=0.9)';    
-    'GWO',          @GWO,          'Grey Wolf Optimizer';
-    %'WOA',          @WOA,          'Whale Optimization Algorithm';
-    %'HHO',          @HHO,          'Harris Hawks Optimization';
+    'DE',           @DE,           'Differential Evolution (F=0.8, CR=0.9)';    
+    %'GWO',          @GWO,          'Grey Wolf Optimizer';
+    'WOA',          @WOA,          'Whale Optimization Algorithm';
+    'HHO',          @HHO,          'Harris Hawks Optimization';
     
     
 };
@@ -1670,14 +1670,14 @@ if ~exist(latex_dir, 'dir')
     mkdir(latex_dir);
 end
 
-% ==================== TABLE 1: Main Results (Mean ± Std) ====================
+% ==================== TABLE 1: Main Results (Mean Â± Std) ====================
 fprintf('  Generating Table 1: Main Results...\n');
 
 latex_file_main = fullfile(latex_dir, 'Table1_Main_Results.tex');
 fid_main = fopen(latex_file_main, 'w');
 
 if fid_main ~= -1
-    fprintf(fid_main, '%%%% Table 1: Main Optimization Results (Mean ± Std)\n');
+    fprintf(fid_main, '%%%% Table 1: Main Optimization Results (Mean Â± Std)\n');
     fprintf(fid_main, '%%%% Generated: %s\n', datestr(now));
     fprintf(fid_main, '\\begin{table}[htbp]\n');
     fprintf(fid_main, '\\centering\n');
@@ -1930,7 +1930,7 @@ latex_file_runtime = fullfile(latex_dir, 'Table5_Runtime_Analysis.tex');
 fid_runtime = fopen(latex_file_runtime, 'w');
 
 if fid_runtime ~= -1
-    fprintf(fid_runtime, '%%%% Table 5: Runtime Analysis (Mean ± Std in seconds)\n');
+    fprintf(fid_runtime, '%%%% Table 5: Runtime Analysis (Mean Â± Std in seconds)\n');
     fprintf(fid_runtime, '%%%% Generated: %s\n', datestr(now));
     fprintf(fid_runtime, '\\begin{table}[htbp]\n');
     fprintf(fid_runtime, '\\centering\n');
