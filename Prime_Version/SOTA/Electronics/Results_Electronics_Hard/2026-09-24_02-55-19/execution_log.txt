@@ -1,0 +1,2449 @@
+Execution started at: 24-Sep-2026 02:55:19
+Results folder: Results_Electronics_Hard\2026-09-24_02-55-19
+Output format for journal: PDF
+VERSION: 5.0 - UPGRADED WITH ADVANCED PAIRED STATISTICS
+
+
+========================================
+CMOS ELECTRONICS OPTIMIZATION BENCHMARK SUITE - HARD VERSION
+========================================
+
+Configuration:
+  Benchmark type: Electronics (HARD VERSION)
+  Number of runs: 51 (Upgraded for higher power)
+  Population size: 30
+  Max FEs per dimension: 10000
+  Statistical significance level: alpha = 0.05
+  Output format: PDF (PNG + PDF)
+
+Electronics Problems (HARD VERSIONS):
+  E1: Two-Stage Folded-Cascode Op-Amp (18D) - HARD
+    Robust sizing of folded-cascode op-amp under Monte-Carlo mismatch (Nmc=50), 18D design variables
+  E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise
+    2.4 GHz cascode LNA optimization with process variation, yield requirement 99%
+  E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD
+    LC-VCO phase-noise minimization with full PVT variation, tighter PN constraint
+  E4: Robust 6T FinFET SRAM Cell (9D) - HARD
+    FinFET SRAM cell robust optimization with Nmc=200, yield requirement 99%
+
+Algorithms (6 total):
+   1. KDO        - Karma-Dharma Optimizer (Proposed)
+   2. SFO        - Swift Flight Optimizer
+   3. StMA       - Sterna Migration Algorithm
+   4. CAO        - Cell Autophagy Optimization
+   5. ERBMO      - Enhanced Red-billed Blue Magpie Optimizer
+   6. SMNBKA_ICMIC - Binary Evolution Black-kite Algorithm
+
+Initializing results storage...
+
+========================================
+STARTING OPTIMIZATION PROCESS (HARD PROBLEMS)
+========================================
+
+
+--- Algorithm: KDO ---
+  Problem: E1: Two-Stage Folded-Cascode Op-Amp (18D) - HARD (dim=18, MaxFEs=180000, MaxIter=6000)
+    Run: Iter    1 | Best = 2.5547e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18150
+Iter 1200 | Best = 2.5256e+08 | FEs = 36309
+Iter 1800 | Best = 2.5256e+08 | FEs = 54465
+Iter 2400 | Best = 2.5256e+08 | FEs = 72653
+Iter 3000 | Best = 2.5256e+08 | FEs = 90850
+Iter 3600 | Best = 2.5256e+08 | FEs = 109068
+Iter 4200 | Best = 2.5256e+08 | FEs = 127335
+Iter 4800 | Best = 2.5256e+08 | FEs = 145631
+Iter 5400 | Best = 2.5256e+08 | FEs = 164005
+Iter    1 | Best = 2.5873e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18149
+Iter 1200 | Best = 2.5256e+08 | FEs = 36297
+Iter 1800 | Best = 2.5256e+08 | FEs = 54478
+Iter 2400 | Best = 2.5256e+08 | FEs = 72668
+Iter 3000 | Best = 2.5256e+08 | FEs = 90880
+Iter 3600 | Best = 2.5256e+08 | FEs = 109126
+Iter 4200 | Best = 2.5256e+08 | FEs = 127386
+Iter 4800 | Best = 2.5256e+08 | FEs = 145683
+Iter 5400 | Best = 2.5256e+08 | FEs = 164002
+Iter    1 | Best = 2.5609e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18154
+Iter 1200 | Best = 2.5256e+08 | FEs = 36311
+Iter 1800 | Best = 2.5256e+08 | FEs = 54481
+Iter 2400 | Best = 2.5256e+08 | FEs = 72676
+Iter 3000 | Best = 2.5256e+08 | FEs = 90881
+Iter 3600 | Best = 2.5256e+08 | FEs = 109101
+Iter 4200 | Best = 2.5256e+08 | FEs = 127358
+Iter 4800 | Best = 2.5256e+08 | FEs = 145680
+Iter 5400 | Best = 2.5256e+08 | FEs = 164043
+Iter    1 | Best = 2.6110e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18160
+Iter 1200 | Best = 2.5256e+08 | FEs = 36313
+Iter 1800 | Best = 2.5256e+08 | FEs = 54485
+Iter 2400 | Best = 2.5256e+08 | FEs = 72674
+Iter 3000 | Best = 2.5256e+08 | FEs = 90888
+Iter 3600 | Best = 2.5256e+08 | FEs = 109107
+Iter 4200 | Best = 2.5256e+08 | FEs = 127366
+Iter 4800 | Best = 2.5256e+08 | FEs = 145661
+Iter 5400 | Best = 2.5256e+08 | FEs = 164034
+5 Iter    1 | Best = 2.5725e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18151
+Iter 1200 | Best = 2.5256e+08 | FEs = 36307
+Iter 1800 | Best = 2.5256e+08 | FEs = 54467
+Iter 2400 | Best = 2.5256e+08 | FEs = 72656
+Iter 3000 | Best = 2.5256e+08 | FEs = 90854
+Iter 3600 | Best = 2.5256e+08 | FEs = 109076
+Iter 4200 | Best = 2.5256e+08 | FEs = 127344
+Iter 4800 | Best = 2.5256e+08 | FEs = 145651
+Iter 5400 | Best = 2.5256e+08 | FEs = 164011
+Iter    1 | Best = 2.5779e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18147
+Iter 1200 | Best = 2.5256e+08 | FEs = 36318
+Iter 1800 | Best = 2.5256e+08 | FEs = 54491
+Iter 2400 | Best = 2.5256e+08 | FEs = 72671
+Iter 3000 | Best = 2.5256e+08 | FEs = 90883
+Iter 3600 | Best = 2.5256e+08 | FEs = 109119
+Iter 4200 | Best = 2.5256e+08 | FEs = 127395
+Iter 4800 | Best = 2.5256e+08 | FEs = 145693
+Iter 5400 | Best = 2.5256e+08 | FEs = 164107
+Iter    1 | Best = 2.5418e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18146
+Iter 1200 | Best = 2.5256e+08 | FEs = 36302
+Iter 1800 | Best = 2.5256e+08 | FEs = 54475
+Iter 2400 | Best = 2.5256e+08 | FEs = 72670
+Iter 3000 | Best = 2.5256e+08 | FEs = 90876
+Iter 3600 | Best = 2.5256e+08 | FEs = 109119
+Iter 4200 | Best = 2.5256e+08 | FEs = 127392
+Iter 4800 | Best = 2.5256e+08 | FEs = 145687
+Iter 5400 | Best = 2.5256e+08 | FEs = 164031
+Iter    1 | Best = 2.5569e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18153
+Iter 1200 | Best = 2.5256e+08 | FEs = 36310
+Iter 1800 | Best = 2.5256e+08 | FEs = 54489
+Iter 2400 | Best = 2.5256e+08 | FEs = 72676
+Iter 3000 | Best = 2.5256e+08 | FEs = 90881
+Iter 3600 | Best = 2.5256e+08 | FEs = 109117
+Iter 4200 | Best = 2.5256e+08 | FEs = 127382
+Iter 4800 | Best = 2.5256e+08 | FEs = 145690
+Iter 5400 | Best = 2.5256e+08 | FEs = 164064
+Iter    1 | Best = 2.5654e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18152
+Iter 1200 | Best = 2.5256e+08 | FEs = 36314
+Iter 1800 | Best = 2.5256e+08 | FEs = 54487
+Iter 2400 | Best = 2.5256e+08 | FEs = 72677
+Iter 3000 | Best = 2.5256e+08 | FEs = 90882
+Iter 3600 | Best = 2.5256e+08 | FEs = 109114
+Iter 4200 | Best = 2.5256e+08 | FEs = 127386
+Iter 4800 | Best = 2.5256e+08 | FEs = 145696
+Iter 5400 | Best = 2.5256e+08 | FEs = 164061
+10 Iter    1 | Best = 2.5585e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18154
+Iter 1200 | Best = 2.5256e+08 | FEs = 36316
+Iter 1800 | Best = 2.5256e+08 | FEs = 54488
+Iter 2400 | Best = 2.5256e+08 | FEs = 72678
+Iter 3000 | Best = 2.5256e+08 | FEs = 90867
+Iter 3600 | Best = 2.5256e+08 | FEs = 109114
+Iter 4200 | Best = 2.5256e+08 | FEs = 127357
+Iter 4800 | Best = 2.5256e+08 | FEs = 145662
+Iter 5400 | Best = 2.5256e+08 | FEs = 164044
+Iter    1 | Best = 2.5627e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18155
+Iter 1200 | Best = 2.5256e+08 | FEs = 36313
+Iter 1800 | Best = 2.5256e+08 | FEs = 54481
+Iter 2400 | Best = 2.5256e+08 | FEs = 72678
+Iter 3000 | Best = 2.5256e+08 | FEs = 90889
+Iter 3600 | Best = 2.5256e+08 | FEs = 109126
+Iter 4200 | Best = 2.5256e+08 | FEs = 127401
+Iter 4800 | Best = 2.5256e+08 | FEs = 145682
+Iter 5400 | Best = 2.5256e+08 | FEs = 164036
+Iter    1 | Best = 2.5426e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18159
+Iter 1200 | Best = 2.5256e+08 | FEs = 36314
+Iter 1800 | Best = 2.5256e+08 | FEs = 54488
+Iter 2400 | Best = 2.5256e+08 | FEs = 72684
+Iter 3000 | Best = 2.5256e+08 | FEs = 90887
+Iter 3600 | Best = 2.5256e+08 | FEs = 109127
+Iter 4200 | Best = 2.5256e+08 | FEs = 127382
+Iter 4800 | Best = 2.5256e+08 | FEs = 145698
+Iter 5400 | Best = 2.5256e+08 | FEs = 164064
+Iter    1 | Best = 2.5796e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18148
+Iter 1200 | Best = 2.5256e+08 | FEs = 36309
+Iter 1800 | Best = 2.5256e+08 | FEs = 54477
+Iter 2400 | Best = 2.5256e+08 | FEs = 72675
+Iter 3000 | Best = 2.5256e+08 | FEs = 90873
+Iter 3600 | Best = 2.5256e+08 | FEs = 109115
+Iter 4200 | Best = 2.5256e+08 | FEs = 127389
+Iter 4800 | Best = 2.5256e+08 | FEs = 145692
+Iter 5400 | Best = 2.5256e+08 | FEs = 164055
+Iter    1 | Best = 2.5739e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18153
+Iter 1200 | Best = 2.5256e+08 | FEs = 36316
+Iter 1800 | Best = 2.5256e+08 | FEs = 54485
+Iter 2400 | Best = 2.5256e+08 | FEs = 72657
+Iter 3000 | Best = 2.5256e+08 | FEs = 90867
+Iter 3600 | Best = 2.5256e+08 | FEs = 109083
+Iter 4200 | Best = 2.5256e+08 | FEs = 127347
+Iter 4800 | Best = 2.5256e+08 | FEs = 145633
+Iter 5400 | Best = 2.5256e+08 | FEs = 163977
+15 Iter    1 | Best = 2.5522e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18157
+Iter 1200 | Best = 2.5256e+08 | FEs = 36316
+Iter 1800 | Best = 2.5256e+08 | FEs = 54492
+Iter 2400 | Best = 2.5256e+08 | FEs = 72670
+Iter 3000 | Best = 2.5256e+08 | FEs = 90880
+Iter 3600 | Best = 2.5256e+08 | FEs = 109122
+Iter 4200 | Best = 2.5256e+08 | FEs = 127374
+Iter 4800 | Best = 2.5256e+08 | FEs = 145684
+Iter 5400 | Best = 2.5256e+08 | FEs = 164052
+Iter    1 | Best = 2.5423e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18153
+Iter 1200 | Best = 2.5256e+08 | FEs = 36311
+Iter 1800 | Best = 2.5256e+08 | FEs = 54484
+Iter 2400 | Best = 2.5256e+08 | FEs = 72695
+Iter 3000 | Best = 2.5256e+08 | FEs = 90895
+Iter 3600 | Best = 2.5256e+08 | FEs = 109152
+Iter 4200 | Best = 2.5256e+08 | FEs = 127404
+Iter 4800 | Best = 2.5256e+08 | FEs = 145692
+Iter 5400 | Best = 2.5256e+08 | FEs = 164049
+Iter    1 | Best = 2.5690e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18158
+Iter 1200 | Best = 2.5256e+08 | FEs = 36312
+Iter 1800 | Best = 2.5256e+08 | FEs = 54481
+Iter 2400 | Best = 2.5256e+08 | FEs = 72680
+Iter 3000 | Best = 2.5256e+08 | FEs = 90890
+Iter 3600 | Best = 2.5256e+08 | FEs = 109122
+Iter 4200 | Best = 2.5256e+08 | FEs = 127381
+Iter 4800 | Best = 2.5256e+08 | FEs = 145697
+Iter 5400 | Best = 2.5256e+08 | FEs = 164061
+Iter    1 | Best = 2.5751e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18152
+Iter 1200 | Best = 2.5256e+08 | FEs = 36314
+Iter 1800 | Best = 2.5256e+08 | FEs = 54481
+Iter 2400 | Best = 2.5256e+08 | FEs = 72664
+Iter 3000 | Best = 2.5256e+08 | FEs = 90868
+Iter 3600 | Best = 2.5256e+08 | FEs = 109088
+Iter 4200 | Best = 2.5256e+08 | FEs = 127349
+Iter 4800 | Best = 2.5256e+08 | FEs = 145635
+Iter 5400 | Best = 2.5256e+08 | FEs = 163999
+Iter    1 | Best = 2.5365e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18162
+Iter 1200 | Best = 2.5256e+08 | FEs = 36316
+Iter 1800 | Best = 2.5256e+08 | FEs = 54497
+Iter 2400 | Best = 2.5256e+08 | FEs = 72679
+Iter 3000 | Best = 2.5256e+08 | FEs = 90902
+Iter 3600 | Best = 2.5256e+08 | FEs = 109136
+Iter 4200 | Best = 2.5256e+08 | FEs = 127415
+Iter 4800 | Best = 2.5256e+08 | FEs = 145722
+Iter 5400 | Best = 2.5256e+08 | FEs = 164090
+20 Iter    1 | Best = 2.6044e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18154
+Iter 1200 | Best = 2.5256e+08 | FEs = 36316
+Iter 1800 | Best = 2.5256e+08 | FEs = 54480
+Iter 2400 | Best = 2.5256e+08 | FEs = 72663
+Iter 3000 | Best = 2.5256e+08 | FEs = 90881
+Iter 3600 | Best = 2.5256e+08 | FEs = 109119
+Iter 4200 | Best = 2.5256e+08 | FEs = 127374
+Iter 4800 | Best = 2.5256e+08 | FEs = 145689
+Iter 5400 | Best = 2.5256e+08 | FEs = 164028
+Iter    1 | Best = 2.5467e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18158
+Iter 1200 | Best = 2.5256e+08 | FEs = 36317
+Iter 1800 | Best = 2.5256e+08 | FEs = 54483
+Iter 2400 | Best = 2.5256e+08 | FEs = 72684
+Iter 3000 | Best = 2.5256e+08 | FEs = 90894
+Iter 3600 | Best = 2.5256e+08 | FEs = 109123
+Iter 4200 | Best = 2.5256e+08 | FEs = 127379
+Iter 4800 | Best = 2.5256e+08 | FEs = 145695
+Iter 5400 | Best = 2.5256e+08 | FEs = 164101
+Iter    1 | Best = 2.5691e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18150
+Iter 1200 | Best = 2.5256e+08 | FEs = 36304
+Iter 1800 | Best = 2.5256e+08 | FEs = 54475
+Iter 2400 | Best = 2.5256e+08 | FEs = 72668
+Iter 3000 | Best = 2.5256e+08 | FEs = 90866
+Iter 3600 | Best = 2.5256e+08 | FEs = 109101
+Iter 4200 | Best = 2.5256e+08 | FEs = 127355
+Iter 4800 | Best = 2.5256e+08 | FEs = 145650
+Iter 5400 | Best = 2.5256e+08 | FEs = 164020
+Iter    1 | Best = 2.5966e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18154
+Iter 1200 | Best = 2.5256e+08 | FEs = 36311
+Iter 1800 | Best = 2.5256e+08 | FEs = 54484
+Iter 2400 | Best = 2.5256e+08 | FEs = 72675
+Iter 3000 | Best = 2.5256e+08 | FEs = 90885
+Iter 3600 | Best = 2.5256e+08 | FEs = 109119
+Iter 4200 | Best = 2.5256e+08 | FEs = 127391
+Iter 4800 | Best = 2.5256e+08 | FEs = 145699
+Iter 5400 | Best = 2.5256e+08 | FEs = 164049
+Iter    1 | Best = 2.5342e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18149
+Iter 1200 | Best = 2.5256e+08 | FEs = 36314
+Iter 1800 | Best = 2.5256e+08 | FEs = 54479
+Iter 2400 | Best = 2.5256e+08 | FEs = 72663
+Iter 3000 | Best = 2.5256e+08 | FEs = 90874
+Iter 3600 | Best = 2.5256e+08 | FEs = 109105
+Iter 4200 | Best = 2.5256e+08 | FEs = 127370
+Iter 4800 | Best = 2.5256e+08 | FEs = 145655
+Iter 5400 | Best = 2.5256e+08 | FEs = 164045
+25 Iter    1 | Best = 2.5484e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18156
+Iter 1200 | Best = 2.5256e+08 | FEs = 36322
+Iter 1800 | Best = 2.5256e+08 | FEs = 54491
+Iter 2400 | Best = 2.5256e+08 | FEs = 72686
+Iter 3000 | Best = 2.5256e+08 | FEs = 90896
+Iter 3600 | Best = 2.5256e+08 | FEs = 109124
+Iter 4200 | Best = 2.5256e+08 | FEs = 127420
+Iter 4800 | Best = 2.5256e+08 | FEs = 145698
+Iter 5400 | Best = 2.5256e+08 | FEs = 164051
+Iter    1 | Best = 2.5356e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18122
+Iter 1200 | Best = 2.5256e+08 | FEs = 36281
+Iter 1800 | Best = 2.5256e+08 | FEs = 54440
+Iter 2400 | Best = 2.5256e+08 | FEs = 72625
+Iter 3000 | Best = 2.5256e+08 | FEs = 90830
+Iter 3600 | Best = 2.5256e+08 | FEs = 109086
+Iter 4200 | Best = 2.5256e+08 | FEs = 127364
+Iter 4800 | Best = 2.5256e+08 | FEs = 145666
+Iter 5400 | Best = 2.5256e+08 | FEs = 163998
+Iter    1 | Best = 2.5345e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18159
+Iter 1200 | Best = 2.5256e+08 | FEs = 36321
+Iter 1800 | Best = 2.5256e+08 | FEs = 54501
+Iter 2400 | Best = 2.5256e+08 | FEs = 72694
+Iter 3000 | Best = 2.5256e+08 | FEs = 90901
+Iter 3600 | Best = 2.5256e+08 | FEs = 109135
+Iter 4200 | Best = 2.5256e+08 | FEs = 127403
+Iter 4800 | Best = 2.5256e+08 | FEs = 145705
+Iter 5400 | Best = 2.5256e+08 | FEs = 164065
+Iter    1 | Best = 2.5300e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18151
+Iter 1200 | Best = 2.5256e+08 | FEs = 36310
+Iter 1800 | Best = 2.5256e+08 | FEs = 54467
+Iter 2400 | Best = 2.5256e+08 | FEs = 72663
+Iter 3000 | Best = 2.5256e+08 | FEs = 90865
+Iter 3600 | Best = 2.5256e+08 | FEs = 109102
+Iter 4200 | Best = 2.5256e+08 | FEs = 127352
+Iter 4800 | Best = 2.5256e+08 | FEs = 145649
+Iter 5400 | Best = 2.5256e+08 | FEs = 164002
+Iter    1 | Best = 2.5323e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18149
+Iter 1200 | Best = 2.5256e+08 | FEs = 36305
+Iter 1800 | Best = 2.5256e+08 | FEs = 54485
+Iter 2400 | Best = 2.5256e+08 | FEs = 72673
+Iter 3000 | Best = 2.5256e+08 | FEs = 90888
+Iter 3600 | Best = 2.5256e+08 | FEs = 109130
+Iter 4200 | Best = 2.5256e+08 | FEs = 127383
+Iter 4800 | Best = 2.5256e+08 | FEs = 145703
+Iter 5400 | Best = 2.5256e+08 | FEs = 164063
+30 Iter    1 | Best = 2.6341e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18154
+Iter 1200 | Best = 2.5256e+08 | FEs = 36307
+Iter 1800 | Best = 2.5256e+08 | FEs = 54478
+Iter 2400 | Best = 2.5256e+08 | FEs = 72662
+Iter 3000 | Best = 2.5256e+08 | FEs = 90864
+Iter 3600 | Best = 2.5256e+08 | FEs = 109094
+Iter 4200 | Best = 2.5256e+08 | FEs = 127360
+Iter 4800 | Best = 2.5256e+08 | FEs = 145657
+Iter 5400 | Best = 2.5256e+08 | FEs = 164043
+Iter    1 | Best = 2.5411e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18152
+Iter 1200 | Best = 2.5256e+08 | FEs = 36322
+Iter 1800 | Best = 2.5256e+08 | FEs = 54495
+Iter 2400 | Best = 2.5256e+08 | FEs = 72680
+Iter 3000 | Best = 2.5256e+08 | FEs = 90890
+Iter 3600 | Best = 2.5256e+08 | FEs = 109122
+Iter 4200 | Best = 2.5256e+08 | FEs = 127391
+Iter 4800 | Best = 2.5256e+08 | FEs = 145706
+Iter 5400 | Best = 2.5256e+08 | FEs = 164087
+Iter    1 | Best = 2.6450e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18156
+Iter 1200 | Best = 2.5256e+08 | FEs = 36318
+Iter 1800 | Best = 2.5256e+08 | FEs = 54494
+Iter 2400 | Best = 2.5256e+08 | FEs = 72681
+Iter 3000 | Best = 2.5256e+08 | FEs = 90874
+Iter 3600 | Best = 2.5256e+08 | FEs = 109110
+Iter 4200 | Best = 2.5256e+08 | FEs = 127375
+Iter 4800 | Best = 2.5256e+08 | FEs = 145681
+Iter 5400 | Best = 2.5256e+08 | FEs = 164043
+Iter    1 | Best = 2.5356e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18153
+Iter 1200 | Best = 2.5256e+08 | FEs = 36314
+Iter 1800 | Best = 2.5256e+08 | FEs = 54487
+Iter 2400 | Best = 2.5256e+08 | FEs = 72668
+Iter 3000 | Best = 2.5256e+08 | FEs = 90870
+Iter 3600 | Best = 2.5256e+08 | FEs = 109110
+Iter 4200 | Best = 2.5256e+08 | FEs = 127354
+Iter 4800 | Best = 2.5256e+08 | FEs = 145621
+Iter 5400 | Best = 2.5256e+08 | FEs = 163966
+Iter    1 | Best = 2.5552e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18152
+Iter 1200 | Best = 2.5256e+08 | FEs = 36316
+Iter 1800 | Best = 2.5256e+08 | FEs = 54488
+Iter 2400 | Best = 2.5256e+08 | FEs = 72671
+Iter 3000 | Best = 2.5256e+08 | FEs = 90880
+Iter 3600 | Best = 2.5256e+08 | FEs = 109109
+Iter 4200 | Best = 2.5256e+08 | FEs = 127371
+Iter 4800 | Best = 2.5256e+08 | FEs = 145671
+Iter 5400 | Best = 2.5256e+08 | FEs = 164030
+35 Iter    1 | Best = 2.5805e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18150
+Iter 1200 | Best = 2.5256e+08 | FEs = 36304
+Iter 1800 | Best = 2.5256e+08 | FEs = 54473
+Iter 2400 | Best = 2.5256e+08 | FEs = 72655
+Iter 3000 | Best = 2.5256e+08 | FEs = 90863
+Iter 3600 | Best = 2.5256e+08 | FEs = 109091
+Iter 4200 | Best = 2.5256e+08 | FEs = 127328
+Iter 4800 | Best = 2.5256e+08 | FEs = 145637
+Iter 5400 | Best = 2.5256e+08 | FEs = 164006
+Iter    1 | Best = 2.6361e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18154
+Iter 1200 | Best = 2.5256e+08 | FEs = 36315
+Iter 1800 | Best = 2.5256e+08 | FEs = 54493
+Iter 2400 | Best = 2.5256e+08 | FEs = 72673
+Iter 3000 | Best = 2.5256e+08 | FEs = 90873
+Iter 3600 | Best = 2.5256e+08 | FEs = 109120
+Iter 4200 | Best = 2.5256e+08 | FEs = 127383
+Iter 4800 | Best = 2.5256e+08 | FEs = 145684
+Iter 5400 | Best = 2.5256e+08 | FEs = 164032
+Iter    1 | Best = 2.5998e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18164
+Iter 1200 | Best = 2.5256e+08 | FEs = 36332
+Iter 1800 | Best = 2.5256e+08 | FEs = 54488
+Iter 2400 | Best = 2.5256e+08 | FEs = 72688
+Iter 3000 | Best = 2.5256e+08 | FEs = 90897
+Iter 3600 | Best = 2.5256e+08 | FEs = 109137
+Iter 4200 | Best = 2.5256e+08 | FEs = 127375
+Iter 4800 | Best = 2.5256e+08 | FEs = 145679
+Iter 5400 | Best = 2.5256e+08 | FEs = 164045
+Iter    1 | Best = 2.5518e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18153
+Iter 1200 | Best = 2.5256e+08 | FEs = 36312
+Iter 1800 | Best = 2.5256e+08 | FEs = 54490
+Iter 2400 | Best = 2.5256e+08 | FEs = 72680
+Iter 3000 | Best = 2.5256e+08 | FEs = 90885
+Iter 3600 | Best = 2.5256e+08 | FEs = 109124
+Iter 4200 | Best = 2.5256e+08 | FEs = 127390
+Iter 4800 | Best = 2.5256e+08 | FEs = 145683
+Iter 5400 | Best = 2.5256e+08 | FEs = 164076
+Iter    1 | Best = 2.5426e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18159
+Iter 1200 | Best = 2.5256e+08 | FEs = 36308
+Iter 1800 | Best = 2.5256e+08 | FEs = 54477
+Iter 2400 | Best = 2.5256e+08 | FEs = 72670
+Iter 3000 | Best = 2.5256e+08 | FEs = 90884
+Iter 3600 | Best = 2.5256e+08 | FEs = 109114
+Iter 4200 | Best = 2.5256e+08 | FEs = 127382
+Iter 4800 | Best = 2.5256e+08 | FEs = 145684
+Iter 5400 | Best = 2.5256e+08 | FEs = 164017
+40 Iter    1 | Best = 2.5450e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18153
+Iter 1200 | Best = 2.5256e+08 | FEs = 36311
+Iter 1800 | Best = 2.5256e+08 | FEs = 54482
+Iter 2400 | Best = 2.5256e+08 | FEs = 72672
+Iter 3000 | Best = 2.5256e+08 | FEs = 90871
+Iter 3600 | Best = 2.5256e+08 | FEs = 109112
+Iter 4200 | Best = 2.5256e+08 | FEs = 127368
+Iter 4800 | Best = 2.5256e+08 | FEs = 145665
+Iter 5400 | Best = 2.5256e+08 | FEs = 163989
+Iter    1 | Best = 2.5559e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18152
+Iter 1200 | Best = 2.5256e+08 | FEs = 36314
+Iter 1800 | Best = 2.5256e+08 | FEs = 54481
+Iter 2400 | Best = 2.5256e+08 | FEs = 72666
+Iter 3000 | Best = 2.5256e+08 | FEs = 90878
+Iter 3600 | Best = 2.5256e+08 | FEs = 109104
+Iter 4200 | Best = 2.5256e+08 | FEs = 127345
+Iter 4800 | Best = 2.5256e+08 | FEs = 145629
+Iter 5400 | Best = 2.5256e+08 | FEs = 163976
+Iter    1 | Best = 2.5669e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18151
+Iter 1200 | Best = 2.5256e+08 | FEs = 36317
+Iter 1800 | Best = 2.5256e+08 | FEs = 54486
+Iter 2400 | Best = 2.5256e+08 | FEs = 72665
+Iter 3000 | Best = 2.5256e+08 | FEs = 90872
+Iter 3600 | Best = 2.5256e+08 | FEs = 109118
+Iter 4200 | Best = 2.5256e+08 | FEs = 127361
+Iter 4800 | Best = 2.5256e+08 | FEs = 145688
+Iter 5400 | Best = 2.5256e+08 | FEs = 164040
+Iter    1 | Best = 2.5650e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18150
+Iter 1200 | Best = 2.5256e+08 | FEs = 36314
+Iter 1800 | Best = 2.5256e+08 | FEs = 54487
+Iter 2400 | Best = 2.5256e+08 | FEs = 72685
+Iter 3000 | Best = 2.5256e+08 | FEs = 90889
+Iter 3600 | Best = 2.5256e+08 | FEs = 109127
+Iter 4200 | Best = 2.5256e+08 | FEs = 127403
+Iter 4800 | Best = 2.5256e+08 | FEs = 145710
+Iter 5400 | Best = 2.5256e+08 | FEs = 164090
+Iter    1 | Best = 2.5419e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18155
+Iter 1200 | Best = 2.5256e+08 | FEs = 36321
+Iter 1800 | Best = 2.5256e+08 | FEs = 54492
+Iter 2400 | Best = 2.5256e+08 | FEs = 72678
+Iter 3000 | Best = 2.5256e+08 | FEs = 90891
+Iter 3600 | Best = 2.5256e+08 | FEs = 109124
+Iter 4200 | Best = 2.5256e+08 | FEs = 127376
+Iter 4800 | Best = 2.5256e+08 | FEs = 145695
+Iter 5400 | Best = 2.5256e+08 | FEs = 164061
+45 Iter    1 | Best = 2.6997e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18153
+Iter 1200 | Best = 2.5256e+08 | FEs = 36319
+Iter 1800 | Best = 2.5256e+08 | FEs = 54488
+Iter 2400 | Best = 2.5256e+08 | FEs = 72684
+Iter 3000 | Best = 2.5256e+08 | FEs = 90889
+Iter 3600 | Best = 2.5256e+08 | FEs = 109126
+Iter 4200 | Best = 2.5256e+08 | FEs = 127379
+Iter 4800 | Best = 2.5256e+08 | FEs = 145691
+Iter 5400 | Best = 2.5256e+08 | FEs = 164039
+Iter    1 | Best = 2.5927e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18156
+Iter 1200 | Best = 2.5256e+08 | FEs = 36312
+Iter 1800 | Best = 2.5256e+08 | FEs = 54479
+Iter 2400 | Best = 2.5256e+08 | FEs = 72659
+Iter 3000 | Best = 2.5256e+08 | FEs = 90869
+Iter 3600 | Best = 2.5256e+08 | FEs = 109087
+Iter 4200 | Best = 2.5256e+08 | FEs = 127350
+Iter 4800 | Best = 2.5256e+08 | FEs = 145646
+Iter 5400 | Best = 2.5256e+08 | FEs = 164021
+Iter    1 | Best = 2.5825e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18150
+Iter 1200 | Best = 2.5256e+08 | FEs = 36305
+Iter 1800 | Best = 2.5256e+08 | FEs = 54480
+Iter 2400 | Best = 2.5256e+08 | FEs = 72663
+Iter 3000 | Best = 2.5256e+08 | FEs = 90873
+Iter 3600 | Best = 2.5256e+08 | FEs = 109094
+Iter 4200 | Best = 2.5256e+08 | FEs = 127372
+Iter 4800 | Best = 2.5256e+08 | FEs = 145665
+Iter 5400 | Best = 2.5256e+08 | FEs = 164049
+Iter    1 | Best = 2.5637e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18149
+Iter 1200 | Best = 2.5256e+08 | FEs = 36311
+Iter 1800 | Best = 2.5256e+08 | FEs = 54475
+Iter 2400 | Best = 2.5256e+08 | FEs = 72663
+Iter 3000 | Best = 2.5256e+08 | FEs = 90880
+Iter 3600 | Best = 2.5256e+08 | FEs = 109114
+Iter 4200 | Best = 2.5256e+08 | FEs = 127414
+Iter 4800 | Best = 2.5256e+08 | FEs = 145734
+Iter 5400 | Best = 2.5256e+08 | FEs = 164096
+Iter    1 | Best = 2.5667e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18152
+Iter 1200 | Best = 2.5256e+08 | FEs = 36312
+Iter 1800 | Best = 2.5256e+08 | FEs = 54487
+Iter 2400 | Best = 2.5256e+08 | FEs = 72669
+Iter 3000 | Best = 2.5256e+08 | FEs = 90885
+Iter 3600 | Best = 2.5256e+08 | FEs = 109120
+Iter 4200 | Best = 2.5256e+08 | FEs = 127406
+Iter 4800 | Best = 2.5256e+08 | FEs = 145732
+Iter 5400 | Best = 2.5256e+08 | FEs = 164116
+50 Iter    1 | Best = 2.5282e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18150
+Iter 1200 | Best = 2.5256e+08 | FEs = 36306
+Iter 1800 | Best = 2.5256e+08 | FEs = 54483
+Iter 2400 | Best = 2.5256e+08 | FEs = 72685
+Iter 3000 | Best = 2.5256e+08 | FEs = 90898
+Iter 3600 | Best = 2.5256e+08 | FEs = 109133
+Iter 4200 | Best = 2.5256e+08 | FEs = 127381
+Iter 4800 | Best = 2.5256e+08 | FEs = 145677
+Iter 5400 | Best = 2.5256e+08 | FEs = 164044
+Iter    1 | Best = 2.5502e+08 | FEs = 60
+Iter  600 | Best = 2.5256e+08 | FEs = 18149
+Iter 1200 | Best = 2.5256e+08 | FEs = 36309
+Iter 1800 | Best = 2.5256e+08 | FEs = 54475
+Iter 2400 | Best = 2.5256e+08 | FEs = 72654
+Iter 3000 | Best = 2.5256e+08 | FEs = 90865
+Iter 3600 | Best = 2.5256e+08 | FEs = 109097
+Iter 4200 | Best = 2.5256e+08 | FEs = 127355
+Iter 4800 | Best = 2.5256e+08 | FEs = 145637
+Iter 5400 | Best = 2.5256e+08 | FEs = 163992
+
+    Results: Min=2.5256e+08, Median=2.5256e+08, Mean=2.5256e+08, Std=0.0000e+00
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=120000, MaxIter=4000)
+    Run: Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12072
+Iter  800 | Best = 4.5751e+04 | FEs = 24116
+Iter 1200 | Best = 4.5751e+04 | FEs = 36166
+Iter 1600 | Best = 4.5751e+04 | FEs = 48216
+Iter 2000 | Best = 4.5751e+04 | FEs = 60280
+Iter 2400 | Best = 4.5751e+04 | FEs = 72356
+Iter 2800 | Best = 4.5751e+04 | FEs = 84453
+Iter 3200 | Best = 4.5751e+04 | FEs = 96565
+Iter 3600 | Best = 4.5751e+04 | FEs = 108711
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12069
+Iter  800 | Best = 4.5751e+04 | FEs = 24130
+Iter 1200 | Best = 4.5751e+04 | FEs = 36188
+Iter 1600 | Best = 4.5751e+04 | FEs = 48259
+Iter 2000 | Best = 4.5751e+04 | FEs = 60341
+Iter 2400 | Best = 4.5751e+04 | FEs = 72435
+Iter 2800 | Best = 4.5751e+04 | FEs = 84544
+Iter 3200 | Best = 4.5751e+04 | FEs = 96681
+Iter 3600 | Best = 4.5751e+04 | FEs = 108843
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12063
+Iter  800 | Best = 4.5751e+04 | FEs = 24120
+Iter 1200 | Best = 4.5751e+04 | FEs = 36166
+Iter 1600 | Best = 4.5751e+04 | FEs = 48221
+Iter 2000 | Best = 4.5751e+04 | FEs = 60269
+Iter 2400 | Best = 4.5751e+04 | FEs = 72333
+Iter 2800 | Best = 4.5751e+04 | FEs = 84423
+Iter 3200 | Best = 4.5751e+04 | FEs = 96538
+Iter 3600 | Best = 4.5751e+04 | FEs = 108681
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12067
+Iter  800 | Best = 4.5751e+04 | FEs = 24118
+Iter 1200 | Best = 4.5751e+04 | FEs = 36169
+Iter 1600 | Best = 4.5751e+04 | FEs = 48218
+Iter 2000 | Best = 4.5751e+04 | FEs = 60274
+Iter 2400 | Best = 4.5751e+04 | FEs = 72335
+Iter 2800 | Best = 4.5751e+04 | FEs = 84432
+Iter 3200 | Best = 4.5751e+04 | FEs = 96550
+Iter 3600 | Best = 4.5751e+04 | FEs = 108702
+5 Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12059
+Iter  800 | Best = 4.5751e+04 | FEs = 24104
+Iter 1200 | Best = 4.5751e+04 | FEs = 36147
+Iter 1600 | Best = 4.5751e+04 | FEs = 48201
+Iter 2000 | Best = 4.5751e+04 | FEs = 60271
+Iter 2400 | Best = 4.5751e+04 | FEs = 72338
+Iter 2800 | Best = 4.5751e+04 | FEs = 84420
+Iter 3200 | Best = 4.5751e+04 | FEs = 96522
+Iter 3600 | Best = 4.5751e+04 | FEs = 108689
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12066
+Iter  800 | Best = 4.5751e+04 | FEs = 24105
+Iter 1200 | Best = 4.5751e+04 | FEs = 36151
+Iter 1600 | Best = 4.5751e+04 | FEs = 48206
+Iter 2000 | Best = 4.5751e+04 | FEs = 60266
+Iter 2400 | Best = 4.5751e+04 | FEs = 72335
+Iter 2800 | Best = 4.5751e+04 | FEs = 84418
+Iter 3200 | Best = 4.5751e+04 | FEs = 96528
+Iter 3600 | Best = 4.5751e+04 | FEs = 108684
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12056
+Iter  800 | Best = 4.5751e+04 | FEs = 24103
+Iter 1200 | Best = 4.5751e+04 | FEs = 36152
+Iter 1600 | Best = 4.5751e+04 | FEs = 48208
+Iter 2000 | Best = 4.5751e+04 | FEs = 60267
+Iter 2400 | Best = 4.5751e+04 | FEs = 72338
+Iter 2800 | Best = 4.5751e+04 | FEs = 84420
+Iter 3200 | Best = 4.5751e+04 | FEs = 96525
+Iter 3600 | Best = 4.5751e+04 | FEs = 108696
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12069
+Iter  800 | Best = 4.5751e+04 | FEs = 24130
+Iter 1200 | Best = 4.5751e+04 | FEs = 36195
+Iter 1600 | Best = 4.5751e+04 | FEs = 48269
+Iter 2000 | Best = 4.5751e+04 | FEs = 60345
+Iter 2400 | Best = 4.5751e+04 | FEs = 72436
+Iter 2800 | Best = 4.5751e+04 | FEs = 84523
+Iter 3200 | Best = 4.5751e+04 | FEs = 96620
+Iter 3600 | Best = 4.5751e+04 | FEs = 108777
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12072
+Iter  800 | Best = 4.5751e+04 | FEs = 24130
+Iter 1200 | Best = 4.5751e+04 | FEs = 36191
+Iter 1600 | Best = 4.5751e+04 | FEs = 48251
+Iter 2000 | Best = 4.5751e+04 | FEs = 60313
+Iter 2400 | Best = 4.5751e+04 | FEs = 72390
+Iter 2800 | Best = 4.5751e+04 | FEs = 84481
+Iter 3200 | Best = 4.5751e+04 | FEs = 96612
+Iter 3600 | Best = 4.5751e+04 | FEs = 108768
+10 Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12071
+Iter  800 | Best = 4.5751e+04 | FEs = 24128
+Iter 1200 | Best = 4.5751e+04 | FEs = 36189
+Iter 1600 | Best = 4.5751e+04 | FEs = 48255
+Iter 2000 | Best = 4.5751e+04 | FEs = 60324
+Iter 2400 | Best = 4.5751e+04 | FEs = 72399
+Iter 2800 | Best = 4.5751e+04 | FEs = 84490
+Iter 3200 | Best = 4.5751e+04 | FEs = 96605
+Iter 3600 | Best = 4.5751e+04 | FEs = 108755
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12062
+Iter  800 | Best = 4.5751e+04 | FEs = 24108
+Iter 1200 | Best = 4.5751e+04 | FEs = 36155
+Iter 1600 | Best = 4.5751e+04 | FEs = 48203
+Iter 2000 | Best = 4.5751e+04 | FEs = 60269
+Iter 2400 | Best = 4.5751e+04 | FEs = 72340
+Iter 2800 | Best = 4.5751e+04 | FEs = 84427
+Iter 3200 | Best = 4.5751e+04 | FEs = 96543
+Iter 3600 | Best = 4.5751e+04 | FEs = 108704
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12069
+Iter  800 | Best = 4.5751e+04 | FEs = 24112
+Iter 1200 | Best = 4.5751e+04 | FEs = 36164
+Iter 1600 | Best = 4.5751e+04 | FEs = 48220
+Iter 2000 | Best = 4.5751e+04 | FEs = 60276
+Iter 2400 | Best = 4.5751e+04 | FEs = 72349
+Iter 2800 | Best = 4.5751e+04 | FEs = 84428
+Iter 3200 | Best = 4.5751e+04 | FEs = 96541
+Iter 3600 | Best = 4.5751e+04 | FEs = 108702
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12075
+Iter  800 | Best = 4.5751e+04 | FEs = 24145
+Iter 1200 | Best = 4.5751e+04 | FEs = 36210
+Iter 1600 | Best = 4.5751e+04 | FEs = 48277
+Iter 2000 | Best = 4.5751e+04 | FEs = 60354
+Iter 2400 | Best = 4.5751e+04 | FEs = 72442
+Iter 2800 | Best = 4.5751e+04 | FEs = 84547
+Iter 3200 | Best = 4.5751e+04 | FEs = 96664
+Iter 3600 | Best = 4.5751e+04 | FEs = 108847
+Iter    1 | Best = 4.6335e+04 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12067
+Iter  800 | Best = 4.5751e+04 | FEs = 24121
+Iter 1200 | Best = 4.5751e+04 | FEs = 36186
+Iter 1600 | Best = 4.5751e+04 | FEs = 48253
+Iter 2000 | Best = 4.5751e+04 | FEs = 60330
+Iter 2400 | Best = 4.5751e+04 | FEs = 72412
+Iter 2800 | Best = 4.5751e+04 | FEs = 84513
+Iter 3200 | Best = 4.5751e+04 | FEs = 96644
+Iter 3600 | Best = 4.5751e+04 | FEs = 108813
+15 Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12062
+Iter  800 | Best = 4.5751e+04 | FEs = 24108
+Iter 1200 | Best = 4.5751e+04 | FEs = 36154
+Iter 1600 | Best = 4.5751e+04 | FEs = 48213
+Iter 2000 | Best = 4.5751e+04 | FEs = 60275
+Iter 2400 | Best = 4.5751e+04 | FEs = 72347
+Iter 2800 | Best = 4.5751e+04 | FEs = 84440
+Iter 3200 | Best = 4.5751e+04 | FEs = 96543
+Iter 3600 | Best = 4.5751e+04 | FEs = 108695
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12066
+Iter  800 | Best = 4.5751e+04 | FEs = 24125
+Iter 1200 | Best = 4.5751e+04 | FEs = 36184
+Iter 1600 | Best = 4.5751e+04 | FEs = 48247
+Iter 2000 | Best = 4.5751e+04 | FEs = 60319
+Iter 2400 | Best = 4.5751e+04 | FEs = 72405
+Iter 2800 | Best = 4.5751e+04 | FEs = 84501
+Iter 3200 | Best = 4.5751e+04 | FEs = 96608
+Iter 3600 | Best = 4.5751e+04 | FEs = 108770
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12066
+Iter  800 | Best = 4.5751e+04 | FEs = 24132
+Iter 1200 | Best = 4.5751e+04 | FEs = 36189
+Iter 1600 | Best = 4.5751e+04 | FEs = 48254
+Iter 2000 | Best = 4.5751e+04 | FEs = 60332
+Iter 2400 | Best = 4.5751e+04 | FEs = 72415
+Iter 2800 | Best = 4.5751e+04 | FEs = 84507
+Iter 3200 | Best = 4.5751e+04 | FEs = 96633
+Iter 3600 | Best = 4.5751e+04 | FEs = 108778
+Iter    1 | Best = 4.5775e+04 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12071
+Iter  800 | Best = 4.5751e+04 | FEs = 24141
+Iter 1200 | Best = 4.5751e+04 | FEs = 36205
+Iter 1600 | Best = 4.5751e+04 | FEs = 48268
+Iter 2000 | Best = 4.5751e+04 | FEs = 60338
+Iter 2400 | Best = 4.5751e+04 | FEs = 72427
+Iter 2800 | Best = 4.5751e+04 | FEs = 84525
+Iter 3200 | Best = 4.5751e+04 | FEs = 96647
+Iter 3600 | Best = 4.5751e+04 | FEs = 108818
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12074
+Iter  800 | Best = 4.5751e+04 | FEs = 24128
+Iter 1200 | Best = 4.5751e+04 | FEs = 36190
+Iter 1600 | Best = 4.5751e+04 | FEs = 48248
+Iter 2000 | Best = 4.5751e+04 | FEs = 60321
+Iter 2400 | Best = 4.5751e+04 | FEs = 72394
+Iter 2800 | Best = 4.5751e+04 | FEs = 84495
+Iter 3200 | Best = 4.5751e+04 | FEs = 96602
+Iter 3600 | Best = 4.5751e+04 | FEs = 108745
+20 Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12068
+Iter  800 | Best = 4.5751e+04 | FEs = 24117
+Iter 1200 | Best = 4.5751e+04 | FEs = 36164
+Iter 1600 | Best = 4.5751e+04 | FEs = 48224
+Iter 2000 | Best = 4.5751e+04 | FEs = 60291
+Iter 2400 | Best = 4.5751e+04 | FEs = 72365
+Iter 2800 | Best = 4.5751e+04 | FEs = 84455
+Iter 3200 | Best = 4.5751e+04 | FEs = 96569
+Iter 3600 | Best = 4.5751e+04 | FEs = 108726
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12060
+Iter  800 | Best = 4.5751e+04 | FEs = 24109
+Iter 1200 | Best = 4.5751e+04 | FEs = 36162
+Iter 1600 | Best = 4.5751e+04 | FEs = 48204
+Iter 2000 | Best = 4.5751e+04 | FEs = 60271
+Iter 2400 | Best = 4.5751e+04 | FEs = 72346
+Iter 2800 | Best = 4.5751e+04 | FEs = 84428
+Iter 3200 | Best = 4.5751e+04 | FEs = 96540
+Iter 3600 | Best = 4.5751e+04 | FEs = 108710
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12066
+Iter  800 | Best = 4.5751e+04 | FEs = 24109
+Iter 1200 | Best = 4.5751e+04 | FEs = 36162
+Iter 1600 | Best = 4.5751e+04 | FEs = 48221
+Iter 2000 | Best = 4.5751e+04 | FEs = 60292
+Iter 2400 | Best = 4.5751e+04 | FEs = 72366
+Iter 2800 | Best = 4.5751e+04 | FEs = 84451
+Iter 3200 | Best = 4.5751e+04 | FEs = 96559
+Iter 3600 | Best = 4.5751e+04 | FEs = 108712
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12064
+Iter  800 | Best = 4.5751e+04 | FEs = 24120
+Iter 1200 | Best = 4.5751e+04 | FEs = 36172
+Iter 1600 | Best = 4.5751e+04 | FEs = 48225
+Iter 2000 | Best = 4.5751e+04 | FEs = 60287
+Iter 2400 | Best = 4.5751e+04 | FEs = 72354
+Iter 2800 | Best = 4.5751e+04 | FEs = 84432
+Iter 3200 | Best = 4.5751e+04 | FEs = 96551
+Iter 3600 | Best = 4.5751e+04 | FEs = 108718
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12072
+Iter  800 | Best = 4.5751e+04 | FEs = 24136
+Iter 1200 | Best = 4.5751e+04 | FEs = 36208
+Iter 1600 | Best = 4.5751e+04 | FEs = 48286
+Iter 2000 | Best = 4.5751e+04 | FEs = 60376
+Iter 2400 | Best = 4.5751e+04 | FEs = 72475
+Iter 2800 | Best = 4.5751e+04 | FEs = 84584
+Iter 3200 | Best = 4.5751e+04 | FEs = 96705
+Iter 3600 | Best = 4.5751e+04 | FEs = 108859
+25 Iter    1 | Best = 4.9005e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12074
+Iter  800 | Best = 4.5751e+04 | FEs = 24110
+Iter 1200 | Best = 4.5751e+04 | FEs = 36165
+Iter 1600 | Best = 4.5751e+04 | FEs = 48224
+Iter 2000 | Best = 4.5751e+04 | FEs = 60289
+Iter 2400 | Best = 4.5751e+04 | FEs = 72367
+Iter 2800 | Best = 4.5751e+04 | FEs = 84449
+Iter 3200 | Best = 4.5751e+04 | FEs = 96552
+Iter 3600 | Best = 4.5751e+04 | FEs = 108708
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12065
+Iter  800 | Best = 4.5751e+04 | FEs = 24107
+Iter 1200 | Best = 4.5751e+04 | FEs = 36151
+Iter 1600 | Best = 4.5751e+04 | FEs = 48206
+Iter 2000 | Best = 4.5751e+04 | FEs = 60254
+Iter 2400 | Best = 4.5751e+04 | FEs = 72330
+Iter 2800 | Best = 4.5751e+04 | FEs = 84420
+Iter 3200 | Best = 4.5751e+04 | FEs = 96515
+Iter 3600 | Best = 4.5751e+04 | FEs = 108659
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12064
+Iter  800 | Best = 4.5751e+04 | FEs = 24119
+Iter 1200 | Best = 4.5751e+04 | FEs = 36170
+Iter 1600 | Best = 4.5751e+04 | FEs = 48232
+Iter 2000 | Best = 4.5751e+04 | FEs = 60295
+Iter 2400 | Best = 4.5751e+04 | FEs = 72359
+Iter 2800 | Best = 4.5751e+04 | FEs = 84450
+Iter 3200 | Best = 4.5751e+04 | FEs = 96569
+Iter 3600 | Best = 4.5751e+04 | FEs = 108710
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12064
+Iter  800 | Best = 4.5751e+04 | FEs = 24113
+Iter 1200 | Best = 4.5751e+04 | FEs = 36164
+Iter 1600 | Best = 4.5751e+04 | FEs = 48218
+Iter 2000 | Best = 4.5751e+04 | FEs = 60279
+Iter 2400 | Best = 4.5751e+04 | FEs = 72349
+Iter 2800 | Best = 4.5751e+04 | FEs = 84432
+Iter 3200 | Best = 4.5751e+04 | FEs = 96543
+Iter 3600 | Best = 4.5751e+04 | FEs = 108699
+Iter    1 | Best = 3.9605e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12064
+Iter  800 | Best = 4.5751e+04 | FEs = 24125
+Iter 1200 | Best = 4.5751e+04 | FEs = 36190
+Iter 1600 | Best = 4.5751e+04 | FEs = 48260
+Iter 2000 | Best = 4.5751e+04 | FEs = 60315
+Iter 2400 | Best = 4.5751e+04 | FEs = 72381
+Iter 2800 | Best = 4.5751e+04 | FEs = 84462
+Iter 3200 | Best = 4.5751e+04 | FEs = 96573
+Iter 3600 | Best = 4.5751e+04 | FEs = 108739
+30 Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12072
+Iter  800 | Best = 4.5751e+04 | FEs = 24133
+Iter 1200 | Best = 4.5751e+04 | FEs = 36180
+Iter 1600 | Best = 4.5751e+04 | FEs = 48244
+Iter 2000 | Best = 4.5751e+04 | FEs = 60324
+Iter 2400 | Best = 4.5751e+04 | FEs = 72420
+Iter 2800 | Best = 4.5751e+04 | FEs = 84532
+Iter 3200 | Best = 4.5751e+04 | FEs = 96684
+Iter 3600 | Best = 4.5751e+04 | FEs = 108869
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12061
+Iter  800 | Best = 4.5751e+04 | FEs = 24125
+Iter 1200 | Best = 4.5751e+04 | FEs = 36183
+Iter 1600 | Best = 4.5751e+04 | FEs = 48252
+Iter 2000 | Best = 4.5751e+04 | FEs = 60314
+Iter 2400 | Best = 4.5751e+04 | FEs = 72388
+Iter 2800 | Best = 4.5751e+04 | FEs = 84478
+Iter 3200 | Best = 4.5751e+04 | FEs = 96583
+Iter 3600 | Best = 4.5751e+04 | FEs = 108749
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12081
+Iter  800 | Best = 4.5751e+04 | FEs = 24153
+Iter 1200 | Best = 4.5751e+04 | FEs = 36230
+Iter 1600 | Best = 4.5751e+04 | FEs = 48307
+Iter 2000 | Best = 4.5751e+04 | FEs = 60400
+Iter 2400 | Best = 4.5751e+04 | FEs = 72478
+Iter 2800 | Best = 4.5751e+04 | FEs = 84564
+Iter 3200 | Best = 4.5751e+04 | FEs = 96676
+Iter 3600 | Best = 4.5751e+04 | FEs = 108830
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12074
+Iter  800 | Best = 4.5751e+04 | FEs = 24137
+Iter 1200 | Best = 4.5751e+04 | FEs = 36202
+Iter 1600 | Best = 4.5751e+04 | FEs = 48269
+Iter 2000 | Best = 4.5751e+04 | FEs = 60335
+Iter 2400 | Best = 4.5751e+04 | FEs = 72407
+Iter 2800 | Best = 4.5751e+04 | FEs = 84495
+Iter 3200 | Best = 4.5751e+04 | FEs = 96605
+Iter 3600 | Best = 4.5751e+04 | FEs = 108755
+Iter    1 | Best = 4.5768e+04 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12058
+Iter  800 | Best = 4.5751e+04 | FEs = 24112
+Iter 1200 | Best = 4.5751e+04 | FEs = 36169
+Iter 1600 | Best = 4.5751e+04 | FEs = 48221
+Iter 2000 | Best = 4.5751e+04 | FEs = 60288
+Iter 2400 | Best = 4.5751e+04 | FEs = 72353
+Iter 2800 | Best = 4.5751e+04 | FEs = 84443
+Iter 3200 | Best = 4.5751e+04 | FEs = 96549
+Iter 3600 | Best = 4.5751e+04 | FEs = 108697
+35 Iter    1 | Best = 1.1255e+08 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12059
+Iter  800 | Best = 4.5751e+04 | FEs = 24110
+Iter 1200 | Best = 4.5751e+04 | FEs = 36156
+Iter 1600 | Best = 4.5751e+04 | FEs = 48206
+Iter 2000 | Best = 4.5751e+04 | FEs = 60272
+Iter 2400 | Best = 4.5751e+04 | FEs = 72343
+Iter 2800 | Best = 4.5751e+04 | FEs = 84432
+Iter 3200 | Best = 4.5751e+04 | FEs = 96539
+Iter 3600 | Best = 4.5751e+04 | FEs = 108696
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12074
+Iter  800 | Best = 4.5751e+04 | FEs = 24129
+Iter 1200 | Best = 4.5751e+04 | FEs = 36193
+Iter 1600 | Best = 4.5751e+04 | FEs = 48263
+Iter 2000 | Best = 4.5751e+04 | FEs = 60333
+Iter 2400 | Best = 4.5751e+04 | FEs = 72402
+Iter 2800 | Best = 4.5751e+04 | FEs = 84489
+Iter 3200 | Best = 4.5751e+04 | FEs = 96601
+Iter 3600 | Best = 4.5751e+04 | FEs = 108756
+Iter    1 | Best = 4.9005e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12072
+Iter  800 | Best = 4.5751e+04 | FEs = 24130
+Iter 1200 | Best = 4.5751e+04 | FEs = 36192
+Iter 1600 | Best = 4.5751e+04 | FEs = 48254
+Iter 2000 | Best = 4.5751e+04 | FEs = 60323
+Iter 2400 | Best = 4.5751e+04 | FEs = 72394
+Iter 2800 | Best = 4.5751e+04 | FEs = 84472
+Iter 3200 | Best = 4.5751e+04 | FEs = 96579
+Iter 3600 | Best = 4.5751e+04 | FEs = 108744
+Iter    1 | Best = 4.5751e+04 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12068
+Iter  800 | Best = 4.5751e+04 | FEs = 24114
+Iter 1200 | Best = 4.5751e+04 | FEs = 36158
+Iter 1600 | Best = 4.5751e+04 | FEs = 48213
+Iter 2000 | Best = 4.5751e+04 | FEs = 60270
+Iter 2400 | Best = 4.5751e+04 | FEs = 72343
+Iter 2800 | Best = 4.5751e+04 | FEs = 84429
+Iter 3200 | Best = 4.5751e+04 | FEs = 96543
+Iter 3600 | Best = 4.5751e+04 | FEs = 108700
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12069
+Iter  800 | Best = 4.5751e+04 | FEs = 24130
+Iter 1200 | Best = 4.5751e+04 | FEs = 36193
+Iter 1600 | Best = 4.5751e+04 | FEs = 48269
+Iter 2000 | Best = 4.5751e+04 | FEs = 60349
+Iter 2400 | Best = 4.5751e+04 | FEs = 72445
+Iter 2800 | Best = 4.5751e+04 | FEs = 84554
+Iter 3200 | Best = 4.5751e+04 | FEs = 96694
+Iter 3600 | Best = 4.5751e+04 | FEs = 108911
+40 Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12069
+Iter  800 | Best = 4.5751e+04 | FEs = 24110
+Iter 1200 | Best = 4.5751e+04 | FEs = 36154
+Iter 1600 | Best = 4.5751e+04 | FEs = 48207
+Iter 2000 | Best = 4.5751e+04 | FEs = 60266
+Iter 2400 | Best = 4.5751e+04 | FEs = 72334
+Iter 2800 | Best = 4.5751e+04 | FEs = 84412
+Iter 3200 | Best = 4.5751e+04 | FEs = 96516
+Iter 3600 | Best = 4.5751e+04 | FEs = 108671
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12058
+Iter  800 | Best = 4.5751e+04 | FEs = 24109
+Iter 1200 | Best = 4.5751e+04 | FEs = 36161
+Iter 1600 | Best = 4.5751e+04 | FEs = 48216
+Iter 2000 | Best = 4.5751e+04 | FEs = 60285
+Iter 2400 | Best = 4.5751e+04 | FEs = 72349
+Iter 2800 | Best = 4.5751e+04 | FEs = 84433
+Iter 3200 | Best = 4.5751e+04 | FEs = 96548
+Iter 3600 | Best = 4.5751e+04 | FEs = 108692
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12072
+Iter  800 | Best = 4.5751e+04 | FEs = 24120
+Iter 1200 | Best = 4.5751e+04 | FEs = 36180
+Iter 1600 | Best = 4.5751e+04 | FEs = 48243
+Iter 2000 | Best = 4.5751e+04 | FEs = 60324
+Iter 2400 | Best = 4.5751e+04 | FEs = 72412
+Iter 2800 | Best = 4.5751e+04 | FEs = 84511
+Iter 3200 | Best = 4.5751e+04 | FEs = 96652
+Iter 3600 | Best = 4.5751e+04 | FEs = 108836
+Iter    1 | Best = 4.9005e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12084
+Iter  800 | Best = 4.5751e+04 | FEs = 24128
+Iter 1200 | Best = 4.5751e+04 | FEs = 36192
+Iter 1600 | Best = 4.5751e+04 | FEs = 48264
+Iter 2000 | Best = 4.5751e+04 | FEs = 60345
+Iter 2400 | Best = 4.5751e+04 | FEs = 72434
+Iter 2800 | Best = 4.5751e+04 | FEs = 84532
+Iter 3200 | Best = 4.5751e+04 | FEs = 96655
+Iter 3600 | Best = 4.5751e+04 | FEs = 108818
+Iter    1 | Best = 4.5931e+04 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12059
+Iter  800 | Best = 4.5751e+04 | FEs = 24114
+Iter 1200 | Best = 4.5751e+04 | FEs = 36157
+Iter 1600 | Best = 4.5751e+04 | FEs = 48208
+Iter 2000 | Best = 4.5751e+04 | FEs = 60272
+Iter 2400 | Best = 4.5751e+04 | FEs = 72348
+Iter 2800 | Best = 4.5751e+04 | FEs = 84425
+Iter 3200 | Best = 4.5751e+04 | FEs = 96539
+Iter 3600 | Best = 4.5751e+04 | FEs = 108663
+45 Iter    1 | Best = 4.9005e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12061
+Iter  800 | Best = 4.5751e+04 | FEs = 24105
+Iter 1200 | Best = 4.5751e+04 | FEs = 36166
+Iter 1600 | Best = 4.5751e+04 | FEs = 48221
+Iter 2000 | Best = 4.5751e+04 | FEs = 60281
+Iter 2400 | Best = 4.5751e+04 | FEs = 72350
+Iter 2800 | Best = 4.5751e+04 | FEs = 84438
+Iter 3200 | Best = 4.5751e+04 | FEs = 96552
+Iter 3600 | Best = 4.5751e+04 | FEs = 108710
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12059
+Iter  800 | Best = 4.5751e+04 | FEs = 24108
+Iter 1200 | Best = 4.5751e+04 | FEs = 36160
+Iter 1600 | Best = 4.5751e+04 | FEs = 48217
+Iter 2000 | Best = 4.5751e+04 | FEs = 60286
+Iter 2400 | Best = 4.5751e+04 | FEs = 72370
+Iter 2800 | Best = 4.5751e+04 | FEs = 84462
+Iter 3200 | Best = 4.5751e+04 | FEs = 96570
+Iter 3600 | Best = 4.5751e+04 | FEs = 108726
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12060
+Iter  800 | Best = 4.5751e+04 | FEs = 24107
+Iter 1200 | Best = 4.5751e+04 | FEs = 36151
+Iter 1600 | Best = 4.5751e+04 | FEs = 48202
+Iter 2000 | Best = 4.5751e+04 | FEs = 60258
+Iter 2400 | Best = 4.5751e+04 | FEs = 72325
+Iter 2800 | Best = 4.5751e+04 | FEs = 84413
+Iter 3200 | Best = 4.5751e+04 | FEs = 96519
+Iter 3600 | Best = 4.5751e+04 | FEs = 108683
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12069
+Iter  800 | Best = 4.5751e+04 | FEs = 24120
+Iter 1200 | Best = 4.5751e+04 | FEs = 36183
+Iter 1600 | Best = 4.5751e+04 | FEs = 48242
+Iter 2000 | Best = 4.5751e+04 | FEs = 60322
+Iter 2400 | Best = 4.5751e+04 | FEs = 72401
+Iter 2800 | Best = 4.5751e+04 | FEs = 84506
+Iter 3200 | Best = 4.5751e+04 | FEs = 96635
+Iter 3600 | Best = 4.5751e+04 | FEs = 108807
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12059
+Iter  800 | Best = 4.5751e+04 | FEs = 24094
+Iter 1200 | Best = 4.5751e+04 | FEs = 36147
+Iter 1600 | Best = 4.5751e+04 | FEs = 48189
+Iter 2000 | Best = 4.5751e+04 | FEs = 60248
+Iter 2400 | Best = 4.5751e+04 | FEs = 72318
+Iter 2800 | Best = 4.5751e+04 | FEs = 84405
+Iter 3200 | Best = 4.5751e+04 | FEs = 96515
+Iter 3600 | Best = 4.5751e+04 | FEs = 108657
+50 Iter    1 | Best = 4.6032e+04 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12066
+Iter  800 | Best = 4.5751e+04 | FEs = 24112
+Iter 1200 | Best = 4.5751e+04 | FEs = 36156
+Iter 1600 | Best = 4.5751e+04 | FEs = 48208
+Iter 2000 | Best = 4.5751e+04 | FEs = 60273
+Iter 2400 | Best = 4.5751e+04 | FEs = 72346
+Iter 2800 | Best = 4.5751e+04 | FEs = 84433
+Iter 3200 | Best = 4.5751e+04 | FEs = 96532
+Iter 3600 | Best = 4.5751e+04 | FEs = 108692
+Iter    1 | Best = 4.9006e+09 | FEs = 60
+Iter  400 | Best = 4.5751e+04 | FEs = 12080
+Iter  800 | Best = 4.5751e+04 | FEs = 24140
+Iter 1200 | Best = 4.5751e+04 | FEs = 36190
+Iter 1600 | Best = 4.5751e+04 | FEs = 48250
+Iter 2000 | Best = 4.5751e+04 | FEs = 60307
+Iter 2400 | Best = 4.5751e+04 | FEs = 72382
+Iter 2800 | Best = 4.5751e+04 | FEs = 84463
+Iter 3200 | Best = 4.5751e+04 | FEs = 96561
+Iter 3600 | Best = 4.5751e+04 | FEs = 108732
+
+    Results: Min=4.5751e+04, Median=4.5751e+04, Mean=4.5751e+04, Std=1.1735e-03
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=110000, MaxIter=3667)
+    Run: Iter    1 | Best = 1.5346e+07 | FEs = 60
+Iter  367 | Best = 1.4674e+07 | FEs = 11094
+Iter  734 | Best = 1.4672e+07 | FEs = 22175
+Iter 1101 | Best = 1.4670e+07 | FEs = 33262
+Iter 1468 | Best = 1.4670e+07 | FEs = 44356
+Iter 1835 | Best = 1.4670e+07 | FEs = 55472
+Iter 2202 | Best = 1.4669e+07 | FEs = 66598
+Iter 2569 | Best = 1.4669e+07 | FEs = 77746
+Iter 2936 | Best = 1.4669e+07 | FEs = 88938
+Iter 3303 | Best = 1.4669e+07 | FEs = 100189
+Iter    1 | Best = 1.5342e+07 | FEs = 60
+Iter  367 | Best = 1.4674e+07 | FEs = 11073
+Iter  734 | Best = 1.4672e+07 | FEs = 22151
+Iter 1101 | Best = 1.4672e+07 | FEs = 33235
+Iter 1468 | Best = 1.4672e+07 | FEs = 44333
+Iter 1835 | Best = 1.4672e+07 | FEs = 55437
+Iter 2202 | Best = 1.4672e+07 | FEs = 66562
+Iter 2569 | Best = 1.4671e+07 | FEs = 77703
+Iter 2936 | Best = 1.4670e+07 | FEs = 88897
+Iter 3303 | Best = 1.4670e+07 | FEs = 100121
+Iter    1 | Best = 1.5347e+07 | FEs = 60
+Iter  367 | Best = 1.5334e+07 | FEs = 11092
+Iter  734 | Best = 1.4675e+07 | FEs = 22164
+Iter 1101 | Best = 1.4672e+07 | FEs = 33240
+Iter 1468 | Best = 1.4667e+07 | FEs = 44334
+Iter 1835 | Best = 1.4667e+07 | FEs = 55444
+Iter 2202 | Best = 1.4667e+07 | FEs = 66571
+Iter 2569 | Best = 1.4667e+07 | FEs = 77722
+Iter 2936 | Best = 1.4667e+07 | FEs = 88890
+Iter 3303 | Best = 1.4667e+07 | FEs = 100139
+Iter    1 | Best = 1.5344e+07 | FEs = 60
+Iter  367 | Best = 1.5335e+07 | FEs = 11096
+Iter  734 | Best = 1.4801e+07 | FEs = 22171
+Iter 1101 | Best = 1.4672e+07 | FEs = 33231
+Iter 1468 | Best = 1.4672e+07 | FEs = 44338
+Iter 1835 | Best = 1.4672e+07 | FEs = 55448
+Iter 2202 | Best = 1.4672e+07 | FEs = 66575
+Iter 2569 | Best = 1.4672e+07 | FEs = 77719
+Iter 2936 | Best = 1.4672e+07 | FEs = 88915
+Iter 3303 | Best = 1.4672e+07 | FEs = 100164
+5 Iter    1 | Best = 1.5343e+07 | FEs = 60
+Iter  367 | Best = 1.4672e+07 | FEs = 11082
+Iter  734 | Best = 1.4672e+07 | FEs = 22163
+Iter 1101 | Best = 1.4672e+07 | FEs = 33246
+Iter 1468 | Best = 1.4672e+07 | FEs = 44349
+Iter 1835 | Best = 1.4672e+07 | FEs = 55461
+Iter 2202 | Best = 1.4672e+07 | FEs = 66584
+Iter 2569 | Best = 1.4671e+07 | FEs = 77738
+Iter 2936 | Best = 1.4671e+07 | FEs = 88920
+Iter 3303 | Best = 1.4671e+07 | FEs = 100159
+Iter    1 | Best = 1.5342e+07 | FEs = 60
+Iter  367 | Best = 1.4673e+07 | FEs = 11084
+Iter  734 | Best = 1.4673e+07 | FEs = 22164
+Iter 1101 | Best = 1.4671e+07 | FEs = 33255
+Iter 1468 | Best = 1.4671e+07 | FEs = 44346
+Iter 1835 | Best = 1.4671e+07 | FEs = 55452
+Iter 2202 | Best = 1.4671e+07 | FEs = 66580
+Iter 2569 | Best = 1.4671e+07 | FEs = 77734
+Iter 2936 | Best = 1.4671e+07 | FEs = 88927
+Iter 3303 | Best = 1.4671e+07 | FEs = 100182
+Iter    1 | Best = 1.5345e+07 | FEs = 60
+Iter  367 | Best = 1.4977e+07 | FEs = 11086
+Iter  734 | Best = 1.4677e+07 | FEs = 22157
+Iter 1101 | Best = 1.4674e+07 | FEs = 33234
+Iter 1468 | Best = 1.4670e+07 | FEs = 44330
+Iter 1835 | Best = 1.4670e+07 | FEs = 55440
+Iter 2202 | Best = 1.4670e+07 | FEs = 66566
+Iter 2569 | Best = 1.4670e+07 | FEs = 77716
+Iter 2936 | Best = 1.4670e+07 | FEs = 88905
+Iter 3303 | Best = 1.4670e+07 | FEs = 100165
+Iter    1 | Best = 1.5348e+07 | FEs = 60
+Iter  367 | Best = 1.5333e+07 | FEs = 11087
+Iter  734 | Best = 1.4676e+07 | FEs = 22139
+Iter 1101 | Best = 1.4673e+07 | FEs = 33234
+Iter 1468 | Best = 1.4673e+07 | FEs = 44325
+Iter 1835 | Best = 1.4673e+07 | FEs = 55440
+Iter 2202 | Best = 1.4673e+07 | FEs = 66571
+Iter 2569 | Best = 1.4673e+07 | FEs = 77715
+Iter 2936 | Best = 1.4673e+07 | FEs = 88889
+Iter 3303 | Best = 1.4671e+07 | FEs = 100131
+Iter    1 | Best = 1.5341e+07 | FEs = 60
+Iter  367 | Best = 1.4676e+07 | FEs = 11082
+Iter  734 | Best = 1.4669e+07 | FEs = 22148
+Iter 1101 | Best = 1.4669e+07 | FEs = 33238
+Iter 1468 | Best = 1.4669e+07 | FEs = 44337
+Iter 1835 | Best = 1.4669e+07 | FEs = 55433
+Iter 2202 | Best = 1.4669e+07 | FEs = 66555
+Iter 2569 | Best = 1.4669e+07 | FEs = 77715
+Iter 2936 | Best = 1.4669e+07 | FEs = 88903
+Iter 3303 | Best = 1.4669e+07 | FEs = 100156
+10 Iter    1 | Best = 1.5342e+07 | FEs = 60
+Iter  367 | Best = 1.4676e+07 | FEs = 11075
+Iter  734 | Best = 1.4674e+07 | FEs = 22156
+Iter 1101 | Best = 1.4674e+07 | FEs = 33239
+Iter 1468 | Best = 1.4672e+07 | FEs = 44340
+Iter 1835 | Best = 1.4672e+07 | FEs = 55448
+Iter 2202 | Best = 1.4672e+07 | FEs = 66575
+Iter 2569 | Best = 1.4672e+07 | FEs = 77728
+Iter 2936 | Best = 1.4672e+07 | FEs = 88909
+Iter 3303 | Best = 1.4670e+07 | FEs = 100144
+Iter    1 | Best = 1.5343e+07 | FEs = 60
+Iter  367 | Best = 1.4672e+07 | FEs = 11085
+Iter  734 | Best = 1.4671e+07 | FEs = 22164
+Iter 1101 | Best = 1.4670e+07 | FEs = 33251
+Iter 1468 | Best = 1.4670e+07 | FEs = 44347
+Iter 1835 | Best = 1.4670e+07 | FEs = 55453
+Iter 2202 | Best = 1.4670e+07 | FEs = 66581
+Iter 2569 | Best = 1.4670e+07 | FEs = 77737
+Iter 2936 | Best = 1.4670e+07 | FEs = 88930
+Iter 3303 | Best = 1.4670e+07 | FEs = 100176
+Iter    1 | Best = 1.5343e+07 | FEs = 60
+Iter  367 | Best = 1.5333e+07 | FEs = 11090
+Iter  734 | Best = 1.5333e+07 | FEs = 22176
+Iter 1101 | Best = 1.5331e+07 | FEs = 33271
+Iter 1468 | Best = 1.5331e+07 | FEs = 44374
+Iter 1835 | Best = 1.5331e+07 | FEs = 55477
+Iter 2202 | Best = 1.5331e+07 | FEs = 66603
+Iter 2569 | Best = 1.4731e+07 | FEs = 77737
+Iter 2936 | Best = 1.4674e+07 | FEs = 88914
+Iter 3303 | Best = 1.4673e+07 | FEs = 100163
+Iter    1 | Best = 1.5342e+07 | FEs = 60
+Iter  367 | Best = 1.5334e+07 | FEs = 11095
+Iter  734 | Best = 1.5333e+07 | FEs = 22175
+Iter 1101 | Best = 1.4674e+07 | FEs = 33237
+Iter 1468 | Best = 1.4672e+07 | FEs = 44337
+Iter 1835 | Best = 1.4671e+07 | FEs = 55441
+Iter 2202 | Best = 1.4671e+07 | FEs = 66564
+Iter 2569 | Best = 1.4671e+07 | FEs = 77713
+Iter 2936 | Best = 1.4671e+07 | FEs = 88903
+Iter 3303 | Best = 1.4671e+07 | FEs = 100154
+Iter    1 | Best = 1.5346e+07 | FEs = 60
+Iter  367 | Best = 1.4672e+07 | FEs = 11074
+Iter  734 | Best = 1.4672e+07 | FEs = 22153
+Iter 1101 | Best = 1.4672e+07 | FEs = 33240
+Iter 1468 | Best = 1.4672e+07 | FEs = 44335
+Iter 1835 | Best = 1.4672e+07 | FEs = 55453
+Iter 2202 | Best = 1.4672e+07 | FEs = 66583
+Iter 2569 | Best = 1.4672e+07 | FEs = 77733
+Iter 2936 | Best = 1.4672e+07 | FEs = 88922
+Iter 3303 | Best = 1.4672e+07 | FEs = 100164
+15 Iter    1 | Best = 1.5340e+07 | FEs = 60
+Iter  367 | Best = 1.5335e+07 | FEs = 11091
+Iter  734 | Best = 1.5200e+07 | FEs = 22157
+Iter 1101 | Best = 1.5200e+07 | FEs = 33253
+Iter 1468 | Best = 1.4674e+07 | FEs = 44344
+Iter 1835 | Best = 1.4673e+07 | FEs = 55455
+Iter 2202 | Best = 1.4673e+07 | FEs = 66583
+Iter 2569 | Best = 1.4673e+07 | FEs = 77730
+Iter 2936 | Best = 1.4670e+07 | FEs = 88914
+Iter 3303 | Best = 1.4670e+07 | FEs = 100169
+Iter    1 | Best = 1.5344e+07 | FEs = 60
+Iter  367 | Best = 1.4673e+07 | FEs = 11091
+Iter  734 | Best = 1.4673e+07 | FEs = 22171
+Iter 1101 | Best = 1.4673e+07 | FEs = 33261
+Iter 1468 | Best = 1.4673e+07 | FEs = 44364
+Iter 1835 | Best = 1.4673e+07 | FEs = 55469
+Iter 2202 | Best = 1.4672e+07 | FEs = 66594
+Iter 2569 | Best = 1.4672e+07 | FEs = 77747
+Iter 2936 | Best = 1.4672e+07 | FEs = 88947
+Iter 3303 | Best = 1.4672e+07 | FEs = 100201
+Iter    1 | Best = 1.5342e+07 | FEs = 60
+Iter  367 | Best = 1.4673e+07 | FEs = 11084
+Iter  734 | Best = 1.4672e+07 | FEs = 22161
+Iter 1101 | Best = 1.4672e+07 | FEs = 33252
+Iter 1468 | Best = 1.4670e+07 | FEs = 44358
+Iter 1835 | Best = 1.4670e+07 | FEs = 55467
+Iter 2202 | Best = 1.4670e+07 | FEs = 66602
+Iter 2569 | Best = 1.4670e+07 | FEs = 77747
+Iter 2936 | Best = 1.4670e+07 | FEs = 88933
+Iter 3303 | Best = 1.4670e+07 | FEs = 100167
+Iter    1 | Best = 1.5349e+07 | FEs = 60
+Iter  367 | Best = 1.4671e+07 | FEs = 11064
+Iter  734 | Best = 1.4671e+07 | FEs = 22138
+Iter 1101 | Best = 1.4671e+07 | FEs = 33221
+Iter 1468 | Best = 1.4671e+07 | FEs = 44319
+Iter 1835 | Best = 1.4671e+07 | FEs = 55432
+Iter 2202 | Best = 1.4671e+07 | FEs = 66550
+Iter 2569 | Best = 1.4671e+07 | FEs = 77701
+Iter 2936 | Best = 1.4671e+07 | FEs = 88890
+Iter 3303 | Best = 1.4671e+07 | FEs = 100150
+Iter    1 | Best = 1.5345e+07 | FEs = 60
+Iter  367 | Best = 1.5334e+07 | FEs = 11091
+Iter  734 | Best = 1.5334e+07 | FEs = 22177
+Iter 1101 | Best = 1.5332e+07 | FEs = 33258
+Iter 1468 | Best = 1.4678e+07 | FEs = 44327
+Iter 1835 | Best = 1.4672e+07 | FEs = 55429
+Iter 2202 | Best = 1.4669e+07 | FEs = 66564
+Iter 2569 | Best = 1.4669e+07 | FEs = 77717
+Iter 2936 | Best = 1.4669e+07 | FEs = 88901
+Iter 3303 | Best = 1.4669e+07 | FEs = 100158
+20 Iter    1 | Best = 1.5344e+07 | FEs = 60
+Iter  367 | Best = 1.5334e+07 | FEs = 11098
+Iter  734 | Best = 1.5334e+07 | FEs = 22180
+Iter 1101 | Best = 1.5332e+07 | FEs = 33268
+Iter 1468 | Best = 1.4672e+07 | FEs = 44351
+Iter 1835 | Best = 1.4672e+07 | FEs = 55468
+Iter 2202 | Best = 1.4672e+07 | FEs = 66592
+Iter 2569 | Best = 1.4672e+07 | FEs = 77738
+Iter 2936 | Best = 1.4672e+07 | FEs = 88930
+Iter 3303 | Best = 1.4672e+07 | FEs = 100173
+Iter    1 | Best = 1.5346e+07 | FEs = 60
+Iter  367 | Best = 1.5335e+07 | FEs = 11094
+Iter  734 | Best = 1.4673e+07 | FEs = 22161
+Iter 1101 | Best = 1.4673e+07 | FEs = 33248
+Iter 1468 | Best = 1.4670e+07 | FEs = 44342
+Iter 1835 | Best = 1.4670e+07 | FEs = 55452
+Iter 2202 | Best = 1.4670e+07 | FEs = 66570
+Iter 2569 | Best = 1.4670e+07 | FEs = 77719
+Iter 2936 | Best = 1.4670e+07 | FEs = 88897
+Iter 3303 | Best = 1.4670e+07 | FEs = 100140
+Iter    1 | Best = 1.5334e+07 | FEs = 60
+Iter  367 | Best = 1.4674e+07 | FEs = 11077
+Iter  734 | Best = 1.4674e+07 | FEs = 22155
+Iter 1101 | Best = 1.4672e+07 | FEs = 33239
+Iter 1468 | Best = 1.4672e+07 | FEs = 44334
+Iter 1835 | Best = 1.4672e+07 | FEs = 55446
+Iter 2202 | Best = 1.4672e+07 | FEs = 66561
+Iter 2569 | Best = 1.4672e+07 | FEs = 77712
+Iter 2936 | Best = 1.4669e+07 | FEs = 88901
+Iter 3303 | Best = 1.4669e+07 | FEs = 100151
+Iter    1 | Best = 1.5346e+07 | FEs = 60
+Iter  367 | Best = 1.5333e+07 | FEs = 11095
+Iter  734 | Best = 1.4675e+07 | FEs = 22149
+Iter 1101 | Best = 1.4674e+07 | FEs = 33244
+Iter 1468 | Best = 1.4672e+07 | FEs = 44345
+Iter 1835 | Best = 1.4672e+07 | FEs = 55457
+Iter 2202 | Best = 1.4672e+07 | FEs = 66586
+Iter 2569 | Best = 1.4672e+07 | FEs = 77717
+Iter 2936 | Best = 1.4672e+07 | FEs = 88887
+Iter 3303 | Best = 1.4672e+07 | FEs = 100151
+Iter    1 | Best = 1.5345e+07 | FEs = 60
+Iter  367 | Best = 1.5334e+07 | FEs = 11095
+Iter  734 | Best = 1.5334e+07 | FEs = 22180
+Iter 1101 | Best = 1.5087e+07 | FEs = 33277
+Iter 1468 | Best = 1.4674e+07 | FEs = 44351
+Iter 1835 | Best = 1.4672e+07 | FEs = 55461
+Iter 2202 | Best = 1.4672e+07 | FEs = 66585
+Iter 2569 | Best = 1.4672e+07 | FEs = 77738
+Iter 2936 | Best = 1.4672e+07 | FEs = 88925
+Iter 3303 | Best = 1.4671e+07 | FEs = 100165
+25 Iter    1 | Best = 1.5347e+07 | FEs = 60
+Iter  367 | Best = 1.4670e+07 | FEs = 11081
+Iter  734 | Best = 1.4670e+07 | FEs = 22165
+Iter 1101 | Best = 1.4670e+07 | FEs = 33249
+Iter 1468 | Best = 1.4670e+07 | FEs = 44346
+Iter 1835 | Best = 1.4669e+07 | FEs = 55456
+Iter 2202 | Best = 1.4669e+07 | FEs = 66583
+Iter 2569 | Best = 1.4669e+07 | FEs = 77730
+Iter 2936 | Best = 1.4669e+07 | FEs = 88921
+Iter 3303 | Best = 1.4669e+07 | FEs = 100178
+Iter    1 | Best = 1.5346e+07 | FEs = 60
+Iter  367 | Best = 1.4672e+07 | FEs = 11074
+Iter  734 | Best = 1.4672e+07 | FEs = 22151
+Iter 1101 | Best = 1.4672e+07 | FEs = 33240
+Iter 1468 | Best = 1.4671e+07 | FEs = 44336
+Iter 1835 | Best = 1.4671e+07 | FEs = 55443
+Iter 2202 | Best = 1.4671e+07 | FEs = 66566
+Iter 2569 | Best = 1.4671e+07 | FEs = 77720
+Iter 2936 | Best = 1.4671e+07 | FEs = 88915
+Iter 3303 | Best = 1.4671e+07 | FEs = 100156
+Iter    1 | Best = 1.5338e+07 | FEs = 60
+Iter  367 | Best = 1.4673e+07 | FEs = 11090
+Iter  734 | Best = 1.4673e+07 | FEs = 22173
+Iter 1101 | Best = 1.4673e+07 | FEs = 33265
+Iter 1468 | Best = 1.4673e+07 | FEs = 44363
+Iter 1835 | Best = 1.4672e+07 | FEs = 55470
+Iter 2202 | Best = 1.4672e+07 | FEs = 66595
+Iter 2569 | Best = 1.4672e+07 | FEs = 77749
+Iter 2936 | Best = 1.4669e+07 | FEs = 88928
+Iter 3303 | Best = 1.4669e+07 | FEs = 100164
+Iter    1 | Best = 1.5346e+07 | FEs = 60
+Iter  367 | Best = 1.4674e+07 | FEs = 11081
+Iter  734 | Best = 1.4673e+07 | FEs = 22164
+Iter 1101 | Best = 1.4671e+07 | FEs = 33263
+Iter 1468 | Best = 1.4671e+07 | FEs = 44367
+Iter 1835 | Best = 1.4671e+07 | FEs = 55474
+Iter 2202 | Best = 1.4671e+07 | FEs = 66601
+Iter 2569 | Best = 1.4671e+07 | FEs = 77746
+Iter 2936 | Best = 1.4671e+07 | FEs = 88946
+Iter 3303 | Best = 1.4671e+07 | FEs = 100200
+Iter    1 | Best = 1.5340e+07 | FEs = 60
+Iter  367 | Best = 1.4672e+07 | FEs = 11082
+Iter  734 | Best = 1.4671e+07 | FEs = 22161
+Iter 1101 | Best = 1.4671e+07 | FEs = 33249
+Iter 1468 | Best = 1.4671e+07 | FEs = 44346
+Iter 1835 | Best = 1.4671e+07 | FEs = 55461
+Iter 2202 | Best = 1.4671e+07 | FEs = 66588
+Iter 2569 | Best = 1.4671e+07 | FEs = 77742
+Iter 2936 | Best = 1.4671e+07 | FEs = 88921
+Iter 3303 | Best = 1.4671e+07 | FEs = 100176
+30 Iter    1 | Best = 1.5343e+07 | FEs = 60
+Iter  367 | Best = 1.4674e+07 | FEs = 11079
+Iter  734 | Best = 1.4673e+07 | FEs = 22154
+Iter 1101 | Best = 1.4671e+07 | FEs = 33247
+Iter 1468 | Best = 1.4671e+07 | FEs = 44340
+Iter 1835 | Best = 1.4671e+07 | FEs = 55452
+Iter 2202 | Best = 1.4671e+07 | FEs = 66579
+Iter 2569 | Best = 1.4671e+07 | FEs = 77722
+Iter 2936 | Best = 1.4671e+07 | FEs = 88904
+Iter 3303 | Best = 1.4671e+07 | FEs = 100147
+Iter    1 | Best = 1.5342e+07 | FEs = 60
+Iter  367 | Best = 1.4674e+07 | FEs = 11083
+Iter  734 | Best = 1.4671e+07 | FEs = 22161
+Iter 1101 | Best = 1.4670e+07 | FEs = 33246
+Iter 1468 | Best = 1.4670e+07 | FEs = 44346
+Iter 1835 | Best = 1.4670e+07 | FEs = 55460
+Iter 2202 | Best = 1.4670e+07 | FEs = 66585
+Iter 2569 | Best = 1.4670e+07 | FEs = 77737
+Iter 2936 | Best = 1.4670e+07 | FEs = 88927
+Iter 3303 | Best = 1.4670e+07 | FEs = 100169
+Iter    1 | Best = 1.5345e+07 | FEs = 60
+Iter  367 | Best = 1.4682e+07 | FEs = 11074
+Iter  734 | Best = 1.4673e+07 | FEs = 22141
+Iter 1101 | Best = 1.4672e+07 | FEs = 33228
+Iter 1468 | Best = 1.4672e+07 | FEs = 44330
+Iter 1835 | Best = 1.4672e+07 | FEs = 55441
+Iter 2202 | Best = 1.4672e+07 | FEs = 66562
+Iter 2569 | Best = 1.4672e+07 | FEs = 77709
+Iter 2936 | Best = 1.4672e+07 | FEs = 88899
+Iter 3303 | Best = 1.4672e+07 | FEs = 100144
+Iter    1 | Best = 1.5341e+07 | FEs = 60
+Iter  367 | Best = 1.4674e+07 | FEs = 11095
+Iter  734 | Best = 1.4673e+07 | FEs = 22168
+Iter 1101 | Best = 1.4672e+07 | FEs = 33251
+Iter 1468 | Best = 1.4671e+07 | FEs = 44355
+Iter 1835 | Best = 1.4671e+07 | FEs = 55462
+Iter 2202 | Best = 1.4671e+07 | FEs = 66582
+Iter 2569 | Best = 1.4670e+07 | FEs = 77729
+Iter 2936 | Best = 1.4670e+07 | FEs = 88913
+Iter 3303 | Best = 1.4670e+07 | FEs = 100157
+Iter    1 | Best = 1.5341e+07 | FEs = 60
+Iter  367 | Best = 1.5334e+07 | FEs = 11092
+Iter  734 | Best = 1.4673e+07 | FEs = 22157
+Iter 1101 | Best = 1.4673e+07 | FEs = 33241
+Iter 1468 | Best = 1.4666e+07 | FEs = 44337
+Iter 1835 | Best = 1.4666e+07 | FEs = 55450
+Iter 2202 | Best = 1.4666e+07 | FEs = 66573
+Iter 2569 | Best = 1.4666e+07 | FEs = 77722
+Iter 2936 | Best = 1.4666e+07 | FEs = 88918
+Iter 3303 | Best = 1.4666e+07 | FEs = 100159
+35 Iter    1 | Best = 1.5346e+07 | FEs = 60
+Iter  367 | Best = 1.4674e+07 | FEs = 11081
+Iter  734 | Best = 1.4672e+07 | FEs = 22161
+Iter 1101 | Best = 1.4672e+07 | FEs = 33243
+Iter 1468 | Best = 1.4672e+07 | FEs = 44349
+Iter 1835 | Best = 1.4672e+07 | FEs = 55456
+Iter 2202 | Best = 1.4669e+07 | FEs = 66582
+Iter 2569 | Best = 1.4669e+07 | FEs = 77729
+Iter 2936 | Best = 1.4669e+07 | FEs = 88913
+Iter 3303 | Best = 1.4669e+07 | FEs = 100173
+Iter    1 | Best = 1.5347e+07 | FEs = 60
+Iter  367 | Best = 1.5333e+07 | FEs = 11098
+Iter  734 | Best = 1.5333e+07 | FEs = 22182
+Iter 1101 | Best = 1.5332e+07 | FEs = 33269
+Iter 1468 | Best = 1.5332e+07 | FEs = 44379
+Iter 1835 | Best = 1.4673e+07 | FEs = 55479
+Iter 2202 | Best = 1.4673e+07 | FEs = 66607
+Iter 2569 | Best = 1.4673e+07 | FEs = 77763
+Iter 2936 | Best = 1.4672e+07 | FEs = 88940
+Iter 3303 | Best = 1.4670e+07 | FEs = 100179
+Iter    1 | Best = 1.5347e+07 | FEs = 60
+Iter  367 | Best = 1.5333e+07 | FEs = 11095
+Iter  734 | Best = 1.4675e+07 | FEs = 22147
+Iter 1101 | Best = 1.4673e+07 | FEs = 33231
+Iter 1468 | Best = 1.4672e+07 | FEs = 44338
+Iter 1835 | Best = 1.4671e+07 | FEs = 55461
+Iter 2202 | Best = 1.4671e+07 | FEs = 66585
+Iter 2569 | Best = 1.4671e+07 | FEs = 77736
+Iter 2936 | Best = 1.4671e+07 | FEs = 88918
+Iter 3303 | Best = 1.4671e+07 | FEs = 100163
+Iter    1 | Best = 1.5345e+07 | FEs = 60
+Iter  367 | Best = 1.4672e+07 | FEs = 11081
+Iter  734 | Best = 1.4672e+07 | FEs = 22161
+Iter 1101 | Best = 1.4672e+07 | FEs = 33252
+Iter 1468 | Best = 1.4672e+07 | FEs = 44349
+Iter 1835 | Best = 1.4667e+07 | FEs = 55471
+Iter 2202 | Best = 1.4667e+07 | FEs = 66603
+Iter 2569 | Best = 1.4667e+07 | FEs = 77749
+Iter 2936 | Best = 1.4667e+07 | FEs = 88942
+Iter 3303 | Best = 1.4667e+07 | FEs = 100196
+Iter    1 | Best = 1.5345e+07 | FEs = 60
+Iter  367 | Best = 1.5334e+07 | FEs = 11089
+Iter  734 | Best = 1.4676e+07 | FEs = 22157
+Iter 1101 | Best = 1.4674e+07 | FEs = 33246
+Iter 1468 | Best = 1.4674e+07 | FEs = 44339
+Iter 1835 | Best = 1.4674e+07 | FEs = 55448
+Iter 2202 | Best = 1.4674e+07 | FEs = 66572
+Iter 2569 | Best = 1.4674e+07 | FEs = 77715
+Iter 2936 | Best = 1.4674e+07 | FEs = 88909
+Iter 3303 | Best = 1.4674e+07 | FEs = 100137
+40 Iter    1 | Best = 1.5345e+07 | FEs = 60
+Iter  367 | Best = 1.4674e+07 | FEs = 11084
+Iter  734 | Best = 1.4673e+07 | FEs = 22163
+Iter 1101 | Best = 1.4670e+07 | FEs = 33250
+Iter 1468 | Best = 1.4670e+07 | FEs = 44351
+Iter 1835 | Best = 1.4670e+07 | FEs = 55467
+Iter 2202 | Best = 1.4670e+07 | FEs = 66586
+Iter 2569 | Best = 1.4670e+07 | FEs = 77741
+Iter 2936 | Best = 1.4670e+07 | FEs = 88916
+Iter 3303 | Best = 1.4670e+07 | FEs = 100172
+Iter    1 | Best = 1.5343e+07 | FEs = 60
+Iter  367 | Best = 1.5035e+07 | FEs = 11083
+Iter  734 | Best = 1.4673e+07 | FEs = 22150
+Iter 1101 | Best = 1.4673e+07 | FEs = 33232
+Iter 1468 | Best = 1.4670e+07 | FEs = 44318
+Iter 1835 | Best = 1.4670e+07 | FEs = 55432
+Iter 2202 | Best = 1.4670e+07 | FEs = 66564
+Iter 2569 | Best = 1.4670e+07 | FEs = 77723
+Iter 2936 | Best = 1.4670e+07 | FEs = 88914
+Iter 3303 | Best = 1.4670e+07 | FEs = 100175
+Iter    1 | Best = 1.4691e+07 | FEs = 60
+Iter  367 | Best = 1.4679e+07 | FEs = 11091
+Iter  734 | Best = 1.4678e+07 | FEs = 22174
+Iter 1101 | Best = 1.4671e+07 | FEs = 33252
+Iter 1468 | Best = 1.4671e+07 | FEs = 44350
+Iter 1835 | Best = 1.4670e+07 | FEs = 55453
+Iter 2202 | Best = 1.4670e+07 | FEs = 66585
+Iter 2569 | Best = 1.4670e+07 | FEs = 77731
+Iter 2936 | Best = 1.4670e+07 | FEs = 88930
+Iter 3303 | Best = 1.4670e+07 | FEs = 100193
+Iter    1 | Best = 1.5346e+07 | FEs = 60
+Iter  367 | Best = 1.4676e+07 | FEs = 11078
+Iter  734 | Best = 1.4671e+07 | FEs = 22144
+Iter 1101 | Best = 1.4671e+07 | FEs = 33227
+Iter 1468 | Best = 1.4671e+07 | FEs = 44321
+Iter 1835 | Best = 1.4671e+07 | FEs = 55442
+Iter 2202 | Best = 1.4671e+07 | FEs = 66572
+Iter 2569 | Best = 1.4671e+07 | FEs = 77717
+Iter 2936 | Best = 1.4671e+07 | FEs = 88901
+Iter 3303 | Best = 1.4671e+07 | FEs = 100147
+Iter    1 | Best = 1.4826e+07 | FEs = 60
+Iter  367 | Best = 1.4674e+07 | FEs = 11086
+Iter  734 | Best = 1.4674e+07 | FEs = 22165
+Iter 1101 | Best = 1.4673e+07 | FEs = 33251
+Iter 1468 | Best = 1.4672e+07 | FEs = 44348
+Iter 1835 | Best = 1.4672e+07 | FEs = 55454
+Iter 2202 | Best = 1.4672e+07 | FEs = 66586
+Iter 2569 | Best = 1.4672e+07 | FEs = 77739
+Iter 2936 | Best = 1.4672e+07 | FEs = 88924
+Iter 3303 | Best = 1.4672e+07 | FEs = 100179
+45 Iter    1 | Best = 1.5347e+07 | FEs = 60
+Iter  367 | Best = 1.5334e+07 | FEs = 11093
+Iter  734 | Best = 1.5190e+07 | FEs = 22161
+Iter 1101 | Best = 1.4673e+07 | FEs = 33223
+Iter 1468 | Best = 1.4673e+07 | FEs = 44322
+Iter 1835 | Best = 1.4672e+07 | FEs = 55436
+Iter 2202 | Best = 1.4672e+07 | FEs = 66570
+Iter 2569 | Best = 1.4672e+07 | FEs = 77705
+Iter 2936 | Best = 1.4672e+07 | FEs = 88891
+Iter 3303 | Best = 1.4672e+07 | FEs = 100134
+Iter    1 | Best = 1.4965e+07 | FEs = 60
+Iter  367 | Best = 1.4679e+07 | FEs = 11090
+Iter  734 | Best = 1.4677e+07 | FEs = 22169
+Iter 1101 | Best = 1.4674e+07 | FEs = 33247
+Iter 1468 | Best = 1.4673e+07 | FEs = 44345
+Iter 1835 | Best = 1.4672e+07 | FEs = 55450
+Iter 2202 | Best = 1.4671e+07 | FEs = 66580
+Iter 2569 | Best = 1.4671e+07 | FEs = 77724
+Iter 2936 | Best = 1.4671e+07 | FEs = 88909
+Iter 3303 | Best = 1.4669e+07 | FEs = 100157
+Iter    1 | Best = 1.5347e+07 | FEs = 60
+Iter  367 | Best = 1.4672e+07 | FEs = 11086
+Iter  734 | Best = 1.4672e+07 | FEs = 22168
+Iter 1101 | Best = 1.4672e+07 | FEs = 33256
+Iter 1468 | Best = 1.4671e+07 | FEs = 44354
+Iter 1835 | Best = 1.4671e+07 | FEs = 55463
+Iter 2202 | Best = 1.4670e+07 | FEs = 66585
+Iter 2569 | Best = 1.4670e+07 | FEs = 77734
+Iter 2936 | Best = 1.4670e+07 | FEs = 88916
+Iter 3303 | Best = 1.4670e+07 | FEs = 100151
+Iter    1 | Best = 1.5339e+07 | FEs = 60
+Iter  367 | Best = 1.4686e+07 | FEs = 11075
+Iter  734 | Best = 1.4672e+07 | FEs = 22142
+Iter 1101 | Best = 1.4671e+07 | FEs = 33233
+Iter 1468 | Best = 1.4671e+07 | FEs = 44336
+Iter 1835 | Best = 1.4671e+07 | FEs = 55444
+Iter 2202 | Best = 1.4671e+07 | FEs = 66575
+Iter 2569 | Best = 1.4671e+07 | FEs = 77728
+Iter 2936 | Best = 1.4671e+07 | FEs = 88917
+Iter 3303 | Best = 1.4671e+07 | FEs = 100172
+Iter    1 | Best = 1.5345e+07 | FEs = 60
+Iter  367 | Best = 1.4671e+07 | FEs = 11076
+Iter  734 | Best = 1.4671e+07 | FEs = 22161
+Iter 1101 | Best = 1.4671e+07 | FEs = 33250
+Iter 1468 | Best = 1.4671e+07 | FEs = 44348
+Iter 1835 | Best = 1.4670e+07 | FEs = 55454
+Iter 2202 | Best = 1.4670e+07 | FEs = 66582
+Iter 2569 | Best = 1.4670e+07 | FEs = 77736
+Iter 2936 | Best = 1.4670e+07 | FEs = 88932
+Iter 3303 | Best = 1.4670e+07 | FEs = 100173
+50 Iter    1 | Best = 1.5343e+07 | FEs = 60
+Iter  367 | Best = 1.4673e+07 | FEs = 11082
+Iter  734 | Best = 1.4673e+07 | FEs = 22163
+Iter 1101 | Best = 1.4673e+07 | FEs = 33250
+Iter 1468 | Best = 1.4673e+07 | FEs = 44344
+Iter 1835 | Best = 1.4673e+07 | FEs = 55466
+Iter 2202 | Best = 1.4673e+07 | FEs = 66591
+Iter 2569 | Best = 1.4673e+07 | FEs = 77744
+Iter 2936 | Best = 1.4670e+07 | FEs = 88939
+Iter 3303 | Best = 1.4670e+07 | FEs = 100190
+Iter    1 | Best = 1.5347e+07 | FEs = 60
+Iter  367 | Best = 1.4672e+07 | FEs = 11082
+Iter  734 | Best = 1.4671e+07 | FEs = 22159
+Iter 1101 | Best = 1.4671e+07 | FEs = 33251
+Iter 1468 | Best = 1.4671e+07 | FEs = 44347
+Iter 1835 | Best = 1.4671e+07 | FEs = 55459
+Iter 2202 | Best = 1.4671e+07 | FEs = 66586
+Iter 2569 | Best = 1.4671e+07 | FEs = 77739
+Iter 2936 | Best = 1.4671e+07 | FEs = 88919
+Iter 3303 | Best = 1.4671e+07 | FEs = 100168
+
+    Results: Min=1.4666e+07, Median=1.4670e+07, Mean=1.4670e+07, Std=1.3707e+03
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=90000, MaxIter=3000)
+    Run: Iter    1 | Best = 5.4398e+06 | FEs = 60
+Iter  300 | Best = 2.5895e+06 | FEs = 9071
+Iter  600 | Best = 2.5895e+06 | FEs = 18127
+Iter  900 | Best = 2.3952e+06 | FEs = 27189
+Iter 1200 | Best = 2.3263e+06 | FEs = 36259
+Iter 1500 | Best = 2.3263e+06 | FEs = 45338
+Iter 1800 | Best = 2.3263e+06 | FEs = 54429
+Iter 2100 | Best = 2.3263e+06 | FEs = 63537
+Iter 2400 | Best = 2.3263e+06 | FEs = 72684
+Iter 2700 | Best = 2.3192e+06 | FEs = 81880
+Iter    1 | Best = 6.6539e+06 | FEs = 60
+Iter  300 | Best = 2.3874e+06 | FEs = 9061
+Iter  600 | Best = 2.2456e+06 | FEs = 18122
+Iter  900 | Best = 2.2456e+06 | FEs = 27180
+Iter 1200 | Best = 2.2456e+06 | FEs = 36253
+Iter 1500 | Best = 2.2456e+06 | FEs = 45340
+Iter 1800 | Best = 2.2456e+06 | FEs = 54435
+Iter 2100 | Best = 2.2456e+06 | FEs = 63563
+Iter 2400 | Best = 2.1893e+06 | FEs = 72714
+Iter 2700 | Best = 2.1893e+06 | FEs = 81931
+Iter    1 | Best = 7.1845e+06 | FEs = 60
+Iter  300 | Best = 2.3681e+06 | FEs = 9058
+Iter  600 | Best = 2.3681e+06 | FEs = 18115
+Iter  900 | Best = 2.3681e+06 | FEs = 27176
+Iter 1200 | Best = 2.3681e+06 | FEs = 36252
+Iter 1500 | Best = 2.3681e+06 | FEs = 45344
+Iter 1800 | Best = 2.0175e+06 | FEs = 54434
+Iter 2100 | Best = 2.0175e+06 | FEs = 63556
+Iter 2400 | Best = 2.0175e+06 | FEs = 72705
+Iter 2700 | Best = 2.0175e+06 | FEs = 81908
+Iter    1 | Best = 7.0627e+06 | FEs = 60
+Iter  300 | Best = 2.4146e+06 | FEs = 9066
+Iter  600 | Best = 2.3421e+06 | FEs = 18128
+Iter  900 | Best = 2.3421e+06 | FEs = 27197
+Iter 1200 | Best = 2.3421e+06 | FEs = 36269
+Iter 1500 | Best = 2.3421e+06 | FEs = 45351
+Iter 1800 | Best = 2.1460e+06 | FEs = 54452
+Iter 2100 | Best = 2.1460e+06 | FEs = 63571
+Iter 2400 | Best = 2.1460e+06 | FEs = 72720
+Iter 2700 | Best = 2.1460e+06 | FEs = 81934
+5 Iter    1 | Best = 5.3315e+06 | FEs = 60
+Iter  300 | Best = 2.8345e+06 | FEs = 9070
+Iter  600 | Best = 2.8345e+06 | FEs = 18125
+Iter  900 | Best = 2.8345e+06 | FEs = 27186
+Iter 1200 | Best = 2.8345e+06 | FEs = 36263
+Iter 1500 | Best = 2.8345e+06 | FEs = 45341
+Iter 1800 | Best = 2.8345e+06 | FEs = 54438
+Iter 2100 | Best = 2.8345e+06 | FEs = 63560
+Iter 2400 | Best = 2.8345e+06 | FEs = 72709
+Iter 2700 | Best = 2.8345e+06 | FEs = 81924
+Iter    1 | Best = 6.8920e+06 | FEs = 60
+Iter  300 | Best = 2.5710e+06 | FEs = 9065
+Iter  600 | Best = 2.5710e+06 | FEs = 18119
+Iter  900 | Best = 2.4455e+06 | FEs = 27169
+Iter 1200 | Best = 2.4236e+06 | FEs = 36237
+Iter 1500 | Best = 2.4156e+06 | FEs = 45324
+Iter 1800 | Best = 2.4156e+06 | FEs = 54420
+Iter 2100 | Best = 2.3662e+06 | FEs = 63539
+Iter 2400 | Best = 2.3662e+06 | FEs = 72688
+Iter 2700 | Best = 2.3662e+06 | FEs = 81884
+Iter    1 | Best = 4.8945e+06 | FEs = 60
+Iter  300 | Best = 2.4293e+06 | FEs = 9068
+Iter  600 | Best = 2.3451e+06 | FEs = 18118
+Iter  900 | Best = 2.3451e+06 | FEs = 27184
+Iter 1200 | Best = 2.2431e+06 | FEs = 36257
+Iter 1500 | Best = 2.2431e+06 | FEs = 45336
+Iter 1800 | Best = 2.2431e+06 | FEs = 54434
+Iter 2100 | Best = 2.2431e+06 | FEs = 63558
+Iter 2400 | Best = 2.2431e+06 | FEs = 72699
+Iter 2700 | Best = 2.2431e+06 | FEs = 81894
+Iter    1 | Best = 7.0431e+06 | FEs = 60
+Iter  300 | Best = 2.4577e+06 | FEs = 9064
+Iter  600 | Best = 2.2926e+06 | FEs = 18120
+Iter  900 | Best = 2.2926e+06 | FEs = 27183
+Iter 1200 | Best = 2.2926e+06 | FEs = 36263
+Iter 1500 | Best = 2.2926e+06 | FEs = 45353
+Iter 1800 | Best = 2.2333e+06 | FEs = 54453
+Iter 2100 | Best = 2.2333e+06 | FEs = 63574
+Iter 2400 | Best = 2.2333e+06 | FEs = 72713
+Iter 2700 | Best = 2.2333e+06 | FEs = 81909
+Iter    1 | Best = 7.3099e+06 | FEs = 60
+Iter  300 | Best = 2.2062e+06 | FEs = 9060
+Iter  600 | Best = 2.2062e+06 | FEs = 18112
+Iter  900 | Best = 2.2062e+06 | FEs = 27175
+Iter 1200 | Best = 2.2062e+06 | FEs = 36250
+Iter 1500 | Best = 2.2062e+06 | FEs = 45326
+Iter 1800 | Best = 2.2062e+06 | FEs = 54405
+Iter 2100 | Best = 2.2062e+06 | FEs = 63521
+Iter 2400 | Best = 2.2062e+06 | FEs = 72653
+Iter 2700 | Best = 2.2062e+06 | FEs = 81864
+10 Iter    1 | Best = 5.1826e+06 | FEs = 60
+Iter  300 | Best = 2.6379e+06 | FEs = 9061
+Iter  600 | Best = 2.5339e+06 | FEs = 18122
+Iter  900 | Best = 2.5339e+06 | FEs = 27187
+Iter 1200 | Best = 2.5339e+06 | FEs = 36263
+Iter 1500 | Best = 2.4870e+06 | FEs = 45347
+Iter 1800 | Best = 2.4870e+06 | FEs = 54444
+Iter 2100 | Best = 2.4046e+06 | FEs = 63546
+Iter 2400 | Best = 2.4046e+06 | FEs = 72693
+Iter 2700 | Best = 2.3534e+06 | FEs = 81895
+Iter    1 | Best = 4.7947e+06 | FEs = 60
+Iter  300 | Best = 2.7747e+06 | FEs = 9058
+Iter  600 | Best = 2.5604e+06 | FEs = 18109
+Iter  900 | Best = 2.3173e+06 | FEs = 27175
+Iter 1200 | Best = 2.3173e+06 | FEs = 36240
+Iter 1500 | Best = 2.3173e+06 | FEs = 45322
+Iter 1800 | Best = 2.3173e+06 | FEs = 54409
+Iter 2100 | Best = 2.3173e+06 | FEs = 63521
+Iter 2400 | Best = 2.3173e+06 | FEs = 72677
+Iter 2700 | Best = 2.3173e+06 | FEs = 81885
+Iter    1 | Best = 6.5220e+06 | FEs = 60
+Iter  300 | Best = 2.6410e+06 | FEs = 9069
+Iter  600 | Best = 2.5494e+06 | FEs = 18132
+Iter  900 | Best = 2.5494e+06 | FEs = 27198
+Iter 1200 | Best = 2.5494e+06 | FEs = 36265
+Iter 1500 | Best = 2.5494e+06 | FEs = 45348
+Iter 1800 | Best = 2.5494e+06 | FEs = 54447
+Iter 2100 | Best = 2.5494e+06 | FEs = 63562
+Iter 2400 | Best = 2.5494e+06 | FEs = 72709
+Iter 2700 | Best = 2.5494e+06 | FEs = 81913
+Iter    1 | Best = 9.0054e+06 | FEs = 60
+Iter  300 | Best = 2.6768e+06 | FEs = 9070
+Iter  600 | Best = 2.6155e+06 | FEs = 18131
+Iter  900 | Best = 2.6155e+06 | FEs = 27199
+Iter 1200 | Best = 2.6155e+06 | FEs = 36272
+Iter 1500 | Best = 2.6155e+06 | FEs = 45351
+Iter 1800 | Best = 2.6155e+06 | FEs = 54439
+Iter 2100 | Best = 2.6155e+06 | FEs = 63542
+Iter 2400 | Best = 2.6155e+06 | FEs = 72681
+Iter 2700 | Best = 2.5662e+06 | FEs = 81873
+Iter    1 | Best = 6.2009e+06 | FEs = 60
+Iter  300 | Best = 2.2749e+06 | FEs = 9064
+Iter  600 | Best = 2.2749e+06 | FEs = 18120
+Iter  900 | Best = 2.2749e+06 | FEs = 27190
+Iter 1200 | Best = 2.2749e+06 | FEs = 36252
+Iter 1500 | Best = 2.2749e+06 | FEs = 45341
+Iter 1800 | Best = 2.2749e+06 | FEs = 54449
+Iter 2100 | Best = 2.2749e+06 | FEs = 63566
+Iter 2400 | Best = 2.2749e+06 | FEs = 72723
+Iter 2700 | Best = 2.2749e+06 | FEs = 81935
+15 Iter    1 | Best = 4.8402e+06 | FEs = 60
+Iter  300 | Best = 2.5908e+06 | FEs = 9061
+Iter  600 | Best = 2.5108e+06 | FEs = 18123
+Iter  900 | Best = 2.5108e+06 | FEs = 27187
+Iter 1200 | Best = 2.5108e+06 | FEs = 36261
+Iter 1500 | Best = 2.5108e+06 | FEs = 45341
+Iter 1800 | Best = 2.5108e+06 | FEs = 54445
+Iter 2100 | Best = 2.5108e+06 | FEs = 63544
+Iter 2400 | Best = 2.3681e+06 | FEs = 72680
+Iter 2700 | Best = 2.3681e+06 | FEs = 81880
+Iter    1 | Best = 7.1300e+06 | FEs = 60
+Iter  300 | Best = 2.4172e+06 | FEs = 9070
+Iter  600 | Best = 2.4172e+06 | FEs = 18123
+Iter  900 | Best = 2.4172e+06 | FEs = 27184
+Iter 1200 | Best = 2.4172e+06 | FEs = 36256
+Iter 1500 | Best = 2.4172e+06 | FEs = 45339
+Iter 1800 | Best = 2.4172e+06 | FEs = 54439
+Iter 2100 | Best = 2.4172e+06 | FEs = 63552
+Iter 2400 | Best = 2.4172e+06 | FEs = 72696
+Iter 2700 | Best = 2.4172e+06 | FEs = 81875
+Iter    1 | Best = 7.1687e+06 | FEs = 60
+Iter  300 | Best = 2.4330e+06 | FEs = 9061
+Iter  600 | Best = 2.2952e+06 | FEs = 18122
+Iter  900 | Best = 2.2952e+06 | FEs = 27190
+Iter 1200 | Best = 2.2952e+06 | FEs = 36260
+Iter 1500 | Best = 2.2952e+06 | FEs = 45339
+Iter 1800 | Best = 2.2952e+06 | FEs = 54434
+Iter 2100 | Best = 2.2952e+06 | FEs = 63558
+Iter 2400 | Best = 2.1598e+06 | FEs = 72715
+Iter 2700 | Best = 2.1351e+06 | FEs = 81925
+Iter    1 | Best = 4.2147e+06 | FEs = 60
+Iter  300 | Best = 2.6868e+06 | FEs = 9060
+Iter  600 | Best = 2.5766e+06 | FEs = 18118
+Iter  900 | Best = 2.2748e+06 | FEs = 27182
+Iter 1200 | Best = 2.2748e+06 | FEs = 36263
+Iter 1500 | Best = 2.2748e+06 | FEs = 45342
+Iter 1800 | Best = 2.2748e+06 | FEs = 54435
+Iter 2100 | Best = 2.2748e+06 | FEs = 63552
+Iter 2400 | Best = 2.2748e+06 | FEs = 72699
+Iter 2700 | Best = 2.1776e+06 | FEs = 81881
+Iter    1 | Best = 6.4113e+06 | FEs = 60
+Iter  300 | Best = 2.5141e+06 | FEs = 9059
+Iter  600 | Best = 2.5141e+06 | FEs = 18116
+Iter  900 | Best = 2.5141e+06 | FEs = 27184
+Iter 1200 | Best = 2.4223e+06 | FEs = 36257
+Iter 1500 | Best = 2.3407e+06 | FEs = 45340
+Iter 1800 | Best = 2.3407e+06 | FEs = 54428
+Iter 2100 | Best = 2.3407e+06 | FEs = 63534
+Iter 2400 | Best = 2.3407e+06 | FEs = 72664
+Iter 2700 | Best = 2.3407e+06 | FEs = 81863
+20 Iter    1 | Best = 8.2910e+06 | FEs = 60
+Iter  300 | Best = 2.2968e+06 | FEs = 9064
+Iter  600 | Best = 2.2968e+06 | FEs = 18115
+Iter  900 | Best = 2.2968e+06 | FEs = 27181
+Iter 1200 | Best = 2.2968e+06 | FEs = 36245
+Iter 1500 | Best = 2.2968e+06 | FEs = 45328
+Iter 1800 | Best = 2.2968e+06 | FEs = 54426
+Iter 2100 | Best = 2.2968e+06 | FEs = 63538
+Iter 2400 | Best = 2.2968e+06 | FEs = 72667
+Iter 2700 | Best = 2.2968e+06 | FEs = 81864
+Iter    1 | Best = 5.0501e+06 | FEs = 60
+Iter  300 | Best = 2.2843e+06 | FEs = 9061
+Iter  600 | Best = 2.2843e+06 | FEs = 18118
+Iter  900 | Best = 2.2843e+06 | FEs = 27178
+Iter 1200 | Best = 2.2843e+06 | FEs = 36241
+Iter 1500 | Best = 2.2843e+06 | FEs = 45329
+Iter 1800 | Best = 2.2457e+06 | FEs = 54425
+Iter 2100 | Best = 2.2457e+06 | FEs = 63550
+Iter 2400 | Best = 2.2457e+06 | FEs = 72704
+Iter 2700 | Best = 2.2457e+06 | FEs = 81901
+Iter    1 | Best = 5.8199e+06 | FEs = 60
+Iter  300 | Best = 2.3539e+06 | FEs = 9070
+Iter  600 | Best = 2.2000e+06 | FEs = 18131
+Iter  900 | Best = 2.2000e+06 | FEs = 27195
+Iter 1200 | Best = 2.2000e+06 | FEs = 36270
+Iter 1500 | Best = 2.2000e+06 | FEs = 45348
+Iter 1800 | Best = 2.2000e+06 | FEs = 54448
+Iter 2100 | Best = 2.2000e+06 | FEs = 63566
+Iter 2400 | Best = 2.2000e+06 | FEs = 72717
+Iter 2700 | Best = 2.2000e+06 | FEs = 81928
+Iter    1 | Best = 5.6573e+06 | FEs = 60
+Iter  300 | Best = 2.6841e+06 | FEs = 9064
+Iter  600 | Best = 2.3902e+06 | FEs = 18122
+Iter  900 | Best = 2.3902e+06 | FEs = 27186
+Iter 1200 | Best = 2.3902e+06 | FEs = 36251
+Iter 1500 | Best = 2.3902e+06 | FEs = 45331
+Iter 1800 | Best = 2.3902e+06 | FEs = 54416
+Iter 2100 | Best = 2.3902e+06 | FEs = 63524
+Iter 2400 | Best = 2.3902e+06 | FEs = 72670
+Iter 2700 | Best = 2.3902e+06 | FEs = 81876
+Iter    1 | Best = 7.7057e+06 | FEs = 60
+Iter  300 | Best = 2.6803e+06 | FEs = 9070
+Iter  600 | Best = 2.6803e+06 | FEs = 18122
+Iter  900 | Best = 2.6803e+06 | FEs = 27187
+Iter 1200 | Best = 2.6803e+06 | FEs = 36258
+Iter 1500 | Best = 2.6216e+06 | FEs = 45338
+Iter 1800 | Best = 2.5077e+06 | FEs = 54420
+Iter 2100 | Best = 2.5077e+06 | FEs = 63540
+Iter 2400 | Best = 2.4052e+06 | FEs = 72693
+Iter 2700 | Best = 2.4052e+06 | FEs = 81907
+25 Iter    1 | Best = 7.8087e+06 | FEs = 60
+Iter  300 | Best = 2.5817e+06 | FEs = 9068
+Iter  600 | Best = 2.5013e+06 | FEs = 18117
+Iter  900 | Best = 2.1652e+06 | FEs = 27189
+Iter 1200 | Best = 2.1652e+06 | FEs = 36259
+Iter 1500 | Best = 2.1652e+06 | FEs = 45346
+Iter 1800 | Best = 2.1652e+06 | FEs = 54442
+Iter 2100 | Best = 2.1652e+06 | FEs = 63565
+Iter 2400 | Best = 2.1652e+06 | FEs = 72716
+Iter 2700 | Best = 2.1652e+06 | FEs = 81924
+Iter    1 | Best = 5.4793e+06 | FEs = 60
+Iter  300 | Best = 2.3389e+06 | FEs = 9066
+Iter  600 | Best = 2.3389e+06 | FEs = 18129
+Iter  900 | Best = 2.3389e+06 | FEs = 27189
+Iter 1200 | Best = 2.3389e+06 | FEs = 36261
+Iter 1500 | Best = 2.3389e+06 | FEs = 45345
+Iter 1800 | Best = 2.3389e+06 | FEs = 54435
+Iter 2100 | Best = 2.3389e+06 | FEs = 63555
+Iter 2400 | Best = 2.3389e+06 | FEs = 72714
+Iter 2700 | Best = 2.3389e+06 | FEs = 81936
+Iter    1 | Best = 7.5875e+06 | FEs = 60
+Iter  300 | Best = 2.3365e+06 | FEs = 9065
+Iter  600 | Best = 2.3365e+06 | FEs = 18122
+Iter  900 | Best = 2.3270e+06 | FEs = 27193
+Iter 1200 | Best = 2.3270e+06 | FEs = 36264
+Iter 1500 | Best = 2.3270e+06 | FEs = 45340
+Iter 1800 | Best = 2.3270e+06 | FEs = 54434
+Iter 2100 | Best = 2.3270e+06 | FEs = 63554
+Iter 2400 | Best = 2.3041e+06 | FEs = 72704
+Iter 2700 | Best = 2.3041e+06 | FEs = 81906
+Iter    1 | Best = 7.7720e+06 | FEs = 60
+Iter  300 | Best = 2.8954e+06 | FEs = 9064
+Iter  600 | Best = 2.7338e+06 | FEs = 18116
+Iter  900 | Best = 2.7338e+06 | FEs = 27172
+Iter 1200 | Best = 2.6700e+06 | FEs = 36241
+Iter 1500 | Best = 2.5772e+06 | FEs = 45317
+Iter 1800 | Best = 2.5772e+06 | FEs = 54408
+Iter 2100 | Best = 2.5772e+06 | FEs = 63524
+Iter 2400 | Best = 2.5772e+06 | FEs = 72672
+Iter 2700 | Best = 2.5772e+06 | FEs = 81851
+Iter    1 | Best = 8.2259e+06 | FEs = 60
+Iter  300 | Best = 2.2653e+06 | FEs = 9063
+Iter  600 | Best = 2.2653e+06 | FEs = 18116
+Iter  900 | Best = 2.2653e+06 | FEs = 27190
+Iter 1200 | Best = 2.2653e+06 | FEs = 36259
+Iter 1500 | Best = 2.2653e+06 | FEs = 45341
+Iter 1800 | Best = 2.2653e+06 | FEs = 54443
+Iter 2100 | Best = 2.2653e+06 | FEs = 63563
+Iter 2400 | Best = 2.2653e+06 | FEs = 72723
+Iter 2700 | Best = 2.2653e+06 | FEs = 81938
+30 Iter    1 | Best = 7.1635e+06 | FEs = 60
+Iter  300 | Best = 3.0846e+06 | FEs = 9065
+Iter  600 | Best = 2.6676e+06 | FEs = 18125
+Iter  900 | Best = 2.6676e+06 | FEs = 27185
+Iter 1200 | Best = 2.6676e+06 | FEs = 36258
+Iter 1500 | Best = 2.6676e+06 | FEs = 45335
+Iter 1800 | Best = 2.6676e+06 | FEs = 54429
+Iter 2100 | Best = 2.6676e+06 | FEs = 63543
+Iter 2400 | Best = 2.6676e+06 | FEs = 72683
+Iter 2700 | Best = 2.6676e+06 | FEs = 81875
+Iter    1 | Best = 5.8337e+06 | FEs = 60
+Iter  300 | Best = 2.2927e+06 | FEs = 9063
+Iter  600 | Best = 2.2927e+06 | FEs = 18122
+Iter  900 | Best = 2.2927e+06 | FEs = 27182
+Iter 1200 | Best = 2.2794e+06 | FEs = 36249
+Iter 1500 | Best = 2.2794e+06 | FEs = 45334
+Iter 1800 | Best = 2.2794e+06 | FEs = 54430
+Iter 2100 | Best = 2.2794e+06 | FEs = 63551
+Iter 2400 | Best = 2.2794e+06 | FEs = 72704
+Iter 2700 | Best = 2.2794e+06 | FEs = 81916
+Iter    1 | Best = 6.0677e+06 | FEs = 60
+Iter  300 | Best = 2.1851e+06 | FEs = 9065
+Iter  600 | Best = 2.1851e+06 | FEs = 18123
+Iter  900 | Best = 2.1851e+06 | FEs = 27193
+Iter 1200 | Best = 2.1851e+06 | FEs = 36272
+Iter 1500 | Best = 2.1851e+06 | FEs = 45357
+Iter 1800 | Best = 2.1851e+06 | FEs = 54449
+Iter 2100 | Best = 2.1851e+06 | FEs = 63563
+Iter 2400 | Best = 2.1851e+06 | FEs = 72708
+Iter 2700 | Best = 2.1851e+06 | FEs = 81903
+Iter    1 | Best = 6.9645e+06 | FEs = 60
+Iter  300 | Best = 2.3862e+06 | FEs = 9063
+Iter  600 | Best = 2.2203e+06 | FEs = 18124
+Iter  900 | Best = 2.2203e+06 | FEs = 27185
+Iter 1200 | Best = 2.1698e+06 | FEs = 36263
+Iter 1500 | Best = 2.1698e+06 | FEs = 45336
+Iter 1800 | Best = 2.1698e+06 | FEs = 54443
+Iter 2100 | Best = 2.1698e+06 | FEs = 63560
+Iter 2400 | Best = 2.1698e+06 | FEs = 72712
+Iter 2700 | Best = 2.1698e+06 | FEs = 81896
+Iter    1 | Best = 7.3695e+06 | FEs = 60
+Iter  300 | Best = 2.4722e+06 | FEs = 9047
+Iter  600 | Best = 2.4607e+06 | FEs = 18103
+Iter  900 | Best = 2.2651e+06 | FEs = 27166
+Iter 1200 | Best = 2.2651e+06 | FEs = 36235
+Iter 1500 | Best = 2.2651e+06 | FEs = 45321
+Iter 1800 | Best = 2.2651e+06 | FEs = 54418
+Iter 2100 | Best = 2.2651e+06 | FEs = 63529
+Iter 2400 | Best = 2.2651e+06 | FEs = 72685
+Iter 2700 | Best = 2.2651e+06 | FEs = 81894
+35 Iter    1 | Best = 7.8828e+06 | FEs = 60
+Iter  300 | Best = 2.4844e+06 | FEs = 9060
+Iter  600 | Best = 2.3747e+06 | FEs = 18116
+Iter  900 | Best = 2.2684e+06 | FEs = 27183
+Iter 1200 | Best = 2.2684e+06 | FEs = 36250
+Iter 1500 | Best = 2.2684e+06 | FEs = 45332
+Iter 1800 | Best = 2.2684e+06 | FEs = 54428
+Iter 2100 | Best = 2.2684e+06 | FEs = 63552
+Iter 2400 | Best = 2.2684e+06 | FEs = 72690
+Iter 2700 | Best = 2.2684e+06 | FEs = 81904
+Iter    1 | Best = 7.8107e+06 | FEs = 60
+Iter  300 | Best = 2.4271e+06 | FEs = 9057
+Iter  600 | Best = 2.4271e+06 | FEs = 18113
+Iter  900 | Best = 2.4271e+06 | FEs = 27179
+Iter 1200 | Best = 2.2440e+06 | FEs = 36244
+Iter 1500 | Best = 2.2440e+06 | FEs = 45329
+Iter 1800 | Best = 2.2440e+06 | FEs = 54424
+Iter 2100 | Best = 2.2440e+06 | FEs = 63538
+Iter 2400 | Best = 2.2440e+06 | FEs = 72686
+Iter 2700 | Best = 2.2440e+06 | FEs = 81899
+Iter    1 | Best = 6.0769e+06 | FEs = 60
+Iter  300 | Best = 2.6016e+06 | FEs = 9066
+Iter  600 | Best = 2.4690e+06 | FEs = 18127
+Iter  900 | Best = 2.3724e+06 | FEs = 27191
+Iter 1200 | Best = 2.3697e+06 | FEs = 36248
+Iter 1500 | Best = 2.2182e+06 | FEs = 45336
+Iter 1800 | Best = 2.2182e+06 | FEs = 54436
+Iter 2100 | Best = 2.2182e+06 | FEs = 63552
+Iter 2400 | Best = 2.2182e+06 | FEs = 72703
+Iter 2700 | Best = 2.2182e+06 | FEs = 81878
+Iter    1 | Best = 8.0483e+06 | FEs = 60
+Iter  300 | Best = 2.5233e+06 | FEs = 9064
+Iter  600 | Best = 2.3545e+06 | FEs = 18120
+Iter  900 | Best = 2.2704e+06 | FEs = 27181
+Iter 1200 | Best = 2.2704e+06 | FEs = 36255
+Iter 1500 | Best = 2.2704e+06 | FEs = 45332
+Iter 1800 | Best = 2.2704e+06 | FEs = 54430
+Iter 2100 | Best = 2.1620e+06 | FEs = 63535
+Iter 2400 | Best = 2.1620e+06 | FEs = 72683
+Iter 2700 | Best = 2.1620e+06 | FEs = 81893
+Iter    1 | Best = 4.9544e+06 | FEs = 60
+Iter  300 | Best = 2.3700e+06 | FEs = 9065
+Iter  600 | Best = 2.3700e+06 | FEs = 18120
+Iter  900 | Best = 2.1128e+06 | FEs = 27184
+Iter 1200 | Best = 2.1128e+06 | FEs = 36256
+Iter 1500 | Best = 2.1128e+06 | FEs = 45336
+Iter 1800 | Best = 2.1128e+06 | FEs = 54433
+Iter 2100 | Best = 2.1128e+06 | FEs = 63549
+Iter 2400 | Best = 2.1128e+06 | FEs = 72693
+Iter 2700 | Best = 2.1128e+06 | FEs = 81906
+40 Iter    1 | Best = 6.6691e+06 | FEs = 60
+Iter  300 | Best = 2.5326e+06 | FEs = 9064
+Iter  600 | Best = 2.4706e+06 | FEs = 18114
+Iter  900 | Best = 2.3540e+06 | FEs = 27177
+Iter 1200 | Best = 2.3356e+06 | FEs = 36252
+Iter 1500 | Best = 2.3356e+06 | FEs = 45332
+Iter 1800 | Best = 2.3356e+06 | FEs = 54420
+Iter 2100 | Best = 2.3356e+06 | FEs = 63535
+Iter 2400 | Best = 2.3356e+06 | FEs = 72686
+Iter 2700 | Best = 2.3356e+06 | FEs = 81894
+Iter    1 | Best = 8.3511e+06 | FEs = 60
+Iter  300 | Best = 2.8170e+06 | FEs = 9060
+Iter  600 | Best = 2.7439e+06 | FEs = 18113
+Iter  900 | Best = 2.7439e+06 | FEs = 27185
+Iter 1200 | Best = 2.7319e+06 | FEs = 36257
+Iter 1500 | Best = 2.6686e+06 | FEs = 45350
+Iter 1800 | Best = 2.6061e+06 | FEs = 54454
+Iter 2100 | Best = 2.6061e+06 | FEs = 63569
+Iter 2400 | Best = 2.6061e+06 | FEs = 72710
+Iter 2700 | Best = 2.6061e+06 | FEs = 81909
+Iter    1 | Best = 8.7038e+06 | FEs = 60
+Iter  300 | Best = 2.9101e+06 | FEs = 9065
+Iter  600 | Best = 2.9101e+06 | FEs = 18122
+Iter  900 | Best = 2.9101e+06 | FEs = 27179
+Iter 1200 | Best = 2.9101e+06 | FEs = 36253
+Iter 1500 | Best = 2.4169e+06 | FEs = 45332
+Iter 1800 | Best = 2.1557e+06 | FEs = 54428
+Iter 2100 | Best = 2.1557e+06 | FEs = 63542
+Iter 2400 | Best = 2.1557e+06 | FEs = 72691
+Iter 2700 | Best = 2.1557e+06 | FEs = 81888
+Iter    1 | Best = 7.5530e+06 | FEs = 60
+Iter  300 | Best = 2.6779e+06 | FEs = 9064
+Iter  600 | Best = 2.4807e+06 | FEs = 18119
+Iter  900 | Best = 2.4807e+06 | FEs = 27177
+Iter 1200 | Best = 2.4807e+06 | FEs = 36242
+Iter 1500 | Best = 2.4807e+06 | FEs = 45317
+Iter 1800 | Best = 2.4138e+06 | FEs = 54407
+Iter 2100 | Best = 2.4138e+06 | FEs = 63537
+Iter 2400 | Best = 2.4138e+06 | FEs = 72693
+Iter 2700 | Best = 2.4138e+06 | FEs = 81903
+Iter    1 | Best = 4.2889e+06 | FEs = 60
+Iter  300 | Best = 2.3086e+06 | FEs = 9063
+Iter  600 | Best = 2.3086e+06 | FEs = 18119
+Iter  900 | Best = 2.3086e+06 | FEs = 27185
+Iter 1200 | Best = 2.3086e+06 | FEs = 36246
+Iter 1500 | Best = 2.2684e+06 | FEs = 45330
+Iter 1800 | Best = 2.2684e+06 | FEs = 54423
+Iter 2100 | Best = 2.2684e+06 | FEs = 63544
+Iter 2400 | Best = 2.2684e+06 | FEs = 72683
+Iter 2700 | Best = 2.2684e+06 | FEs = 81882
+45 Iter    1 | Best = 7.5019e+06 | FEs = 60
+Iter  300 | Best = 2.8924e+06 | FEs = 9057
+Iter  600 | Best = 2.8380e+06 | FEs = 18116
+Iter  900 | Best = 2.6735e+06 | FEs = 27184
+Iter 1200 | Best = 2.6735e+06 | FEs = 36253
+Iter 1500 | Best = 2.6735e+06 | FEs = 45332
+Iter 1800 | Best = 2.6735e+06 | FEs = 54431
+Iter 2100 | Best = 2.6735e+06 | FEs = 63547
+Iter 2400 | Best = 2.6735e+06 | FEs = 72701
+Iter 2700 | Best = 2.6735e+06 | FEs = 81915
+Iter    1 | Best = 6.8458e+06 | FEs = 60
+Iter  300 | Best = 2.6634e+06 | FEs = 9063
+Iter  600 | Best = 2.2876e+06 | FEs = 18121
+Iter  900 | Best = 2.2338e+06 | FEs = 27184
+Iter 1200 | Best = 2.2338e+06 | FEs = 36254
+Iter 1500 | Best = 2.2338e+06 | FEs = 45339
+Iter 1800 | Best = 2.2338e+06 | FEs = 54439
+Iter 2100 | Best = 2.2338e+06 | FEs = 63548
+Iter 2400 | Best = 2.2338e+06 | FEs = 72696
+Iter 2700 | Best = 2.2338e+06 | FEs = 81889
+Iter    1 | Best = 7.4732e+06 | FEs = 60
+Iter  300 | Best = 3.3426e+06 | FEs = 9062
+Iter  600 | Best = 3.0690e+06 | FEs = 18115
+Iter  900 | Best = 3.0690e+06 | FEs = 27175
+Iter 1200 | Best = 3.0690e+06 | FEs = 36242
+Iter 1500 | Best = 3.0473e+06 | FEs = 45327
+Iter 1800 | Best = 2.9255e+06 | FEs = 54418
+Iter 2100 | Best = 2.9255e+06 | FEs = 63537
+Iter 2400 | Best = 2.6385e+06 | FEs = 72680
+Iter 2700 | Best = 2.6385e+06 | FEs = 81873
+Iter    1 | Best = 5.6400e+06 | FEs = 60
+Iter  300 | Best = 2.4566e+06 | FEs = 9062
+Iter  600 | Best = 2.3465e+06 | FEs = 18110
+Iter  900 | Best = 2.2295e+06 | FEs = 27173
+Iter 1200 | Best = 2.2295e+06 | FEs = 36234
+Iter 1500 | Best = 2.2295e+06 | FEs = 45310
+Iter 1800 | Best = 2.2295e+06 | FEs = 54414
+Iter 2100 | Best = 2.2295e+06 | FEs = 63529
+Iter 2400 | Best = 2.2295e+06 | FEs = 72677
+Iter 2700 | Best = 2.2095e+06 | FEs = 81888
+Iter    1 | Best = 7.0863e+06 | FEs = 60
+Iter  300 | Best = 2.1899e+06 | FEs = 9066
+Iter  600 | Best = 2.1899e+06 | FEs = 18127
+Iter  900 | Best = 2.1899e+06 | FEs = 27184
+Iter 1200 | Best = 2.1899e+06 | FEs = 36251
+Iter 1500 | Best = 2.1899e+06 | FEs = 45327
+Iter 1800 | Best = 2.1899e+06 | FEs = 54422
+Iter 2100 | Best = 2.1899e+06 | FEs = 63540
+Iter 2400 | Best = 2.1899e+06 | FEs = 72691
+Iter 2700 | Best = 2.1899e+06 | FEs = 81900
+50 Iter    1 | Best = 7.9687e+06 | FEs = 60
+Iter  300 | Best = 2.6044e+06 | FEs = 9063
+Iter  600 | Best = 2.4824e+06 | FEs = 18115
+Iter  900 | Best = 2.4824e+06 | FEs = 27184
+Iter 1200 | Best = 2.4733e+06 | FEs = 36252
+Iter 1500 | Best = 2.3255e+06 | FEs = 45342
+Iter 1800 | Best = 2.3255e+06 | FEs = 54436
+Iter 2100 | Best = 2.3248e+06 | FEs = 63556
+Iter 2400 | Best = 2.3134e+06 | FEs = 72697
+Iter 2700 | Best = 2.3134e+06 | FEs = 81892
+Iter    1 | Best = 6.4764e+06 | FEs = 60
+Iter  300 | Best = 2.2835e+06 | FEs = 9065
+Iter  600 | Best = 2.2835e+06 | FEs = 18115
+Iter  900 | Best = 2.1642e+06 | FEs = 27179
+Iter 1200 | Best = 2.1642e+06 | FEs = 36250
+Iter 1500 | Best = 2.1222e+06 | FEs = 45331
+Iter 1800 | Best = 2.1222e+06 | FEs = 54425
+Iter 2100 | Best = 2.1222e+06 | FEs = 63549
+Iter 2400 | Best = 2.1222e+06 | FEs = 72697
+Iter 2700 | Best = 2.1222e+06 | FEs = 81896
+
+    Results: Min=2.0175e+06, Median=2.2669e+06, Mean=2.3075e+06, Std=1.6983e+05
+
+--- Algorithm: SFO ---
+  Problem: E1: Two-Stage Folded-Cascode Op-Amp (18D) - HARD (dim=18, MaxFEs=180000, MaxIter=6000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=2.5256e+08, Median=2.5256e+08, Mean=2.5256e+08, Std=1.2114e-01
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=120000, MaxIter=4000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=4.5751e+04, Median=4.5751e+04, Mean=4.5751e+04, Std=1.1404e-03
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=110000, MaxIter=3667)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=1.4676e+07, Median=1.4680e+07, Mean=1.4680e+07, Std=1.7838e+03
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=90000, MaxIter=3000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=1.9978e+06, Median=2.3541e+06, Mean=2.3375e+06, Std=1.1752e+05
+
+--- Algorithm: StMA ---
+  Problem: E1: Two-Stage Folded-Cascode Op-Amp (18D) - HARD (dim=18, MaxFEs=180000, MaxIter=6000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=2.5260e+08, Median=2.5272e+08, Mean=2.5275e+08, Std=1.4025e+05
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=120000, MaxIter=4000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=4.5751e+04, Median=4.5751e+04, Mean=4.5751e+04, Std=9.2870e-03
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=110000, MaxIter=3667)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=1.4689e+07, Median=1.5337e+07, Mean=1.5324e+07, Std=9.0789e+04
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=90000, MaxIter=3000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=5.1680e+06, Median=6.4083e+06, Mean=6.3869e+06, Std=6.3725e+05
+
+--- Algorithm: CAO ---
+  Problem: E1: Two-Stage Folded-Cascode Op-Amp (18D) - HARD (dim=18, MaxFEs=180000, MaxIter=6000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=2.5279e+08, Median=2.5316e+08, Mean=2.5319e+08, Std=2.5209e+05
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=120000, MaxIter=4000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=4.5751e+04, Median=4.5758e+04, Mean=4.5759e+04, Std=6.4524e+00
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=110000, MaxIter=3667)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=1.4672e+07, Median=1.4677e+07, Mean=1.4677e+07, Std=1.5341e+03
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=90000, MaxIter=3000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=2.2222e+06, Median=2.6062e+06, Mean=2.5660e+06, Std=1.5172e+05
+
+--- Algorithm: ERBMO ---
+  Problem: E1: Two-Stage Folded-Cascode Op-Amp (18D) - HARD (dim=18, MaxFEs=180000, MaxIter=6000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=2.5256e+08, Median=2.5256e+08, Mean=2.5256e+08, Std=2.2244e+04
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=120000, MaxIter=4000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=4.5751e+04, Median=4.5751e+04, Mean=4.5751e+04, Std=3.6067e-03
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=110000, MaxIter=3667)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=1.4669e+07, Median=1.4672e+07, Mean=1.4672e+07, Std=1.1182e+03
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=90000, MaxIter=3000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=1.9980e+06, Median=2.3174e+06, Mean=2.3418e+06, Std=1.8458e+05
+
+--- Algorithm: SMNBKA_ICMIC ---
+  Problem: E1: Two-Stage Folded-Cascode Op-Amp (18D) - HARD (dim=18, MaxFEs=180000, MaxIter=6000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=2.5256e+08, Median=2.5256e+08, Mean=2.5256e+08, Std=0.0000e+00
+  Problem: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise (dim=12, MaxFEs=120000, MaxIter=4000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=4.5751e+04, Median=4.5751e+04, Mean=4.5751e+04, Std=6.9492e-05
+  Problem: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD (dim=11, MaxFEs=110000, MaxIter=3667)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=1.4667e+07, Median=1.4672e+07, Mean=1.4672e+07, Std=1.3088e+03
+  Problem: E4: Robust 6T FinFET SRAM Cell (9D) - HARD (dim=9, MaxFEs=90000, MaxIter=3000)
+    Run: 5 10 15 20 25 30 35 40 45 50 
+    Results: Min=1.9674e+06, Median=2.2698e+06, Mean=2.2678e+06, Std=1.4452e+05
+
+========================================
+OPTIMIZATION COMPLETED
+========================================
+
+Calculating basic rankings (median-based)...
+
+================================================================================
+ADVANCED PAIRED STATISTICAL ANALYSIS
+================================================================================
+
+Computing paired tests, effect sizes, and Holm correction vs KDO...
+  Problem 1: E1: Two-Stage Folded-Cascode Op-Amp (18D) - HARD
+  Problem 2: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise
+  Problem 3: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD
+  Problem 4: E4: Robust 6T FinFET SRAM Cell (9D) - HARD
+
+--- Summary of Paired Wilcoxon Signed-Rank Test vs KDO ---
+
+  vs SFO:
+    P1: KDO significantly better (p-adj=0.0000, delta=-1.000)
+    P2: KDO significantly better (p-adj=0.0000, delta=-0.890)
+    P3: KDO significantly better (p-adj=0.0000, delta=-1.000)
+    P4: No significant difference (p-adj=0.2528)
+    Summary: 3 W / 1 T / 0 L
+
+  vs StMA:
+    P1: KDO significantly better (p-adj=0.0000, delta=-1.000)
+    P2: KDO significantly better (p-adj=0.0000, delta=-1.000)
+    P3: KDO significantly better (p-adj=0.0000, delta=-1.000)
+    P4: KDO significantly better (p-adj=0.0000, delta=-1.000)
+    Summary: 4 W / 0 T / 0 L
+
+  vs CAO:
+    P1: KDO significantly better (p-adj=0.0000, delta=-1.000)
+    P2: KDO significantly better (p-adj=0.0000, delta=-1.000)
+    P3: KDO significantly better (p-adj=0.0000, delta=-0.998)
+    P4: KDO significantly better (p-adj=0.0000, delta=-0.739)
+    Summary: 4 W / 0 T / 0 L
+
+  vs ERBMO:
+    P1: No significant difference (p-adj=0.6346)
+    P2: KDO significantly better (p-adj=0.0001, delta=-0.370)
+    P3: KDO significantly better (p-adj=0.0000, delta=-0.669)
+    P4: No significant difference (p-adj=0.2528)
+    Summary: 2 W / 2 T / 0 L
+
+  vs SMNBKA_ICMIC:
+    P1: No significant difference (p-adj=1.0000)
+    P2: No significant difference (p-adj=0.7642)
+    P3: KDO significantly better (p-adj=0.0000, delta=-0.632)
+    P4: No significant difference (p-adj=0.2528)
+    Summary: 1 W / 3 T / 0 L
+
+Overall KDO performance: 14 Wins / 6 Ties / 0 Losses (Holm-corrected)
+
+========================================
+FRIEDMAN TEST (Q1 Standard)
+========================================
+
+
+Problem 1: E1: Two-Stage Folded-Cascode Op-Amp (18D) - HARD
+  Friedman test p-value: 0.000000
+  Significant differences exist among algorithms (p < 0.05)
+  Average ranks (Friedman):
+    KDO       : 1.990
+    SFO       : 3.980
+    StMA      : 4.990
+    CAO       : 6.000
+    ERBMO     : 2.049
+    SMNBKA_ICMIC: 1.990
+
+Problem 2: E2: RF CMOS Cascode LNA 2.4GHz (12D) - HARD with Noise
+  Friedman test p-value: 0.000000
+  Significant differences exist among algorithms (p < 0.05)
+  Average ranks (Friedman):
+    KDO       : 1.882
+    SFO       : 3.392
+    StMA      : 5.000
+    CAO       : 6.000
+    ERBMO     : 2.882
+    SMNBKA_ICMIC: 1.843
+
+Problem 3: E3: Low Phase-Noise LC-VCO with PVT (11D) - HARD
+  Friedman test p-value: 0.000000
+  Significant differences exist among algorithms (p < 0.05)
+  Average ranks (Friedman):
+    KDO       : 1.333
+    SFO       : 4.824
+    StMA      : 6.000
+    CAO       : 4.157
+    ERBMO     : 2.294
+    SMNBKA_ICMIC: 2.392
+
+Problem 4: E4: Robust 6T FinFET SRAM Cell (9D) - HARD
+  Friedman test p-value: 0.000000
+  Significant differences exist among algorithms (p < 0.05)
+  Average ranks (Friedman):
+    KDO       : 2.373
+    SFO       : 3.039
+    StMA      : 6.000
+    CAO       : 4.549
+    ERBMO     : 2.863
+    SMNBKA_ICMIC: 2.176
+
+========================================
+OVERALL FRIEDMAN TEST (All Problems)
+========================================
+
+Overall Friedman test p-value: 0.000000
+Significant differences exist among algorithms overall (p < 0.05)
+
+Overall average ranks (Friedman):
+  KDO       : 1.895
+  SFO       : 3.809
+  StMA      : 5.498
+  CAO       : 5.176
+  ERBMO     : 2.522
+  SMNBKA_ICMIC: 2.100
+
+========================================
+CRITICAL DIFFERENCE DIAGRAM
+========================================
+
+Critical Difference (CD) = 3.7702
+  k = 6 algorithms, N = 4 problems
+  q_alpha(0.05) = 2.850
+
+Overall Friedman average ranks:
+  KDO       : 1.895
+  SFO       : 3.809
+  StMA      : 5.498
+  CAO       : 5.176
+  ERBMO     : 2.522
+  SMNBKA_ICMIC: 2.100
+CD Diagram saved (PNG + PDF)
+
+========================================
+PERFORMANCE PROFILES (Dolan & More)
+========================================
+
+Performance Profiles saved (PNG + PDF)
+
+========================================
+CONVERGENCE CURVES
+========================================
+
+Convergence curve P1 saved (PNG + PDF)
+Convergence curve P2 saved (PNG + PDF)
+Convergence curve P3 saved (PNG + PDF)
+Convergence curve P4 saved (PNG + PDF)
+
+========================================
+BOX PLOTS
+========================================
+
+Boxplot P1 saved (PNG + PDF)
+Boxplot P2 saved (PNG + PDF)
+Boxplot P3 saved (PNG + PDF)
+Boxplot P4 saved (PNG + PDF)
+
+========================================
+RUNTIME ANALYSIS
+========================================
+
+Mean execution time per algorithm (seconds):
+Algorithm     P1         P2         P3         P4         Overall
+-------------------------------------------------------------------
+KDO              2.391      12.919       6.620      10.383       8.078
+SFO              1.995      12.331       6.092      10.164       7.646
+StMA             0.017       0.149       0.069       0.205       0.110
+CAO              2.903      12.975       6.630      10.539       8.262
+ERBMO            1.962      12.533       6.063      10.223       7.695
+SMNBKA_ICMIC     0.986      11.802       5.399       9.747       6.983
+Runtime chart saved (PNG + PDF)
+
+========================================
+AUC ANALYSIS (Convergence Speed)
+========================================
+
+Mean AUC (lower = faster convergence):
+Algorithm     P1         P2         P3         P4       
+--------------------------------------------------------
+KDO             0.0004      0.0005      0.1043      0.0248  
+SFO             0.0263      0.0724      0.0319      0.0680  
+StMA            0.0830      0.1313      0.1979      0.2140  
+CAO             0.0319      0.0050      0.0141      0.0453  
+ERBMO           0.0011      0.0008      0.0393      0.0404  
+SMNBKA_ICMIC    0.0003      0.0018      0.0487      0.0307  
+AUC heatmap saved (PNG + PDF)
+
+========================================
+RANK HEATMAP
+========================================
+
+Rank heatmap saved (PNG + PDF)
+
+========================================
+SAVING EXCEL RESULTS
+========================================
+
+Sheet "Main_Results" saved.
+Sheet "Summary" saved.
+Sheet "Wilcoxon_Advanced" saved.
+Sheet "Friedman_Tests" saved.
+Sheet "Raw_Data" saved.
+Sheet "Runtime" saved.
+
+All Excel sheets saved to:
+  Results_Electronics_Hard\2026-09-24_02-55-19\Excel_Results\Electronics_Results_Hard.xlsx
+
+========================================
+GENERATING LATEX TABLES
+========================================
+
+  Generating Table 1: Main Results...
+    Saved: Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables\Table1_Main_Results.tex
+  Generating Table 2: Best/Median/Worst Results...
+    Saved: Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables\Table2_Best_Median_Worst.tex
+  Generating Table 3: Friedman Ranks...
+    Saved: Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables\Table3_Friedman_Ranks.tex
+  Generating Table 4: Wilcoxon Test Results...
+    Saved: Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables\Table4_Wilcoxon_Advanced.tex
+  Generating Table 5: Runtime Analysis...
+    Saved: Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables\Table5_Runtime_Analysis.tex
+  Generating Table 6: AUC Convergence Speed...
+    Saved: Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables\Table6_AUC_Convergence.tex
+  Generating Table 7: Detailed per Problem Results...
+    Saved: 4 detailed problem tables
+  Generating Table 8: Friedman Test Statistics...
+    Saved: Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables\Table8_Friedman_Statistics.tex
+  Generating Table 9: Summary Statistics...
+    Saved: Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables\Table9_Summary_Statistics.tex
+  Generating Master LaTeX File...
+    Saved: Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables\All_Tables_Master.tex
+
+All LaTeX tables saved in: Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables
+
+========================================
+SAVING MAT FILE
+========================================
+
+MAT file saved: Results_Electronics_Hard\2026-09-24_02-55-19\Raw_Data\Electronics_Results_Hard.mat
+
+========================================
+           FINAL SUMMARY (HARD VERSION)
+========================================
+
+Total execution time: 7989.99 seconds (133.17 minutes)
+Results saved in: Results_Electronics_Hard\2026-09-24_02-55-19
+
+Output format: PNG (preview) + PDF (journal)
+
+Algorithm       Avg Rank  Friedman Rank   Mean Time(s)
+-------------------------------------------------------
+KDO             1.000     1.895           8.078      <-- PROPOSED
+SMNBKA_ICMIC    2.000     2.100           6.983     
+ERBMO           2.500     2.522           7.695     
+SFO             4.000     3.809           7.646     
+CAO             5.250     5.176           8.262     
+StMA            5.500     5.498           0.110     
+
+=======================================================
+Win/Tie/Loss Summary for KDO (HARD VERSION, Holm-corrected):
+------------------------------
+vs SFO        : 3 W / 1 T / 0 L
+vs StMA       : 4 W / 0 T / 0 L
+vs CAO        : 4 W / 0 T / 0 L
+vs ERBMO      : 2 W / 2 T / 0 L
+vs SMNBKA_ICMIC : 1 W / 3 T / 0 L
+=======================================================
+
+Files generated:
+  Excel   : Results_Electronics_Hard\2026-09-24_02-55-19\Excel_Results\Electronics_Results_Hard.xlsx
+  LaTeX   : Results_Electronics_Hard\2026-09-24_02-55-19\Latex_Tables\All_Tables_Master.tex (and 10 additional table files)
+  MAT     : Results_Electronics_Hard\2026-09-24_02-55-19\Raw_Data\Electronics_Results_Hard.mat
+  Diary   : Results_Electronics_Hard\2026-09-24_02-55-19\execution_log.txt
+
+Images saved in:
+  PNG (preview) : Results_Electronics_Hard\2026-09-24_02-55-19\Convergence_Curves
+  PDF (journal) : PDF (same folders as PNG)
+
+Done.
